@@ -1228,3 +1228,94 @@ button, a, input, select, textarea, label {
   }
   html { scroll-behavior: auto; }
 }
+
+/* =========================================
+   REGION / CURRENCY SELECTOR
+   ========================================= */
+.region-selector {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.region-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.92);
+  transition: all 0.2s;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
+}
+.nav.scrolled .region-btn {
+  border-color: var(--gray-200);
+  background: transparent;
+  color: var(--gray-800);
+  box-shadow: none;
+}
+.region-btn:hover {
+  background: rgba(255,255,255,0.25);
+}
+.nav.scrolled .region-btn:hover {
+  background: rgba(0,114,214,0.08);
+  color: var(--blue-600);
+}
+.region-flag { font-size: 14px; }
+.region-arrow {
+  font-size: 10px;
+  opacity: 0.7;
+  transition: transform 0.2s;
+}
+.region-selector.open .region-arrow { transform: rotate(180deg); }
+
+.region-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  min-width: 180px;
+  z-index: 200;
+}
+.region-selector.open .region-dropdown { display: block; }
+
+.region-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 16px;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--gray-800);
+  transition: background 0.15s;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+.region-option:hover { background: var(--blue-50); color: var(--blue-600); }
+.region-option.active { background: var(--blue-50); color: var(--blue-600); font-weight: 700; }
+.region-option-flag { font-size: 18px; }
+.region-option-info { display: flex; flex-direction: column; }
+.region-option-name { font-size: 0.85rem; font-weight: 600; }
+.region-option-currency { font-size: 0.72rem; color: var(--gray-400); font-weight: 400; }
+.region-option.active .region-option-currency { color: var(--blue-400); }
+
+@media (max-width: 768px) {
+  .region-selector { order: -1; }
+  .region-dropdown { right: auto; left: 0; }
+}
