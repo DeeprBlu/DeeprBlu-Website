@@ -79,18 +79,18 @@
     </a>
     <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">Homepage.</a></li>
-      <li><a href="services.html">Services.</a></li>
-      <li><a href="about.html">About Us.</a></li>
-      <li><a href="portfolio.html">Our Portfolio.</a></li>
+      <li><a href="index.html"><span data-i18n="nav_home">Homepage.</span></a></li>
+      <li><a href="services.html"><span data-i18n="nav_services">Services.</span></a></li>
+      <li><a href="about.html"><span data-i18n="nav_about">About Us.</span></a></li>
+      <li><a href="portfolio.html"><span data-i18n="nav_portfolio">Our Portfolio.</span></a></li>
       <li><a href="contact.html" class="active nav-cta">Contact.</a></li>
     </ul>
   </nav>
 
   <section class="page-hero">
     <div class="page-hero-content">
-      <h1>Let's Talk.</h1>
-      <p>Have a project in mind, a question, or just want to say hello? We'd love to hear from you.</p>
+      <h1 data-i18n="contact_page_title">Let's Talk.</h1>
+      <p data-i18n="contact_page_sub">Have a project in mind, a question, or just want to say hello? We'd love to hear from you.</p>
     </div>
   </section>
 
@@ -100,80 +100,80 @@
 
         
         <div class="contact-info">
-          <div class="section-label">Get in Touch.</div>
-          <h2>More information?<br/>Want to make an inquiry?</h2>
-          <p>We're a small team, which means you'll always be talking directly with the person building your website. No account managers, no runaround.</p>
+          <div class="section-label" data-i18n="contact_label">Get in Touch.</div>
+          <h2 data-i18n="contact_title">More information?<br/>Want to make an inquiry?</h2>
+          <p data-i18n="contact_intro">We're a small team, which means you'll always be talking directly with the person building your website. No account managers, no runaround.</p>
 
           <div class="contact-item">
-            <span class="contact-label">Instagram</span>
+            <span class="contact-label" data-i18n="contact_ig_label">Instagram</span>
             <span class="contact-value"><a href="https://instagram.com/DeeprBluMedia" target="_blank" rel="noopener">@DeeprBluMedia</a></span>
           </div>
           <div class="contact-item">
-            <span class="contact-label">E-mail</span>
+            <span class="contact-label" data-i18n="contact_email_label">E-mail</span>
             <span class="contact-value"><a href="mailto:hello@deeprblu.org">hello@deeprblu.org</a></span>
           </div>
           <div class="contact-item">
-            <span class="contact-label">LinkedIn</span>
-            <span class="contact-value" style="color: var(--gray-400); font-size: 0.9rem;">Coming soon...</span>
+            <span class="contact-label" data-i18n="contact_li_label">LinkedIn</span>
+            <span class="contact-value" data-i18n="contact_li_val" style="color: var(--gray-400); font-size: 0.9rem;">Coming soon...</span>
           </div>
           <div class="contact-item">
-            <span class="contact-label">Location</span>
-            <span class="contact-value">Sydney, Australia</span>
+            <span class="contact-label" data-i18n="contact_loc_label">Location</span>
+            <span class="contact-value" data-i18n="contact_loc_val">Sydney, Australia</span>
           </div>
         </div>
 
         
         <div class="contact-form-card">
-          <h3>Send us a message.</h3>
-          <p>We'll get back to you within 24 hours.</p>
+          <h3 data-i18n="contact_form_title">Send us a message.</h3>
+          <p data-i18n="contact_form_sub">We'll get back to you within 24 hours.</p>
 
           <div class="form-row">
             <div class="form-group">
-              <label for="firstName">First Name</label>
-              <input type="text" id="firstName" name="firstName" placeholder="John" autocomplete="given-name" />
+              <label for="firstName" data-i18n="contact_fname">First Name</label>
+              <input type="text" id="firstName" name="firstName" data-i18n="contact_fname" data-i18n-attr="placeholder" placeholder="First Name" autocomplete="given-name" />
             </div>
             <div class="form-group">
-              <label for="lastName">Last Name</label>
-              <input type="text" id="lastName" name="lastName" placeholder="Smith" autocomplete="family-name" />
+              <label for="lastName" data-i18n="contact_lname">Last Name</label>
+              <input type="text" id="lastName" name="lastName" data-i18n="contact_lname" data-i18n-attr="placeholder" placeholder="Last Name" autocomplete="family-name" />
             </div>
           </div>
 
           <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="john@yourcompany.com" autocomplete="email" />
+            <label for="email" data-i18n="contact_email">Email Address</label>
+            <input type="email" id="email" name="email" data-i18n="contact_email" data-i18n-attr="placeholder" placeholder="Email Address" autocomplete="email" />
           </div>
 
           <div class="form-group">
-            <label for="company">Company / Business Name</label>
-            <input type="text" id="company" name="company" placeholder="Your Business" />
+            <label for="company" data-i18n="contact_company">Company / Business Name</label>
+            <input type="text" id="company" name="company" data-i18n="contact_company" data-i18n-attr="placeholder" placeholder="Company / Business Name" />
           </div>
 
           <div class="form-group">
-            <label for="service">What are you interested in?</label>
+            <label for="service" data-i18n="contact_service">What are you interested in?</label>
             <select id="service" name="service">
-              <option value="" disabled selected>Select a package...</option>
+              <option value="" disabled selected data-i18n="contact_select">Select a package...</option>
               <option value="starter">Starter $350</option>
               <option value="business">Business $499</option>
               <option value="business-plus">Business Plus $750</option>
-              <option value="other">Just a question / Other</option>
+              <option value="other" data-i18n="contact_other">Just a question / Other</option>
             </select>
           </div>
 
           <div class="form-group">
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" placeholder="Tell us about your business and what you're looking for..."></textarea>
+            <label for="message" data-i18n="contact_message">Your Message</label>
+            <textarea id="message" name="message" data-i18n="contact_msg_ph" data-i18n-attr="placeholder" placeholder="Tell us about your business and what you're looking for..."></textarea>
           </div>
 
           <button 
             class="btn btn-blue form-submit" 
             onclick="handleFormSubmit(event)"
             type="button"
-          >
-            Send Message. ✦
+            data-i18n="contact_send"
+          ><span data-i18n="contact_send">Send Message. ✦</span>
           </button>
 
           <p style="font-size: 0.78rem; color: var(--gray-400); margin-top: 12px; text-align: center;">
-            By submitting, you agree to our <a href="policies.html" style="color: var(--blue-500);">Privacy Policy</a>.
+            <span data-i18n="contact_policy">By submitting, you agree to our</span> <a href="policies.html" style="color: var(--blue-500);" data-i18n="contact_policy_lnk">Privacy Policy</a>.
           </p>
         </div>
 
@@ -193,17 +193,18 @@
         <span>DeeprBlu<br/><em>Media.</em></span>
       </div>
       <nav class="footer-nav">
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About Us.</a>
-        <a href="services.html">Our Services.</a>
-        <a href="policies.html">Cookie | Privacy Policies.</a>
+        <a href="contact.html"><span data-i18n="footer_contact">Contact</span></a>
+        <a href="about.html"><span data-i18n="nav_about">About Us.</span></a>
+        <a href="services.html"><span data-i18n="footer_services">Our Services.</span></a>
+        <a href="policies.html"><span data-i18n="footer_policies">Cookie | Privacy Policies.</span></a>
       </nav>
     </div>
-    <div class="footer-copy">© Copyright 2026 | DeeprBluMedia</div>
+    <div class="footer-copy"><span data-i18n="footer_copy">© Copyright 2026 | DeeprBluMedia</span></div>
   </footer>
 
   <script src="main.js"></script>
   <script src="region.js"></script>
+  <script src="lang.js"></script>
   <script>
     async function handleFormSubmit(e) {
       const btn = e.currentTarget;

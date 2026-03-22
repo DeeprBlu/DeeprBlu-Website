@@ -1,0 +1,931 @@
+/* =========================================
+   DEEPRBLU MEDIA — lang.js
+   Translation system: EN, NL, FR, DE
+   ========================================= */
+
+const TRANSLATIONS = {
+
+  en: {
+    /* NAV */
+    nav_home:       'Homepage.',
+    nav_services:   'Services.',
+    nav_about:      'About Us.',
+    nav_portfolio:  'Our Portfolio.',
+    nav_contact:    'Contact.',
+
+    /* FOOTER */
+    footer_contact:   'Contact',
+    footer_about:     'About Us.',
+    footer_services:  'Our Services.',
+    footer_policies:  'Cookie | Privacy Policies.',
+    footer_copy:      '© Copyright 2026 | DeeprBluMedia',
+
+    /* INDEX — HERO */
+    hero_line1:   'Your Wish.',
+    hero_line2:   'Our Visualization.',
+    hero_sub:     'We create powerful websites and brand identities for companies that want to stand out and be remembered.',
+    hero_cta1:    'See Our Work.',
+    hero_cta2:    'Contact Us.',
+    hero_scroll:  'Scroll',
+
+    /* INDEX — STRIP */
+    strip_founded_label:  'Founded',
+    strip_based_label:    'Based',
+    strip_focus_label:    'Our Focus',
+    strip_custom_label:   'Custom Design',
+
+    /* INDEX — WHAT WE DO */
+    what_label:       'What We Do.',
+    what_title:       'Design that speaks\nbefore you do.',
+    what_web_title:   'Website Design',
+    what_web_desc:    'Clean, fast, and conversion-focused websites that tell your story the right way.',
+    what_brand_title: 'Brand Identity',
+    what_brand_desc:  'Logos and visual systems that make your brand unforgettable.',
+    what_seo_title:   'SEO Foundation',
+    what_seo_desc:    'Built-in SEO best practices so Google finds you and customers choose you.',
+
+    /* INDEX — PRICING */
+    pricing_label:          'Our Packages.',
+    pricing_title:          'No surprises.\nJust results.',
+    pricing_starter_name:   'Starter',
+    pricing_starter_desc:   'A solid and clean website that tells your customers everything they need to know.',
+    pricing_business_name:  'Business',
+    pricing_business_badge: 'Popular',
+    pricing_business_desc:  'Ideal for those who want to give their business a special digital touch.',
+    pricing_plus_name:      'Business Plus',
+    pricing_plus_desc:      "The full package for businesses that don't play around.",
+    pricing_more:           'More info.',
+
+    /* INDEX. CTA BAND */
+    cta_title: 'Ready to stand out?',
+    cta_sub:   "Let's build something your customers won't forget.",
+    cta_btn:   'Get in Touch.',
+
+    /* SERVICES PAGE */
+    svc_page_title: 'Our Services.',
+    svc_page_sub:   'Transparent packages built for small businesses that want to make a big impression online.',
+    svc_section_label: "What's Included.",
+    svc_section_title: 'Pick your package.\nWe handle the rest.',
+
+    svc_starter_tier:  'Tier 01',
+    svc_starter_name:  'Starter',
+    svc_starter_desc:  'A solid and clean website that tells your customers everything they need to know. Perfect for businesses just starting their digital journey.',
+    svc_starter_f1:    'Up to 3 pages (Home, About, Contact)',
+    svc_starter_f2:    'Mobile-responsive design',
+    svc_starter_f3:    'Clean, brand-aligned visuals',
+    svc_starter_f4:    'Contact form integration',
+    svc_starter_f5:    'Delivery within 7–10 business days',
+    svc_starter_f6:    '1 round of revisions',
+
+    svc_business_tier:  'Tier 02 · Most Popular',
+    svc_business_name:  'Business',
+    svc_business_desc:  'Ideal for those who want to give their business a special digital touch. More pages, more personality, more power.',
+    svc_business_f1:    'Up to 6 pages',
+    svc_business_f2:    'Custom animations & interactions',
+    svc_business_f3:    'Brand identity integration',
+    svc_business_f4:    'Services / Portfolio section',
+    svc_business_f5:    'Social media links & integration',
+    svc_business_f6:    'Delivery within 10–14 business days',
+    svc_business_f7:    '2 rounds of revisions',
+
+    svc_plus_tier:  'Tier 03',
+    svc_plus_name:  'Business Plus',
+    svc_plus_desc:  "The full package for businesses that don't play around. Everything you need to dominate your local digital space.",
+    svc_plus_f1:    'Unlimited pages',
+    svc_plus_f2:    'Full custom design system',
+    svc_plus_f3:    'Performance optimization',
+    svc_plus_f4:    'Cookie & privacy policy pages',
+    svc_plus_f5:    'Domain & hosting guidance',
+    svc_plus_f6:    'Delivery within 14–21 business days',
+    svc_plus_f7:    '3 rounds of revisions',
+    svc_plus_f8:    '30-day post-launch support',
+
+    svc_get_started: 'Get Started.',
+
+    svc_faq_label:  'FAQ.',
+    svc_faq_title:  'Good questions.',
+    svc_faq_q1:     'What platform do you build on?',
+    svc_faq_a1:     'We build with strong, industry-standard coding languages. No bloated shortcuts. This means fast load times, clean code and solid SEO foundations.',
+    svc_faq_q2:     'Do you also provide hosting?',
+    svc_faq_a2:     'Absolutely. We will guide you through our entire process, from start to finish.',
+    svc_faq_q3:     'Can I update the website myself?',
+    svc_faq_a3:     'Yes. We deliver clean, well-structured code and provide a handover document so you or your team can make updates easily.',
+    svc_faq_q4:     'Does it matter where my business is based?',
+    svc_faq_a4:     "Absolutely. While we're Sydney-based and love working with local businesses, we work with clients globally. everything is handled remotely.",
+
+    svc_cta_title: 'Not sure which package fits?',
+    svc_cta_sub:   'Reach out, and we\'ll figure it out together.',
+    svc_cta_btn:   'Talk to Us.',
+
+    /* ABOUT PAGE */
+    about_page_title: 'About Us.',
+    about_page_sub:   'A young studio with a clear mission: make the digital world a more beautiful place, one website at a time.',
+    about_story_label: 'Our Story.',
+    about_story_title: 'Since 2025,\nDeeprBlu is real.',
+    about_p1: 'Started by Max, a young entrepreneur from the Netherlands with both a mission and a vision: to help companies visualize and build strong brand identities, and to make the world a more beautiful place.',
+    about_p2: "Now based in Sydney, Australia, DeeprBlu focuses on exactly the kind of businesses that need the most support. small and medium enterprises that have something great to offer the world, but don't yet have a digital presence that matches their ambition.",
+    about_p3: 'DeeprBlu strives to achieve this by creating solid, confidently articulated websites that let design speak for themselves. No templates, no shortcuts.',
+    about_values_label:   'What we stand for.',
+    about_val1_title:     'Clarity over complexity.',
+    about_val1_desc:      'Simple design removes friction. \u201cLess is more\u201d \u2014 Ludwig Mies van der Rohe (1886\u20131969).',
+    about_val2_title:     'Confidence in craft.',
+    about_val2_desc:      "We don't do average. Every line of code and every pixel is deliberate.",
+    about_val3_title:     'Real results for real businesses.',
+    about_val3_desc:      'Our clients are local, our approach is personal, and our goal is always the same: get you found and get you chosen.',
+    about_card_role:      'Founder · DeeprBlu Media',
+    about_card_p1:        'Young entrepreneur from the Netherlands, currently based in Sydney, Australia. Passionate about the intersection of clean design and business growth.',
+    about_card_p2:        'Believes that every small business deserves a website that looks as professional as the biggest brands, at a price that makes sense.',
+    about_cta_title: "Let's build something together.",
+    about_cta_sub:   'Have a project in mind? Let\'s talk about it.',
+    about_cta_btn:   'Contact Us.',
+
+    /* CONTACT PAGE */
+    contact_page_title: "Let's Talk.",
+    contact_page_sub:   "Have a project in mind, a question, or just want to say hello? We'd love to hear from you.",
+    contact_label:      'Get in Touch.',
+    contact_title:      'More information?\nWant to make an inquiry?',
+    contact_intro:      "We're a small team, which means you'll always be talking directly with the person building your website. No account managers, no runaround.",
+    contact_ig_label:   'Instagram',
+    contact_email_label:'E-mail',
+    contact_li_label:   'LinkedIn',
+    contact_li_val:     'Coming soon...',
+    contact_loc_label:  'Location',
+    contact_loc_val:    'Sydney, Australia',
+    contact_form_title: 'Send us a message.',
+    contact_form_sub:   "We'll get back to you within 24 hours.",
+    contact_fname:      'First Name',
+    contact_lname:      'Last Name',
+    contact_email:      'Email Address',
+    contact_company:    'Company / Business Name',
+    contact_service:    'What are you interested in?',
+    contact_select:     'Select a package...',
+    contact_other:      'Just a question / Other',
+    contact_message:    'Your Message',
+    contact_msg_ph:     'Tell us about your business and what you\'re looking for...',
+    contact_send:       'Send Message. ✦',
+    contact_policy:     'By submitting, you agree to our',
+    contact_policy_lnk: 'Privacy Policy',
+
+    /* PORTFOLIO PAGE */
+    portfolio_page_title: 'Our Portfolio.',
+    portfolio_page_sub:   "A growing collection of work we're proud of. Every project built from scratch, every client treated like a partner.",
+    portfolio_label:      'Our Work.',
+    portfolio_title:      'Our Projects.',
+    portfolio_soon:       'Coming Soon',
+    portfolio_poke_desc:  'Currently in development. Full case study to follow on launch.',
+    portfolio_dan_desc:   'Currently in development. Full case study to follow on launch.',
+    portfolio_more_title: 'More work on the way.',
+    portfolio_more_desc:  'We\'re a young studio building our first wave of projects. Interested in being part of our portfolio?',
+    portfolio_more_btn:   'Work With Us.',
+    portfolio_cta_title:  'Want your project here?',
+    portfolio_cta_sub:    "Let's create something worth showing off.",
+    portfolio_cta_btn:    'Start a Project.',
+
+    /* POLICIES PAGE */
+    policies_page_title: 'Cookie & Privacy Policies.',
+    policies_page_sub:   "We keep it simple and transparent. Here's exactly how we handle your data.",
+    policies_updated:    'Last updated: March 2026',
+    policies_priv_title: 'Privacy Policy',
+    policies_priv_intro: 'DeeprBlu Media ("we", "us", or "our") is committed to protecting your personal information and your right to privacy. This policy explains how we collect, use, and protect your data when you visit deeprblu.org or contact us.',
+    policies_collect_title: 'What Information We Collect',
+    policies_collect_intro: 'We may collect the following types of information:',
+    policies_collect_1: 'Name and contact details (when you fill in our contact form)',
+    policies_collect_2: 'Email address (when you reach out to us directly)',
+    policies_collect_3: 'Business name and project details (when provided voluntarily)',
+    policies_collect_4: 'Technical data such as browser type, IP address, and pages visited (via analytics)',
+    policies_use_title: 'How We Use Your Information',
+    policies_use_intro: 'We use the information we collect to:',
+    policies_use_1: 'Respond to your inquiries and project requests',
+    policies_use_2: 'Provide and improve our services',
+    policies_use_3: 'Understand how visitors use our website (analytics)',
+    policies_use_4: 'Comply with legal obligations',
+    policies_use_note: 'We do not sell, trade, or rent your personal information to third parties.',
+    policies_retention_title: 'Data Retention',
+    policies_retention_text: 'We retain your contact information only for as long as necessary to respond to your inquiry or fulfill a project. You may request deletion of your data at any time by emailing us.',
+    policies_rights_title: 'Your Rights',
+    policies_rights_text: 'Depending on your location (including Australia and the EU), you may have rights including: the right to access, correct, or delete your personal data; the right to object to processing; and the right to data portability. To exercise any of these rights, contact us at hello@deeprblu.org.',
+    policies_third_title: 'Third-Party Services',
+    policies_third_text: 'Our website may use third-party tools such as Google Analytics. These services have their own privacy policies and may collect data independently.',
+    policies_cookie_title: 'Cookie Policy',
+    policies_cookie_intro: 'This website uses cookies, small text files stored on your device, to improve your experience and help us understand how visitors use the site.',
+    policies_cookie_types_title: 'Types of Cookies We Use',
+    policies_cookie_1: 'Essential cookies: Necessary for the website to function correctly.',
+    policies_cookie_2: 'Analytics cookies: Help us understand how visitors interact with our site (e.g. Google Analytics). These are anonymised.',
+    policies_cookie_3: 'Preference cookies: Remember your settings and preferences.',
+    policies_cookie_manage_title: 'Managing Cookies',
+    policies_cookie_manage_text: 'You can control and delete cookies through your browser settings. Disabling certain cookies may affect your experience on the site.',
+    policies_cookie_third_title: 'Third-Party Cookies',
+    policies_cookie_third_text: "Third-party services embedded on our site may place their own cookies. We do not control these cookies. please refer to those services' privacy policies for details.",
+    policies_contact_title: 'Contact',
+    policies_contact_text: 'If you have questions about this policy or wish to exercise your data rights, please contact us:',
+  },
+
+  nl: {
+    nav_home:       'Homepage.',
+    nav_services:   'Diensten.',
+    nav_about:      'Over Ons.',
+    nav_portfolio:  'Ons Portfolio.',
+    nav_contact:    'Contact.',
+
+    footer_contact:   'Contact',
+    footer_about:     'Over Ons.',
+    footer_services:  'Onze Diensten.',
+    footer_policies:  'Cookie | Privacybeleid.',
+    footer_copy:      '© Copyright 2026 | DeeprBluMedia',
+
+    hero_line1:   'Uw Wens.',
+    hero_line2:   'Onze Visualisatie.',
+    hero_sub:     'Wij bouwen krachtige websites en merkidentiteiten voor bedrijven die willen opvallen en niet vergeten worden.',
+    hero_cta1:    'Bekijk Ons Werk.',
+    hero_cta2:    'Neem Contact Op.',
+    hero_scroll:  'Scroll',
+
+    strip_founded_label:  'Opgericht',
+    strip_based_label:    'Gevestigd',
+    strip_focus_label:    'Onze Focus',
+    strip_custom_label:   'Maatwerk Design',
+
+    what_label:       'Wat We Doen.',
+    what_title:       'Design dat spreekt\nvóór u dat doet.',
+    what_web_title:   'Website Design',
+    what_web_desc:    'Strakke, snelle websites die uw verhaal op de juiste manier vertellen.',
+    what_brand_title: 'Merkidentiteit',
+    what_brand_desc:  'Logo\'s en visuele systemen die uw merk onvergetelijk maken.',
+    what_seo_title:   'SEO Fundament',
+    what_seo_desc:    'Ingebouwde SEO-best practices zodat Google u vindt en klanten voor u kiezen.',
+
+    pricing_label:          'Onze Pakketten.',
+    pricing_title:          'Geen verrassingen.\nGewoon resultaat.',
+    pricing_starter_name:   'Starter',
+    pricing_starter_desc:   'Een solide en strakke website die uw klanten alles vertelt wat ze moeten weten.',
+    pricing_business_name:  'Business',
+    pricing_business_badge: 'Populair',
+    pricing_business_desc:  'Ideaal voor wie zijn bedrijf een speciaal digitaal tintje wil geven.',
+    pricing_plus_name:      'Business Plus',
+    pricing_plus_desc:      'Het volledige pakket voor bedrijven die geen compromissen sluiten.',
+    pricing_more:           'Meer info.',
+
+    cta_title: 'Klaar om op te vallen?',
+    cta_sub:   'Laten we iets bouwen dat uw klanten niet vergeten.',
+    cta_btn:   'Neem Contact Op.',
+
+    svc_page_title: 'Onze Diensten.',
+    svc_page_sub:   'Transparante pakketten voor kleine bedrijven die een grote digitale indruk willen maken.',
+    svc_section_label: 'Wat Is Inbegrepen.',
+    svc_section_title: 'Kies uw pakket.\nWij regelen de rest.',
+
+    svc_starter_tier:  'Tier 01',
+    svc_starter_name:  'Starter',
+    svc_starter_desc:  'Een solide en strakke website die uw klanten alles vertelt wat ze moeten weten. Perfect voor bedrijven die net beginnen aan hun digitale reis.',
+    svc_starter_f1:    'Tot 3 pagina\'s (Home, Over, Contact)',
+    svc_starter_f2:    'Mobielvriendelijk design',
+    svc_starter_f3:    'Strakke, merkgerichte visuals',
+    svc_starter_f4:    'Contactformulier-integratie',
+    svc_starter_f5:    'Oplevering binnen 7–10 werkdagen',
+    svc_starter_f6:    '1 revisieronde',
+
+    svc_business_tier:  'Tier 02 · Meest Populair',
+    svc_business_name:  'Business',
+    svc_business_desc:  'Ideaal voor wie zijn bedrijf een speciaal digitaal tintje wil geven. Meer pagina\'s, meer persoonlijkheid, meer kracht.',
+    svc_business_f1:    'Tot 6 pagina\'s',
+    svc_business_f2:    'Aangepaste animaties & interacties',
+    svc_business_f3:    'Merkidentiteits-integratie',
+    svc_business_f4:    'Diensten / Portfolio sectie',
+    svc_business_f5:    'Social media links & integratie',
+    svc_business_f6:    'Oplevering binnen 10–14 werkdagen',
+    svc_business_f7:    '2 revisierondes',
+
+    svc_plus_tier:  'Tier 03',
+    svc_plus_name:  'Business Plus',
+    svc_plus_desc:  'Het volledige pakket voor bedrijven die geen compromissen sluiten. Alles wat u nodig heeft om digitaal te domineren.',
+    svc_plus_f1:    'Onbeperkt aantal pagina\'s',
+    svc_plus_f2:    'Volledig maatwerk design systeem',
+    svc_plus_f3:    'Prestatieoptimalisatie',
+    svc_plus_f4:    'Cookie & privacybeleid pagina\'s',
+    svc_plus_f5:    'Domein & hosting begeleiding',
+    svc_plus_f6:    'Oplevering binnen 14–21 werkdagen',
+    svc_plus_f7:    '3 revisierondes',
+    svc_plus_f8:    '30 dagen support na lancering',
+
+    svc_get_started: 'Aan de Slag.',
+
+    svc_faq_label:  'FAQ.',
+    svc_faq_title:  'Goede vragen.',
+    svc_faq_q1:     'Op welk platform bouwt u?',
+    svc_faq_a1:     'Wij bouwen met sterke, erkende en vertrouwde coderingstalen. Geen omwegen, geen opgeblazen tools. Dit betekent snelle laadtijden, nette code en een solide SEO-basis.',
+    svc_faq_q2:     'Regelt u ook hosting?',
+    svc_faq_a2:     'Jazeker. Wij zullen u door ons gehele proces begeleiden, van begin tot eind.',
+    svc_faq_q3:     'Kan ik de website zelf aanpassen?',
+    svc_faq_a3:     'Ja. Wij leveren nette, goed gestructureerde code en een overdrachtshandleiding zodat u of uw team eenvoudig aanpassingen kunt maken.',
+    svc_faq_q4:     'Maakt het uit waar mijn bedrijf gevestigd is?',
+    svc_faq_a4:     'Helemaal niet. Wij zijn gevestigd in Sydney maar werken met klanten wereldwijd. Alles verloopt online, dus waar u ook bent, wij kunnen samen iets moois bouwen.',
+
+    svc_cta_title: 'Weet u niet welk pakket bij u past?',
+    svc_cta_sub:   'Neem contact op. Wij zoeken het samen uit.',
+    svc_cta_btn:   'Contact opnemen.',
+
+    about_page_title: 'Over Ons.',
+    about_page_sub:   'Een jonge studio met een heldere missie: de digitale wereld mooier maken, één website tegelijk.',
+    about_story_label: 'Ons Verhaal.',
+    about_story_title: 'Sinds 2025\nis DeeprBlu een feit.',
+    about_p1: 'Opgericht door Max, een jonge ondernemer uit Nederland met een missie en visie: bedrijven helpen visualiseren en sterke merkidentiteiten opbouwen, en de wereld een mooiere plek maken.',
+    about_p2: 'Nu gevestigd in Sydney, Australië, richt DeeprBlu zich op precies de bedrijven die de meeste ondersteuning nodig hebben. kleine en middelgrote ondernemingen die iets geweldigs te bieden hebben, maar nog geen digitale aanwezigheid hebben die bij hun ambitie past.',
+    about_p3: 'DeeprBlu streeft ernaar dit te bereiken door solide, zelfverzekerd gearticuleerde websites te maken die het design voor zichzelf laten spreken. Geen templates, geen shortcuts.',
+    about_values_label:   'Waar we voor staan.',
+    about_val1_title:     'Helderheid boven complexiteit.',
+    about_val1_desc:      'Eenvoudig design verwijdert wrijving. \u201cLess is more\u201d \u2014 Ludwig Mies van der Rohe (1886\u20131969).',
+    about_val2_title:     'Vertrouwen in vakmanschap.',
+    about_val2_desc:      'Wij doen niet aan gemiddeld. Elke regel code en elke pixel is bewust geplaatst.',
+    about_val3_title:     'Echte resultaten voor echte bedrijven.',
+    about_val3_desc:      'Onze klanten zijn lokaal, onze aanpak is persoonlijk en ons doel is altijd hetzelfde: gevonden worden en gekozen worden.',
+    about_card_role:      'Oprichter · DeeprBlu Media',
+    about_card_p1:        'Jonge ondernemer uit Nederland, momenteel gevestigd in Sydney, Australië. Gepassioneerd door de combinatie van strak design en zakelijke groei.',
+    about_card_p2:        'Gelooft dat elk klein bedrijf een website verdient die er zo professioneel uitziet als de grootste merken. voor een prijs die klopt.',
+    about_cta_title: 'Laten we samen iets bouwen.',
+    about_cta_sub:   'Heeft u een project in gedachten? Laten we erover praten.',
+    about_cta_btn:   'Neem Contact Op.',
+
+    contact_page_title: 'Laten We Praten.',
+    contact_page_sub:   'Heeft u een project in gedachten, een vraag, of wilt u gewoon hallo zeggen? Wij horen graag van u.',
+    contact_label:      'Neem Contact Op.',
+    contact_title:      'Meer informatie?\nEen aanvraag doen?',
+    contact_intro:      'Wij zijn een klein team, wat betekent dat u altijd direct spreekt met de persoon die uw website bouwt. Geen accountmanagers, geen omwegen.',
+    contact_ig_label:   'Instagram',
+    contact_email_label:'E-mail',
+    contact_li_label:   'LinkedIn',
+    contact_li_val:     'Binnenkort...',
+    contact_loc_label:  'Locatie',
+    contact_loc_val:    'Sydney, Australië',
+    contact_form_title: 'Stuur ons een bericht.',
+    contact_form_sub:   'U hoort binnen 24 uur van ons.',
+    contact_fname:      'Voornaam',
+    contact_lname:      'Achternaam',
+    contact_email:      'E-mailadres',
+    contact_company:    'Bedrijfsnaam',
+    contact_service:    'Waar bent u in geïnteresseerd?',
+    contact_select:     'Selecteer een pakket...',
+    contact_other:      'Gewoon een vraag / Anders',
+    contact_message:    'Uw Bericht',
+    contact_msg_ph:     'Vertel ons over uw bedrijf en wat u zoekt...',
+    contact_send:       'Verstuur Bericht. ✦',
+    contact_policy:     'Door te versturen gaat u akkoord met ons',
+    contact_policy_lnk: 'Privacybeleid',
+
+    portfolio_page_title: 'Ons Portfolio.',
+    portfolio_page_sub:   'Een groeiende collectie werk waar we trots op zijn. Elk project gebouwd vanaf nul, elke klant behandeld als een partner.',
+    portfolio_label:      'Ons Werk.',
+    portfolio_title:      'Onze Projecten.',
+    portfolio_soon:       'Binnenkort',
+    portfolio_poke_desc:  'Momenteel in ontwikkeling. Volledige case study volgt na lancering.',
+    portfolio_dan_desc:   'Momenteel in ontwikkeling. Volledige case study volgt na lancering.',
+    portfolio_more_title: 'Meer werk is onderweg.',
+    portfolio_more_desc:  'We zijn een frisse studio die haar eerste projecten bouwt. Wilt u deel uitmaken van ons portfolio?',
+    portfolio_more_btn:   'Werk Met Ons.',
+    portfolio_cta_title:  'Wilt u hier ook komen te staan?',
+    portfolio_cta_sub:    'Laten we iets maken dat de moeite waard is om te tonen.',
+    portfolio_cta_btn:    'Start een Project.',
+
+    policies_page_title: 'Cookie & Privacybeleid.',
+    policies_page_sub:   'Wij houden het eenvoudig en transparant. Zo gaan wij precies om met uw gegevens.',
+    policies_updated:    'Laatst bijgewerkt: maart 2026',
+    policies_priv_title: 'Privacybeleid',
+    policies_priv_intro: 'DeeprBlu Media ("wij", "ons" of "onze") hecht groot belang aan de bescherming van uw persoonlijke gegevens en uw recht op privacy. Dit beleid legt uit hoe wij uw gegevens verzamelen, gebruiken en beschermen wanneer u deeprblu.org bezoekt of contact met ons opneemt.',
+    policies_collect_title: 'Welke Informatie We Verzamelen',
+    policies_collect_intro: 'We kunnen de volgende soorten informatie verzamelen:',
+    policies_collect_1: 'Naam en contactgegevens (wanneer u ons contactformulier invult)',
+    policies_collect_2: 'E-mailadres (wanneer u direct contact met ons opneemt)',
+    policies_collect_3: 'Bedrijfsnaam en projectdetails (wanneer vrijwillig verstrekt)',
+    policies_collect_4: 'Technische gegevens zoals browsertype, IP-adres en bezochte pagina\'s (via analytics)',
+    policies_use_title: 'Hoe We Jouw Informatie Gebruiken',
+    policies_use_intro: 'We gebruiken de verzamelde informatie om:',
+    policies_use_1: 'Te reageren op uw vragen en projectaanvragen',
+    policies_use_2: 'Onze diensten te leveren en te verbeteren',
+    policies_use_3: 'Te begrijpen hoe bezoekers onze website gebruiken (analytics)',
+    policies_use_4: 'Te voldoen aan wettelijke verplichtingen',
+    policies_use_note: 'Wij verkopen, verhandelen of verhuren uw persoonlijke gegevens niet aan derden.',
+    policies_retention_title: 'Gegevensbewaring',
+    policies_retention_text: 'Wij bewaren uw contactgegevens alleen zo lang als nodig is om te reageren op uw vraag of project te voltooien. U kunt op elk moment verzoeken om verwijdering van uw gegevens door ons te e-mailen.',
+    policies_rights_title: 'Uw Rechten',
+    policies_rights_text: 'Afhankelijk van uw locatie (inclusief Australië en de EU) heeft u mogelijk rechten waaronder: het recht om uw persoonlijke gegevens in te zien, te corrigeren of te verwijderen; het recht bezwaar te maken; en het recht op dataportabiliteit. Neem contact op via hello@deeprblu.org.',
+    policies_third_title: 'Diensten van Derden',
+    policies_third_text: 'Onze website kan tools van derden gebruiken zoals Google Analytics. Deze diensten hebben hun eigen privacybeleid en kunnen onafhankelijk gegevens verzamelen.',
+    policies_cookie_title: 'Cookiebeleid',
+    policies_cookie_intro: 'Deze website gebruikt cookies. kleine tekstbestanden opgeslagen op uw apparaat. om uw ervaring te verbeteren en te begrijpen hoe bezoekers de site gebruiken.',
+    policies_cookie_types_title: 'Soorten Cookies Die We Gebruiken',
+    policies_cookie_1: 'Essentiële cookies: Noodzakelijk voor het correct functioneren van de website.',
+    policies_cookie_2: 'Analytics cookies: Helpen ons te begrijpen hoe bezoekers met onze site omgaan (bijv. Google Analytics). Deze zijn geanonimiseerd.',
+    policies_cookie_3: 'Voorkeurscookies: Onthouden uw instellingen en voorkeuren.',
+    policies_cookie_manage_title: 'Cookies Beheren',
+    policies_cookie_manage_text: 'U kunt cookies beheren en verwijderen via uw browserinstellingen. Het uitschakelen van bepaalde cookies kan invloed hebben op uw ervaring op de site.',
+    policies_cookie_third_title: 'Cookies van Derden',
+    policies_cookie_third_text: 'Diensten van derden op onze site kunnen hun eigen cookies plaatsen. Wij hebben geen controle over deze cookies. raadpleeg het privacybeleid van die diensten voor details.',
+    policies_contact_title: 'Contact',
+    policies_contact_text: 'Als u vragen heeft over dit beleid of uw gegevensrechten wilt uitoefenen, neem dan contact met ons op:',
+  },
+
+  fr: {
+    nav_home:       'Accueil.',
+    nav_services:   'Services.',
+    nav_about:      'À Propos.',
+    nav_portfolio:  'Notre Portfolio.',
+    nav_contact:    'Contact.',
+
+    footer_contact:   'Contact',
+    footer_about:     'À Propos.',
+    footer_services:  'Nos Services.',
+    footer_policies:  'Cookies | Politique de confidentialité.',
+    footer_copy:      '© Copyright 2026 | DeeprBluMedia',
+
+    hero_line1:   'Votre Souhait.',
+    hero_line2:   'Notre Visualisation.',
+    hero_sub:     'Nous créons des sites web et des identités de marque puissants pour les entreprises qui veulent se démarquer et être mémorables.',
+    hero_cta1:    'Voir Nos Réalisations.',
+    hero_cta2:    'Nous Contacter.',
+    hero_scroll:  'Défiler',
+
+    strip_founded_label:  'Fondé',
+    strip_based_label:    'Basé à',
+    strip_focus_label:    'Notre Focus',
+    strip_custom_label:   'Design Sur Mesure',
+
+    what_label:       'Ce Que Nous Faisons.',
+    what_title:       'Un design qui parle\navant vous.',
+    what_web_title:   'Création de Sites Web',
+    what_web_desc:    'Des sites web épurés, rapides et axés sur la conversion qui racontent votre histoire.',
+    what_brand_title: 'Identité de Marque',
+    what_brand_desc:  'Des logos et systèmes visuels qui rendent votre marque inoubliable.',
+    what_seo_title:   'Base SEO',
+    what_seo_desc:    'Des bonnes pratiques SEO intégrées pour que Google vous trouve en premier.',
+
+    pricing_label:          'Nos Forfaits.',
+    pricing_title:          'Sans surprises.\nJuste des résultats.',
+    pricing_starter_name:   'Starter',
+    pricing_starter_desc:   'Un site web solide et épuré qui dit à vos clients tout ce qu\'ils ont besoin de savoir.',
+    pricing_business_name:  'Business',
+    pricing_business_badge: 'Populaire',
+    pricing_business_desc:  'Idéal pour ceux qui veulent donner à leur entreprise une touche digitale particulière.',
+    pricing_plus_name:      'Business Plus',
+    pricing_plus_desc:      'Le forfait complet pour les entreprises qui ne font pas de compromis.',
+    pricing_more:           'Plus d\'infos.',
+
+    cta_title: 'Prêt à vous démarquer ?',
+    cta_sub:   'Créons quelque chose que vos clients n\'oublieront pas.',
+    cta_btn:   'Prendre Contact.',
+
+    svc_page_title: 'Nos Services.',
+    svc_page_sub:   'Des forfaits transparents pour les petites entreprises qui veulent faire une grande impression en ligne.',
+    svc_section_label: 'Ce Qui Est Inclus.',
+    svc_section_title: 'Choisissez votre forfait.\nNous gérons le reste.',
+
+    svc_starter_tier:  'Niveau 01',
+    svc_starter_name:  'Starter',
+    svc_starter_desc:  'Un site web solide et épuré qui dit à vos clients tout ce qu\'ils ont besoin de savoir. Parfait pour les entreprises qui débutent leur parcours digital.',
+    svc_starter_f1:    'Jusqu\'à 3 pages (Accueil, À propos, Contact)',
+    svc_starter_f2:    'Design adaptatif mobile',
+    svc_starter_f3:    'Visuels soignés alignés à votre marque',
+    svc_starter_f4:    'Intégration formulaire de contact',
+    svc_starter_f5:    'Livraison en 7–10 jours ouvrables',
+    svc_starter_f6:    '1 cycle de révisions',
+
+    svc_business_tier:  'Niveau 02 · Le Plus Populaire',
+    svc_business_name:  'Business',
+    svc_business_desc:  'Idéal pour ceux qui veulent donner à leur entreprise une touche digitale particulière. Plus de pages, plus de personnalité, plus de puissance.',
+    svc_business_f1:    'Jusqu\'à 6 pages',
+    svc_business_f2:    'Animations & interactions personnalisées',
+    svc_business_f3:    'Intégration identité de marque',
+    svc_business_f4:    'Section Services / Portfolio',
+    svc_business_f5:    'Liens & intégration réseaux sociaux',
+    svc_business_f6:    'Livraison en 10–14 jours ouvrables',
+    svc_business_f7:    '2 cycles de révisions',
+
+    svc_plus_tier:  'Niveau 03',
+    svc_plus_name:  'Business Plus',
+    svc_plus_desc:  'Le forfait complet pour les entreprises qui ne font pas de compromis. Tout ce dont vous avez besoin pour dominer votre espace digital.',
+    svc_plus_f1:    'Pages illimitées',
+    svc_plus_f2:    'Système de design entièrement personnalisé',
+    svc_plus_f3:    'Optimisation des performances',
+    svc_plus_f4:    'Pages cookies & politique de confidentialité',
+    svc_plus_f5:    'Accompagnement domaine & hébergement',
+    svc_plus_f6:    'Livraison en 14–21 jours ouvrables',
+    svc_plus_f7:    '3 cycles de révisions',
+    svc_plus_f8:    'Support 30 jours après lancement',
+
+    svc_get_started: 'Commencer.',
+
+    svc_faq_label:  'FAQ.',
+    svc_faq_title:  'Bonnes questions.',
+    svc_faq_q1:     'Sur quelle plateforme construisez-vous ?',
+    svc_faq_a1:     'Nous développons avec des langages de programmation solides, reconnus et fiables. Sans raccourcis ni outils lourds. Cela garantit des temps de chargement rapides, un code propre et de bonnes bases SEO.',
+    svc_faq_q2:     'Proposez-vous aussi l\'hébergement ?',
+    svc_faq_a2:     'Absolument. Nous vous accompagnons tout au long de notre processus, du début à la fin.',
+    svc_faq_q3:     'Puis-je mettre à jour le site moi-même ?',
+    svc_faq_a3:     'Oui. Nous livrons un code propre et bien structuré avec un document de passation pour que vous puissiez faire des mises à jour facilement.',
+    svc_faq_q4:     'La localisation de mon entreprise a-t-elle une importance ?',
+    svc_faq_a4:     'Pas du tout. Nous sommes basés à Sydney mais nous travaillons avec des clients du monde entier. Tout se passe en ligne, donc où que vous soyez, nous pouvons créer quelque chose de remarquable ensemble.',
+
+    svc_cta_title: 'Vous ne savez pas quel forfait choisir ?',
+    svc_cta_sub:   'Contactez-nous, nous trouverons cela ensemble.',
+    svc_cta_btn:   'Contactez-nous.',
+
+    about_page_title: 'À Propos.',
+    about_page_sub:   'Un jeune studio avec une mission claire : rendre le monde digital plus beau, un site à la fois.',
+    about_story_label: 'Notre Histoire.',
+    about_story_title: 'Depuis 2025,\nDeeprBlu existe.',
+    about_p1: 'Fondé par Max, un jeune entrepreneur des Pays-Bas avec une mission et une vision : aider les entreprises à visualiser et construire des identités de marque solides, et rendre le monde plus beau.',
+    about_p2: 'Désormais basé à Sydney, en Australie, DeeprBlu se concentre sur les entreprises qui ont le plus besoin de soutien. les PME qui ont quelque chose de formidable à offrir mais qui n\'ont pas encore une présence digitale à la hauteur de leurs ambitions.',
+    about_p3: 'DeeprBlu s\'efforce d\'y parvenir en créant des sites web solides et affirmés qui laissent le design parler de lui-même. Pas de templates, pas de raccourcis.',
+    about_values_label:   'Ce en quoi nous croyons.',
+    about_val1_title:     'Clarté avant complexité.',
+    about_val1_desc:      'Un design simple réduit les frictions. \u201cLess is more\u201d \u2014 Ludwig Mies van der Rohe (1886\u20131969).',
+    about_val2_title:     'Confiance dans le savoir-faire.',
+    about_val2_desc:      'Nous ne faisons pas dans la médiocrité. Chaque ligne de code et chaque pixel est délibéré.',
+    about_val3_title:     'De vrais résultats pour de vraies entreprises.',
+    about_val3_desc:      'Nos clients sont locaux, notre approche est personnelle et notre objectif est toujours le même : être trouvé et être choisi.',
+    about_card_role:      'Fondateur · DeeprBlu Media',
+    about_card_p1:        'Jeune entrepreneur des Pays-Bas, actuellement basé à Sydney, en Australie. Passionné par l\'intersection entre le design épuré et la croissance des entreprises.',
+    about_card_p2:        'Convaincu que chaque petite entreprise mérite un site web aussi professionnel que les plus grandes marques. à un prix raisonnable.',
+    about_cta_title: 'Construisons quelque chose ensemble.',
+    about_cta_sub:   'Vous avez un projet en tête ? Parlons-en.',
+    about_cta_btn:   'Nous Contacter.',
+
+    contact_page_title: 'Contactez-nous.',
+    contact_page_sub:   'Vous avez un projet, une question, ou vous voulez simplement dire bonjour ? Nous serions ravis de vous entendre.',
+    contact_label:      'Prendre Contact.',
+    contact_title:      'Plus d\'informations ?\nUne demande à faire ?',
+    contact_intro:      'Nous sommes une petite équipe, ce qui signifie que vous parlez toujours directement avec la personne qui construit votre site. Pas d\'intermédiaires.',
+    contact_ig_label:   'Instagram',
+    contact_email_label:'E-mail',
+    contact_li_label:   'LinkedIn',
+    contact_li_val:     'Bientôt disponible...',
+    contact_loc_label:  'Localisation',
+    contact_loc_val:    'Sydney, Australie',
+    contact_form_title: 'Envoyez-nous un message.',
+    contact_form_sub:   'Nous vous répondrons dans les 24 heures.',
+    contact_fname:      'Prénom',
+    contact_lname:      'Nom',
+    contact_email:      'Adresse e-mail',
+    contact_company:    'Nom de l\'entreprise',
+    contact_service:    'Qu\'est-ce qui vous intéresse ?',
+    contact_select:     'Choisissez un forfait...',
+    contact_other:      'Juste une question / Autre',
+    contact_message:    'Votre Message',
+    contact_msg_ph:     'Parlez-nous de votre entreprise et de ce que vous recherchez...',
+    contact_send:       'Envoyer le Message. ✦',
+    contact_policy:     'En soumettant, vous acceptez notre',
+    contact_policy_lnk: 'Politique de confidentialité',
+
+    portfolio_page_title: 'Notre Portfolio.',
+    portfolio_page_sub:   'Une collection croissante de travaux dont nous sommes fiers. Chaque projet construit de zéro, chaque client traité comme un partenaire.',
+    portfolio_label:      'Nos Réalisations.',
+    portfolio_title:      'Nos Projets.',
+    portfolio_soon:       'Bientôt',
+    portfolio_poke_desc:  'En cours de développement. Étude de cas à suivre après le lancement.',
+    portfolio_dan_desc:   'En cours de développement. Étude de cas à suivre après le lancement.',
+    portfolio_more_title: 'D\'autres projets arrivent.',
+    portfolio_more_desc:  'Nous sommes un jeune studio qui construit sa première vague de projets. Vous souhaitez faire partie de notre portfolio ?',
+    portfolio_more_btn:   'Travaillez Avec Nous.',
+    portfolio_cta_title:  'Votre projet mérite d\'être ici ?',
+    portfolio_cta_sub:    'Créons quelque chose qui vaut la peine d\'être montré.',
+    portfolio_cta_btn:    'Démarrer un Projet.',
+
+    policies_page_title: 'Cookies & Politique de Confidentialité.',
+    policies_page_sub:   'Nous restons simples et transparents. Voici exactement comment nous gérons vos données.',
+    policies_updated:    'Dernière mise à jour : mars 2026',
+    policies_priv_title: 'Politique de Confidentialité',
+    policies_priv_intro: 'DeeprBlu Media (\"nous\") s\'engage à protéger vos informations personnelles et votre droit à la vie privée. Cette politique explique comment nous collectons, utilisons et protégeons vos données lorsque vous visitez deeprblu.org ou nous contactez.',
+    policies_collect_title: 'Informations Collectées',
+    policies_collect_intro: 'Nous pouvons collecter les types d\'informations suivants :',
+    policies_collect_1: 'Nom et coordonnées (lorsque vous remplissez notre formulaire de contact)',
+    policies_collect_2: 'Adresse e-mail (lorsque vous nous contactez directement)',
+    policies_collect_3: 'Nom de l\'entreprise et détails du projet (lorsque fournis volontairement)',
+    policies_collect_4: 'Données techniques telles que le type de navigateur, l\'adresse IP et les pages visitées (via analytics)',
+    policies_use_title: 'Utilisation de Vos Informations',
+    policies_use_intro: 'Nous utilisons les informations collectées pour :',
+    policies_use_1: 'Répondre à vos demandes et requêtes de projets',
+    policies_use_2: 'Fournir et améliorer nos services',
+    policies_use_3: 'Comprendre comment les visiteurs utilisent notre site (analytics)',
+    policies_use_4: 'Respecter nos obligations légales',
+    policies_use_note: 'Nous ne vendons, n\'échangeons ni ne louons vos informations personnelles à des tiers.',
+    policies_retention_title: 'Conservation des Données',
+    policies_retention_text: 'Nous conservons vos coordonnées uniquement le temps nécessaire pour répondre à votre demande. Vous pouvez demander la suppression de vos données à tout moment en nous contactant par e-mail.',
+    policies_rights_title: 'Vos Droits',
+    policies_rights_text: 'Selon votre localisation (y compris l\'Australie et l\'UE), vous pouvez disposer de droits incluant : l\'accès, la correction ou la suppression de vos données personnelles ; le droit d\'opposition ; et la portabilité des données. Contactez-nous à hello@deeprblu.org.',
+    policies_third_title: 'Services Tiers',
+    policies_third_text: 'Notre site peut utiliser des outils tiers tels que Google Analytics. Ces services ont leurs propres politiques de confidentialité et peuvent collecter des données indépendamment.',
+    policies_cookie_title: 'Politique de Cookies',
+    policies_cookie_intro: 'Ce site utilise des cookies. de petits fichiers texte stockés sur votre appareil. pour améliorer votre expérience et nous aider à comprendre comment les visiteurs utilisent le site.',
+    policies_cookie_types_title: 'Types de Cookies Utilisés',
+    policies_cookie_1: 'Cookies essentiels : Nécessaires au bon fonctionnement du site.',
+    policies_cookie_2: 'Cookies analytiques : Nous aident à comprendre les interactions des visiteurs (ex. Google Analytics). Ceux-ci sont anonymisés.',
+    policies_cookie_3: 'Cookies de préférences : Mémorisent vos paramètres et préférences.',
+    policies_cookie_manage_title: 'Gestion des Cookies',
+    policies_cookie_manage_text: 'Vous pouvez contrôler et supprimer les cookies via les paramètres de votre navigateur. Désactiver certains cookies peut affecter votre expérience sur le site.',
+    policies_cookie_third_title: 'Cookies Tiers',
+    policies_cookie_third_text: 'Les services tiers intégrés à notre site peuvent placer leurs propres cookies. Nous ne contrôlons pas ces cookies. veuillez consulter les politiques de confidentialité de ces services.',
+    policies_contact_title: 'Contact',
+    policies_contact_text: 'Si vous avez des questions sur cette politique ou souhaitez exercer vos droits, veuillez nous contacter :',
+  },
+
+  de: {
+    nav_home:       'Startseite.',
+    nav_services:   'Leistungen.',
+    nav_about:      'Über Uns.',
+    nav_portfolio:  'Unser Portfolio.',
+    nav_contact:    'Kontakt.',
+
+    footer_contact:   'Kontakt',
+    footer_about:     'Über Uns.',
+    footer_services:  'Unsere Leistungen.',
+    footer_policies:  'Cookie | Datenschutz.',
+    footer_copy:      '© Copyright 2026 | DeeprBluMedia',
+
+    hero_line1:   'Ihr Wunsch.',
+    hero_line2:   'Unsere Visualisierung.',
+    hero_sub:     'Wir erstellen leistungsstarke Websites und Markenidentitäten für Unternehmen, die auffallen und in Erinnerung bleiben wollen.',
+    hero_cta1:    'Unsere Arbeiten.',
+    hero_cta2:    'Kontakt Aufnehmen.',
+    hero_scroll:  'Scrollen',
+
+    strip_founded_label:  'Gegründet',
+    strip_based_label:    'Standort',
+    strip_focus_label:    'Unser Fokus',
+    strip_custom_label:   'Individuelles Design',
+
+    what_label:       'Was Wir Tun.',
+    what_title:       'Design, das spricht\nbevor Sie es tun.',
+    what_web_title:   'Website-Design',
+    what_web_desc:    'Klare, schnelle und konversionsorientierte Websites, die Ihre Geschichte richtig erzählen.',
+    what_brand_title: 'Markenidentität',
+    what_brand_desc:  'Logos und visuelle Systeme, die Ihre Marke unvergesslich machen.',
+    what_seo_title:   'SEO-Grundlage',
+    what_seo_desc:    'Integrierte SEO-Best-Practices, damit Google Sie findet und Kunden Sie wählen.',
+
+    pricing_label:          'Unsere Pakete.',
+    pricing_title:          'Keine Überraschungen.\nNur Ergebnisse.',
+    pricing_starter_name:   'Starter',
+    pricing_starter_desc:   'Eine solide und klare Website, die Ihren Kunden alles Wichtige mitteilt.',
+    pricing_business_name:  'Business',
+    pricing_business_badge: 'Beliebt',
+    pricing_business_desc:  'Ideal für alle, die ihrem Unternehmen eine besondere digitale Note geben möchten.',
+    pricing_plus_name:      'Business Plus',
+    pricing_plus_desc:      'Das Komplettpaket für Unternehmen, die keine Kompromisse eingehen.',
+    pricing_more:           'Mehr Info.',
+
+    cta_title: 'Bereit aufzufallen?',
+    cta_sub:   'Lassen Sie uns etwas bauen, das Ihre Kunden nicht vergessen.',
+    cta_btn:   'Jetzt Kontakt Aufnehmen.',
+
+    svc_page_title: 'Unsere Leistungen.',
+    svc_page_sub:   'Transparente Pakete für kleine Unternehmen, die online einen großen Eindruck hinterlassen wollen.',
+    svc_section_label: 'Was Enthalten Ist.',
+    svc_section_title: 'Wählen Sie Ihr Paket.\nWir erledigen den Rest.',
+
+    svc_starter_tier:  'Stufe 01',
+    svc_starter_name:  'Starter',
+    svc_starter_desc:  'Eine solide und klare Website, die Ihren Kunden alles Wichtige mitteilt. Perfekt für Unternehmen, die ihre digitale Reise gerade beginnen.',
+    svc_starter_f1:    'Bis zu 3 Seiten (Start, Über uns, Kontakt)',
+    svc_starter_f2:    'Mobiles responsives Design',
+    svc_starter_f3:    'Klare, markengerechte Visuals',
+    svc_starter_f4:    'Kontaktformular-Integration',
+    svc_starter_f5:    'Lieferung innerhalb von 7–10 Werktagen',
+    svc_starter_f6:    '1 Überarbeitungsrunde',
+
+    svc_business_tier:  'Stufe 02 · Am beliebtesten',
+    svc_business_name:  'Business',
+    svc_business_desc:  'Ideal für alle, die ihrem Unternehmen eine besondere digitale Note geben möchten. Mehr Seiten, mehr Persönlichkeit, mehr Wirkung.',
+    svc_business_f1:    'Bis zu 6 Seiten',
+    svc_business_f2:    'Individuelle Animationen & Interaktionen',
+    svc_business_f3:    'Markenidentitäts-Integration',
+    svc_business_f4:    'Leistungen / Portfolio-Bereich',
+    svc_business_f5:    'Social-Media-Links & Integration',
+    svc_business_f6:    'Lieferung innerhalb von 10–14 Werktagen',
+    svc_business_f7:    '2 Überarbeitungsrunden',
+
+    svc_plus_tier:  'Stufe 03',
+    svc_plus_name:  'Business Plus',
+    svc_plus_desc:  'Das Komplettpaket für Unternehmen, die keine Kompromisse eingehen. Alles, was Sie brauchen, um Ihren lokalen digitalen Raum zu dominieren.',
+    svc_plus_f1:    'Unbegrenzte Seitenanzahl',
+    svc_plus_f2:    'Vollständig individuelles Design-System',
+    svc_plus_f3:    'Leistungsoptimierung',
+    svc_plus_f4:    'Cookie- & Datenschutzseiten',
+    svc_plus_f5:    'Domain- & Hosting-Beratung',
+    svc_plus_f6:    'Lieferung innerhalb von 14–21 Werktagen',
+    svc_plus_f7:    '3 Überarbeitungsrunden',
+    svc_plus_f8:    '30 Tage Support nach dem Launch',
+
+    svc_get_started: 'Jetzt Starten.',
+
+    svc_faq_label:  'FAQ.',
+    svc_faq_title:  'Gute Fragen.',
+    svc_faq_q1:     'Auf welcher Plattform bauen Sie?',
+    svc_faq_a1:     'Wir entwickeln mit starken, anerkannten und bewährten Programmiersprachen. Keine Umwege, keine aufgeblähten Tools. Das bedeutet schnelle Ladezeiten, sauberen Code und eine solide SEO-Grundlage.',
+    svc_faq_q2:     'Bieten Sie auch Hosting an?',
+    svc_faq_a2:     'Selbstverständlich. Wir begleiten Sie durch unseren gesamten Prozess, von Anfang bis Ende.',
+    svc_faq_q3:     'Kann ich die Website selbst aktualisieren?',
+    svc_faq_a3:     'Ja. Wir liefern sauberen, gut strukturierten Code und ein Übergabedokument, damit Sie oder Ihr Team problemlos Änderungen vornehmen können.',
+    svc_faq_q4:     'Spielt es eine Rolle, wo mein Unternehmen ansässig ist?',
+    svc_faq_a4:     'Überhaupt nicht. Wir sind in Sydney ansässig, arbeiten aber mit Kunden weltweit. Alles läuft online ab. egal wo Sie sich befinden, wir können gemeinsam etwas Großartiges aufbauen.',
+
+    svc_cta_title: 'Nicht sicher, welches Paket passt?',
+    svc_cta_sub:   'Melden Sie sich. Wir finden es gemeinsam heraus.',
+    svc_cta_btn:   'Kontakt aufnehmen.',
+
+    about_page_title: 'Über Uns.',
+    about_page_sub:   'Ein junges Studio mit einer klaren Mission: die digitale Welt schöner machen, eine Website nach der anderen.',
+    about_story_label: 'Unsere Geschichte.',
+    about_story_title: 'Seit 2025\nist DeeprBlu real.',
+    about_p1: 'Gegründet von Max, einem jungen Unternehmer aus den Niederlanden mit einer Mission und Vision: Unternehmen dabei zu helfen, starke Markenidentitäten zu visualisieren und aufzubauen.',
+    about_p2: 'Heute in Sydney, Australien ansässig, konzentriert sich DeeprBlu auf genau die Unternehmen, die Unterstützung am nötigsten haben. kleine und mittlere Betriebe mit viel Potenzial, aber noch ohne eine digitale Präsenz, die zu ihren Ambitionen passt.',
+    about_p3: 'DeeprBlu strebt danach, dies durch die Erstellung solider, selbstbewusst formulierter Websites zu erreichen, die das Design für sich sprechen lassen. Keine Templates, keine Abkürzungen.',
+    about_values_label:   'Wofür wir stehen.',
+    about_val1_title:     'Klarheit statt Komplexität.',
+    about_val1_desc:      'Einfaches Design beseitigt Reibung. \u201cLess is more\u201d \u2014 Ludwig Mies van der Rohe (1886\u20131969).',
+    about_val2_title:     'Vertrauen ins Handwerk.',
+    about_val2_desc:      'Wir machen kein Mittelmaß. Jede Codezeile und jedes Pixel ist bewusst gesetzt.',
+    about_val3_title:     'Echte Ergebnisse für echte Unternehmen.',
+    about_val3_desc:      'Unsere Kunden sind lokal, unser Ansatz ist persönlich und unser Ziel ist immer dasselbe: gefunden und gewählt werden.',
+    about_card_role:      'Gründer · DeeprBlu Media',
+    about_card_p1:        'Junger Unternehmer aus den Niederlanden, derzeit in Sydney, Australien ansässig. Leidenschaftlich an der Schnittstelle von klarem Design und Unternehmenswachstum.',
+    about_card_p2:        'Überzeugt davon, dass jedes kleine Unternehmen eine Website verdient, die genauso professionell aussieht wie die größten Marken. zu einem fairen Preis.',
+    about_cta_title: 'Lassen Sie uns gemeinsam etwas bauen.',
+    about_cta_sub:   'Haben Sie ein Projekt im Sinn? Lassen Sie uns darüber sprechen.',
+    about_cta_btn:   'Kontakt Aufnehmen.',
+
+    contact_page_title: 'Lassen Sie Uns Reden.',
+    contact_page_sub:   'Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Wir freuen uns, von Ihnen zu hören.',
+    contact_label:      'Kontakt Aufnehmen.',
+    contact_title:      'Mehr Informationen?\nEine Anfrage stellen?',
+    contact_intro:      'Wir sind ein kleines Team, das bedeutet: Sie sprechen immer direkt mit der Person, die Ihre Website baut. Keine Umwege.',
+    contact_ig_label:   'Instagram',
+    contact_email_label:'E-Mail',
+    contact_li_label:   'LinkedIn',
+    contact_li_val:     'Demnächst verfügbar...',
+    contact_loc_label:  'Standort',
+    contact_loc_val:    'Sydney, Australien',
+    contact_form_title: 'Senden Sie uns eine Nachricht.',
+    contact_form_sub:   'Wir melden uns innerhalb von 24 Stunden bei Ihnen.',
+    contact_fname:      'Vorname',
+    contact_lname:      'Nachname',
+    contact_email:      'E-Mail-Adresse',
+    contact_company:    'Unternehmensname',
+    contact_service:    'Wofür interessieren Sie sich?',
+    contact_select:     'Paket auswählen...',
+    contact_other:      'Nur eine Frage / Sonstiges',
+    contact_message:    'Ihre Nachricht',
+    contact_msg_ph:     'Erzählen Sie uns von Ihrem Unternehmen und was Sie suchen...',
+    contact_send:       'Nachricht Senden. ✦',
+    contact_policy:     'Mit dem Absenden stimmen Sie unserer',
+    contact_policy_lnk: 'Datenschutzrichtlinie',
+
+    portfolio_page_title: 'Unser Portfolio.',
+    portfolio_page_sub:   'Eine wachsende Sammlung von Arbeiten, auf die wir stolz sind. Jedes Projekt von Grund auf neu gebaut.',
+    portfolio_label:      'Unsere Arbeiten.',
+    portfolio_title:      'Unsere Projekte.',
+    portfolio_soon:       'Demnächst',
+    portfolio_poke_desc:  'Derzeit in Entwicklung. Vollständige Fallstudie folgt nach dem Launch.',
+    portfolio_dan_desc:   'Derzeit in Entwicklung. Vollständige Fallstudie folgt nach dem Launch.',
+    portfolio_more_title: 'Weitere Projekte kommen.',
+    portfolio_more_desc:  'Wir sind ein frisches Studio, das seine erste Projektwelle aufbaut. Interesse, Teil unseres Portfolios zu werden?',
+    portfolio_more_btn:   'Mit Uns Arbeiten.',
+    portfolio_cta_title:  'Soll Ihr Projekt hier zu sehen sein?',
+    portfolio_cta_sub:    'Lassen Sie uns etwas schaffen, das es verdient, gezeigt zu werden.',
+    portfolio_cta_btn:    'Projekt Starten.',
+
+    policies_page_title: 'Cookie & Datenschutzrichtlinie.',
+    policies_page_sub:   'Wir halten es einfach und transparent. Genau so gehen wir mit Ihren Daten um.',
+    policies_updated:    'Zuletzt aktualisiert: März 2026',
+    policies_priv_title: 'Datenschutzrichtlinie',
+    policies_priv_intro: 'DeeprBlu Media (\"wir\") verpflichtet sich, Ihre persönlichen Daten und Ihr Recht auf Privatsphäre zu schützen. Diese Richtlinie erklärt, wie wir Ihre Daten erheben, verwenden und schützen, wenn Sie deeprblu.org besuchen oder uns kontaktieren.',
+    policies_collect_title: 'Welche Informationen Wir Erheben',
+    policies_collect_intro: 'Wir können folgende Arten von Informationen erheben:',
+    policies_collect_1: 'Name und Kontaktdaten (wenn Sie unser Kontaktformular ausfüllen)',
+    policies_collect_2: 'E-Mail-Adresse (wenn Sie uns direkt kontaktieren)',
+    policies_collect_3: 'Unternehmensname und Projektdetails (wenn freiwillig angegeben)',
+    policies_collect_4: 'Technische Daten wie Browsertyp, IP-Adresse und besuchte Seiten (über Analytics)',
+    policies_use_title: 'Verwendung Ihrer Informationen',
+    policies_use_intro: 'Wir verwenden die gesammelten Informationen, um:',
+    policies_use_1: 'Auf Ihre Anfragen und Projektanfragen zu antworten',
+    policies_use_2: 'Unsere Dienste bereitzustellen und zu verbessern',
+    policies_use_3: 'Zu verstehen, wie Besucher unsere Website nutzen (Analytics)',
+    policies_use_4: 'Gesetzliche Verpflichtungen zu erfüllen',
+    policies_use_note: 'Wir verkaufen, handeln oder vermieten Ihre persönlichen Daten nicht an Dritte.',
+    policies_retention_title: 'Datenspeicherung',
+    policies_retention_text: 'Wir speichern Ihre Kontaktdaten nur so lange, wie es zur Bearbeitung Ihrer Anfrage erforderlich ist. Sie können jederzeit die Löschung Ihrer Daten per E-Mail anfordern.',
+    policies_rights_title: 'Ihre Rechte',
+    policies_rights_text: 'Je nach Ihrem Standort (einschließlich Australien und der EU) haben Sie möglicherweise Rechte, darunter: das Recht auf Zugang, Berichtigung oder Löschung Ihrer persönlichen Daten; das Widerspruchsrecht; und das Recht auf Datenübertragbarkeit. Kontaktieren Sie uns unter hello@deeprblu.org.',
+    policies_third_title: 'Drittanbieterdienste',
+    policies_third_text: 'Unsere Website kann Drittanbieter-Tools wie Google Analytics verwenden. Diese Dienste haben ihre eigenen Datenschutzrichtlinien und können unabhängig Daten erheben.',
+    policies_cookie_title: 'Cookie-Richtlinie',
+    policies_cookie_intro: 'Diese Website verwendet Cookies. kleine Textdateien auf Ihrem Gerät. um Ihre Erfahrung zu verbessern und zu verstehen, wie Besucher die Website nutzen.',
+    policies_cookie_types_title: 'Arten von Cookies',
+    policies_cookie_1: 'Wesentliche Cookies: Für das ordnungsgemäße Funktionieren der Website notwendig.',
+    policies_cookie_2: 'Analytics-Cookies: Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren (z.B. Google Analytics). Diese sind anonymisiert.',
+    policies_cookie_3: 'Präferenz-Cookies: Speichern Ihre Einstellungen und Präferenzen.',
+    policies_cookie_manage_title: 'Cookie-Verwaltung',
+    policies_cookie_manage_text: 'Sie können Cookies über Ihre Browsereinstellungen kontrollieren und löschen. Das Deaktivieren bestimmter Cookies kann Ihre Erfahrung auf der Website beeinträchtigen.',
+    policies_cookie_third_title: 'Drittanbieter-Cookies',
+    policies_cookie_third_text: 'Auf unserer Website eingebettete Drittanbieterdienste können eigene Cookies setzen. Wir kontrollieren diese Cookies nicht. bitte konsultieren Sie die Datenschutzrichtlinien dieser Dienste.',
+    policies_contact_title: 'Kontakt',
+    policies_contact_text: 'Wenn Sie Fragen zu dieser Richtlinie haben oder Ihre Datenschutzrechte ausüben möchten, kontaktieren Sie uns bitte:',
+  },
+};
+
+/* ─── LANGUAGE SYSTEM ─────────────────────────────────────────────── */
+
+const LANG_META = [
+  { id: 'en', label: 'EN', flag: '🇬🇧', name: 'English'    },
+  { id: 'nl', label: 'NL', flag: '🇳🇱', name: 'Nederlands'  },
+  { id: 'fr', label: 'FR', flag: '🇫🇷', name: 'Français'    },
+  { id: 'de', label: 'DE', flag: '🇩🇪', name: 'Deutsch'     },
+];
+
+function getLang() {
+  return sessionStorage.getItem('deeprblu-lang') || 'en';
+}
+
+function setLang(id) {
+  sessionStorage.setItem('deeprblu-lang', id);
+}
+
+function t(key) {
+  const lang = getLang();
+  return (TRANSLATIONS[lang] && TRANSLATIONS[lang][key]) || TRANSLATIONS.en[key] || key;
+}
+
+function applyTranslations() {
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    const attr = el.getAttribute('data-i18n-attr');
+    const val = t(key);
+    if (attr) {
+      el.setAttribute(attr, val);
+    } else if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+      el.placeholder = val;
+    } else {
+      el.innerHTML = val;
+    }
+  });
+  // Update html lang attribute
+  document.documentElement.lang = getLang();
+}
+
+function buildLangSelector() {
+  const nav = document.querySelector('.nav');
+  if (!nav) return;
+
+  const currentLang = LANG_META.find(l => l.id === getLang()) || LANG_META[0];
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'lang-selector';
+  wrapper.id = 'langSelector';
+
+  wrapper.innerHTML = `
+    <button class="lang-btn" id="langBtn" aria-label="Select language">
+      <span class="lang-flag">${currentLang.flag}</span> ${currentLang.label} <span class="lang-arrow">▾</span>
+    </button>
+    <div class="lang-dropdown">
+      ${LANG_META.map(l => `
+        <button class="lang-option${l.id === currentLang.id ? ' active' : ''}" data-lang="${l.id}">
+          <span class="lang-option-flag">${l.flag}</span>
+          <span class="lang-option-info">
+            <span class="lang-option-name">${l.name}</span>
+            <span class="lang-option-label">${l.label}</span>
+          </span>
+        </button>
+      `).join('')}
+    </div>
+  `;
+
+  // Insert into nav-links right after Contact (region selector is already there)
+  const navLinks = nav.querySelector('.nav-links');
+  if (navLinks) {
+    const li = document.createElement('li');
+    li.appendChild(wrapper);
+    navLinks.appendChild(li);
+  }
+
+  document.getElementById('langBtn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    wrapper.classList.toggle('open');
+    document.getElementById('regionSelector')?.classList.remove('open');
+  });
+
+  wrapper.querySelectorAll('.lang-option').forEach(opt => {
+    opt.addEventListener('click', () => {
+      const id = opt.getAttribute('data-lang');
+      setLang(id);
+      const meta = LANG_META.find(l => l.id === id);
+      document.getElementById('langBtn').innerHTML = `<span class="lang-flag">${meta.flag}</span> ${meta.label} <span class="lang-arrow">▾</span>`;
+      wrapper.querySelectorAll('.lang-option').forEach(o => o.classList.toggle('active', o.getAttribute('data-lang') === id));
+      wrapper.classList.remove('open');
+      applyTranslations();
+    });
+  });
+
+  document.addEventListener('click', () => wrapper.classList.remove('open'));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  buildLangSelector();
+  applyTranslations();
+});
