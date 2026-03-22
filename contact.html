@@ -204,9 +204,6 @@
 
   <script src="main.js"></script>
   <script>
-    // ── Stap 4: vervang de URL hieronder met jouw Formspree endpoint ──
-    const FORMSPREE_ENDPOINT = "https://formspree.io/f/xyknayzv";
-
     async function handleFormSubmit(e) {
       const btn = e.currentTarget;
       const firstName = document.getElementById('firstName').value.trim();
@@ -221,25 +218,11 @@
         return;
       }
 
-      // If Formspree not yet configured, fall back to mailto
-      if (!FORMSPREE_ENDPOINT || FORMSPREE_ENDPOINT === "JOUW_ENDPOINT_HIER") {
-        const subject = encodeURIComponent('DeeprBlu Inquiry from ' + firstName);
-        const body    = encodeURIComponent(
-          'Name: ' + firstName + ' ' + lastName + '\n' +
-          'Email: ' + email + '\n' +
-          'Company: ' + company + '\n' +
-          'Service: ' + service + '\n\nMessage:\n' + message
-        );
-        window.location.href = 'mailto:hello@deeprblu.org?subject=' + subject + '&body=' + body;
-        return;
-      }
-
-      // Formspree submission
       btn.textContent = 'Sending...';
       btn.disabled = true;
 
       try {
-        const res = await fetch(FORMSPREE_ENDPOINT, {
+        const res = await fetch('https://formspree.io/f/xyknayzv', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify({ firstName, lastName, email, company, service, message })
@@ -253,12 +236,12 @@
           document.getElementById('company').value   = '';
           document.getElementById('message').value   = '';
         } else {
-          throw new Error('Send failed');
+          throw new Error('Failed');
         }
       } catch {
         btn.textContent = 'Send Message. ✦';
         btn.disabled = false;
-        alert('Something went wrong. Please email us directly at hello@deeprblu.org');
+        alert('Something went wrong. Please email us at hello@deeprblu.org');
       }
     }
   </script>
