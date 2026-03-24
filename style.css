@@ -1394,3 +1394,115 @@ button, a, input, select, textarea, label {
 .lang-option-name { font-size: 0.85rem; font-weight: 600; }
 .lang-option-label { font-size: 0.72rem; color: var(--gray-400); font-weight: 400; }
 .lang-option.active .lang-option-label { color: var(--blue-400); }
+
+/* =========================================
+   PORTFOLIO — LIVE PROJECT CARD
+   ========================================= */
+.portfolio-card--live {
+  border-color: var(--blue-200);
+}
+.portfolio-thumb-link {
+  display: block;
+  text-decoration: none;
+}
+.portfolio-thumb--screenshot {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16/10;
+  background: var(--gray-100);
+}
+.portfolio-thumb--screenshot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  transition: transform 0.4s cubic-bezier(.4,0,.2,1);
+}
+.portfolio-thumb-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,50,120,0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.portfolio-thumb-link:hover .portfolio-thumb--screenshot img {
+  transform: scale(1.04);
+}
+.portfolio-thumb-link:hover .portfolio-thumb-overlay {
+  opacity: 1;
+}
+.portfolio-visit-btn {
+  background: white;
+  color: var(--blue-700);
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 10px 22px;
+  border-radius: var(--radius-pill);
+  letter-spacing: -0.01em;
+}
+
+.portfolio-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.portfolio-status {
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+}
+.portfolio-status--live {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.portfolio-desc {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--gray-600);
+  margin-bottom: 16px;
+}
+
+.portfolio-quote {
+  background: var(--blue-50);
+  border-left: 3px solid var(--blue-400);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 14px 18px;
+  margin: 0 0 16px 0;
+}
+.portfolio-quote p {
+  font-size: 0.88rem;
+  font-style: italic;
+  color: var(--blue-700);
+  line-height: 1.65;
+  margin-bottom: 6px;
+}
+.portfolio-quote cite {
+  font-size: 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--blue-500);
+  font-style: normal;
+  letter-spacing: 0.04em;
+}
+
+.portfolio-link {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--blue-600);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  transition: color 0.2s;
+}
+.portfolio-link:hover { color: var(--blue-500); }
