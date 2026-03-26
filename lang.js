@@ -218,6 +218,18 @@ const TRANSLATIONS = {
     policies_cookie_third_text: "Third-party services embedded on our site may place their own cookies. We do not control these cookies. please refer to those services' privacy policies for details.",
     policies_contact_title: 'Contact',
     policies_contact_text: 'If you have questions about this policy or wish to exercise your data rights, please contact us:',
+
+    portfolio_jd_desc: 'JD PokeMuse is an online Australian Pokémon TCG store specialising in exclusive Japanese collections, with customers worldwide. As one of the biggest stores on eBay, they needed a professional site that matched their reputation.',
+    portfolio_jd_quote: 'Very impressed with what was done in such time and mostly with own research. I like the design, pages, interactive elements.',
+    portfolio_jd_cite: 'Gary, Founder of JD PokeMuse',
+    portfolio_jd_live: 'Live',
+    portfolio_jd_loc: '🇦🇺 Sydney, Australia',
+    portfolio_nyc_desc: 'A fictional Amsterdam coffee bar blending the raw energy of New York with Scandinavian design. Located in the Jordaan district, the brief called for a site that felt as considered as the brand itself: warm, editorial, and distinctive.',
+    portfolio_nyc_quote: 'Our personal concept project demonstrating our versatility between different industries.',
+    portfolio_nyc_cite: 'DeeprBlu Media, Concept Project',
+    portfolio_nyc_case: 'Case Study',
+    portfolio_nyc_loc: '🇳🇱 Amsterdam, Netherlands',
+    portfolio_visit: 'Visit Site ↗',
   },
 
   nl: {
@@ -421,6 +433,18 @@ const TRANSLATIONS = {
     policies_cookie_third_text: 'Diensten van derden op onze site kunnen hun eigen cookies plaatsen. Wij hebben geen controle over deze cookies. raadpleeg het privacybeleid van die diensten voor details.',
     policies_contact_title: 'Contact',
     policies_contact_text: 'Als u vragen heeft over dit beleid of uw gegevensrechten wilt uitoefenen, neem dan contact met ons op:',
+
+    portfolio_jd_desc: 'JD PokeMuse is een online Australische Pokémon TCG-winkel gespecialiseerd in exclusieve Japanse collecties, met klanten wereldwijd. Als een van de grootste winkels op eBay hadden zij een professionele website nodig die hun reputatie weerspiegelt.',
+    portfolio_jd_quote: 'Zeer onder de indruk van wat er in zo\'n korte tijd is gedaan, grotendeels op basis van eigen onderzoek. Ik ben fan van het design, de pagina\'s en de interactieve elementen.',
+    portfolio_jd_cite: 'Gary, Oprichter van JD PokeMuse',
+    portfolio_jd_live: 'Live',
+    portfolio_jd_loc: '🇦🇺 Sydney, Australië',
+    portfolio_nyc_desc: 'Een fictief Amsterdams koffietentje dat de rauwe energie van New York mengt met Scandinavisch design. Gevestigd in de Jordaan, vroeg de opdracht om een website die net zo doordacht aanvoelt als het merk zelf: warm, redactioneel en onderscheidend.',
+    portfolio_nyc_quote: 'Ons persoonlijke conceptproject dat onze veelzijdigheid tussen verschillende sectoren aantoont.',
+    portfolio_nyc_cite: 'DeeprBlu Media, Conceptproject',
+    portfolio_nyc_case: 'Casestudy',
+    portfolio_nyc_loc: '🇳🇱 Amsterdam, Nederland',
+    portfolio_visit: 'Bezoek Site ↗',
   },
 
   fr: {
@@ -624,6 +648,18 @@ const TRANSLATIONS = {
     policies_cookie_third_text: 'Les services tiers intégrés à notre site peuvent placer leurs propres cookies. Nous ne contrôlons pas ces cookies. veuillez consulter les politiques de confidentialité de ces services.',
     policies_contact_title: 'Contact',
     policies_contact_text: 'Si vous avez des questions sur cette politique ou souhaitez exercer vos droits, veuillez nous contacter :',
+
+    portfolio_jd_desc: 'JD PokeMuse est une boutique australienne en ligne spécialisée dans les collections exclusives de Pokémon TCG japonais, avec des clients dans le monde entier. En tant qu\'une des plus grandes boutiques sur eBay, ils avaient besoin d\'un site professionnel à la hauteur de leur réputation.',
+    portfolio_jd_quote: 'Très impressionné par ce qui a été réalisé en si peu de temps et principalement grâce à des recherches personnelles. J\'apprécie le design, les pages et les éléments interactifs.',
+    portfolio_jd_cite: 'Gary, Fondateur de JD PokeMuse',
+    portfolio_jd_live: 'En ligne',
+    portfolio_jd_loc: '🇦🇺 Sydney, Australie',
+    portfolio_nyc_desc: 'Un café fictif à Amsterdam mêlant l\'énergie brute de New York au design scandinave. Situé dans le Jordaan, le brief demandait un site aussi réfléchi que la marque elle-même: chaleureux, éditorial et distinctif.',
+    portfolio_nyc_quote: 'Notre projet concept personnel démontrant notre polyvalence entre différents secteurs.',
+    portfolio_nyc_cite: 'DeeprBlu Media, Projet Concept',
+    portfolio_nyc_case: 'Étude de cas',
+    portfolio_nyc_loc: '🇳🇱 Amsterdam, Pays-Bas',
+    portfolio_visit: 'Visiter le Site ↗',
   },
 
   de: {
@@ -827,6 +863,18 @@ const TRANSLATIONS = {
     policies_cookie_third_text: 'Auf unserer Website eingebettete Drittanbieterdienste können eigene Cookies setzen. Wir kontrollieren diese Cookies nicht. bitte konsultieren Sie die Datenschutzrichtlinien dieser Dienste.',
     policies_contact_title: 'Kontakt',
     policies_contact_text: 'Wenn Sie Fragen zu dieser Richtlinie haben oder Ihre Datenschutzrechte ausüben möchten, kontaktieren Sie uns bitte:',
+
+    portfolio_jd_desc: 'JD PokeMuse ist ein australischer Online-Shop für Pokémon TCG, spezialisiert auf exklusive japanische Sammlungen, mit Kunden weltweit. Als einer der größten Shops auf eBay benötigten sie eine professionelle Website, die ihrem Ruf gerecht wird.',
+    portfolio_jd_quote: 'Sehr beeindruckt von dem, was in so kurzer Zeit und größtenteils durch eigene Recherche geleistet wurde. Mir gefällt das Design, die Seiten und die interaktiven Elemente.',
+    portfolio_jd_cite: 'Gary, Gründer von JD PokeMuse',
+    portfolio_jd_live: 'Live',
+    portfolio_jd_loc: '🇦🇺 Sydney, Australien',
+    portfolio_nyc_desc: 'Eine fiktive Amsterdamer Kaffeebar, die die rohe Energie New Yorks mit skandinavischem Design verbindet. Im Jordaan-Viertel gelegen, verlangte das Briefing eine Website, die sich genauso durchdacht anfühlt wie die Marke selbst: warm, redaktionell und unverwechselbar.',
+    portfolio_nyc_quote: 'Unser persönliches Konzeptprojekt, das unsere Vielseitigkeit zwischen verschiedenen Branchen demonstriert.',
+    portfolio_nyc_cite: 'DeeprBlu Media, Konzeptprojekt',
+    portfolio_nyc_case: 'Fallstudie',
+    portfolio_nyc_loc: '🇳🇱 Amsterdam, Niederlande',
+    portfolio_visit: 'Website besuchen ↗',
   },
 };
 
