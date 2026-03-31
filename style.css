@@ -397,8 +397,10 @@ button, a, input, select, textarea, label {
 .hero-scroll-hint {
   position: absolute;
   bottom: 36px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1679,13 +1681,6 @@ button, a, input, select, textarea, label {
    MOBILE FIXES
    ========================================= */
 @media (max-width: 768px) {
-  /* Scroll hint — centered on mobile */
-  .hero-scroll-hint {
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
-  }
-
   /* Contact nav button — text centered */
   .nav-links .nav-cta {
     display: flex;
