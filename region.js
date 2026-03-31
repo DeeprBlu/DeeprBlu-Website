@@ -64,6 +64,19 @@ function updatePrices(region) {
       el.innerHTML = `${region.symbol}${prices[key]} <span class="price-currency">${region.currency}</span>`;
     }
   });
+
+  // Update contact form select options with current currency
+  const packageMap = {
+    'opt-shoreline': { key: 'starter',  name: 'Shoreline' },
+    'opt-reef':      { key: 'business', name: 'Reef'      },
+    'opt-deep':      { key: 'plus',     name: 'Deep'      },
+  };
+  Object.entries(packageMap).forEach(([id, pkg]) => {
+    const opt = document.getElementById(id);
+    if (opt && prices[pkg.key] !== undefined) {
+      opt.textContent = `${pkg.name} — ${region.symbol}${prices[pkg.key]} ${region.currency}`;
+    }
+  });
 }
 
 function updateSelector(region) {
