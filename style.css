@@ -528,6 +528,9 @@ button, a, input, select, textarea, label {
   border-color: transparent;
   box-shadow: var(--shadow-lg);
   transform: scale(1.03);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .price-card--featured:hover {
   transform: scale(1.03) translateY(-4px);
@@ -551,6 +554,7 @@ button, a, input, select, textarea, label {
   padding: 4px 12px;
   border-radius: var(--radius-pill);
   margin-bottom: 16px;
+  order: -1;
 }
 .price-tier {
   font-family: var(--font-display);
