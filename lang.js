@@ -23,7 +23,7 @@ const TRANSLATIONS = {
     /* INDEX — HERO */
     hero_line1:   'Your Wish.',
     hero_line2:   'Our Visualization.',
-    hero_sub:     'I create powerful websites and brand identities for companies that want to stand out and be remembered.',
+    hero_sub:     'Creating powerful websites and brand identities for companies that want to stand out and be remembered.',
     hero_cta1:    'See Our Work.',
     hero_cta2:    'Contact Us.',
     hero_scroll:  'Scroll',
@@ -262,7 +262,7 @@ const TRANSLATIONS = {
 
     hero_line1:   'Uw Wens.',
     hero_line2:   'Onze Visualisatie.',
-    hero_sub:     'Ik bouw krachtige websites en merkidentiteiten voor bedrijven die willen opvallen en niet vergeten worden.',
+    hero_sub:     'Krachtige websites en merkidentiteiten bouwen voor bedrijven die willen opvallen en niet vergeten worden.',
     hero_cta1:    'Bekijk Ons Werk.',
     hero_cta2:    'Neem Contact Op.',
     hero_scroll:  'Scroll',
@@ -492,7 +492,7 @@ const TRANSLATIONS = {
 
     hero_line1:   'Votre Souhait.',
     hero_line2:   'Notre Visualisation.',
-    hero_sub:     'Je crée des sites web et des identités de marque puissants pour les entreprises qui veulent se démarquer et être mémorables.',
+    hero_sub:     'Créer des sites web et des identités de marque puissants pour les entreprises qui veulent se démarquer et être mémorables.',
     hero_cta1:    'Voir Nos Réalisations.',
     hero_cta2:    'Nous Contacter.',
     hero_scroll:  'Défiler',
@@ -722,7 +722,7 @@ const TRANSLATIONS = {
 
     hero_line1:   'Ihr Wunsch.',
     hero_line2:   'Unsere Visualisierung.',
-    hero_sub:     'Ich erstelle leistungsstarke Websites und Markenidentitäten für Unternehmen, die auffallen und in Erinnerung bleiben wollen.',
+    hero_sub:     'Leistungsstarke Websites und Markenidentitäten erstellen für Unternehmen, die auffallen und in Erinnerung bleiben wollen.',
     hero_cta1:    'Unsere Arbeiten.',
     hero_cta2:    'Kontakt Aufnehmen.',
     hero_scroll:  'Scrollen',
