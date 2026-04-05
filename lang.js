@@ -119,7 +119,7 @@ const TRANSLATIONS = {
     svc_faq_q3:     'Can I update the website myself?',
     svc_faq_a3:     'Yes. I deliver clean, well-structured code and provide a handover document so you or your team can make updates easily.',
     svc_faq_q4:     'Does it matter where my business is based?',
-    svc_faq_a4:     "Not a problem. I'm based in Sydney but work with clients worldwide. Everything is handled online, so no matter where you are, we can build something great together.",
+    svc_faq_a4:     "Not a problem. I'm based in Sydney but I work with clients worldwide. Everything is handled online, so no matter where you are, we can build something great together.",
 
     svc_cta_title: 'Not sure which package fits?',
     svc_cta_sub:   "Reach out, and I'll figure it out together with you.",
@@ -386,7 +386,7 @@ const TRANSLATIONS = {
     svc_faq_q3:     'Kan ik de website zelf aanpassen?',
     svc_faq_a3:     'Ja. Ik lever nette, goed gestructureerde code en een overdrachtshandleiding zodat u of uw team eenvoudig aanpassingen kunt maken.',
     svc_faq_q4:     'Maakt het uit waar mijn bedrijf gevestigd is?',
-    svc_faq_a4:     'Geen probleem. Ik ben gevestigd in Sydney maar werk met klanten wereldwijd. Alles verloopt online, dus waar u ook bent, bouwen we samen iets moois.',
+    svc_faq_a4:     'Geen probleem. Ik ben gevestigd in Sydney maar ik werk met klanten wereldwijd. Alles verloopt online, dus waar u ook bent, bouwen we samen iets moois.',
 
     svc_cta_title: 'Weet u niet welk pakket bij u past?',
     svc_cta_sub:   'Neem contact op. Ik zoek het samen met u uit.',
@@ -912,7 +912,7 @@ const TRANSLATIONS = {
     svc_faq_q3:     'Kann ich die Website selbst aktualisieren?',
     svc_faq_a3:     'Ja. Ich liefere sauberen, gut strukturierten Code und ein Übergabedokument, damit Sie oder Ihr Team problemlos Änderungen vornehmen können.',
     svc_faq_q4:     'Spielt es eine Rolle, wo mein Unternehmen ansässig ist?',
-    svc_faq_a4:     'Kein Problem. Ich bin in Sydney ansässig, arbeite aber mit Kunden weltweit. Alles läuft online ab, egal wo Sie sich befinden. Gemeinsam bauen wir etwas Großartiges.',
+    svc_faq_a4:     'Kein Problem. Ich bin in Sydney ansässig, aber ich arbeite mit Kunden weltweit. Alles läuft online ab, egal wo Sie sich befinden. Gemeinsam bauen wir etwas Großartiges.',
 
     svc_cta_title: 'Nicht sicher, welches Paket passt?',
     svc_cta_sub:   'Melden Sie sich. Ich finde es gemeinsam mit Ihnen heraus.',
