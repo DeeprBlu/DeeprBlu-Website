@@ -56,6 +56,12 @@ const TRANSLATIONS = {
     pricing_plus_desc:      "The full package for businesses that don't play around.",
     pricing_more:           'More info.',
 
+    /* INDEX — WORK PREVIEW */
+    work_preview_label: 'Work in the Wild.',
+    work_preview_title: 'See what gets built.',
+    work_preview_desc:  "One of Australia's biggest Japanese Pokémon TCG stores on eBay needed a professional website to match their reputation. A custom-built digital home, designed and delivered within a week.",
+    work_preview_case:  'View Case Study.',
+
     /* INDEX. CTA BAND */
     cta_title: 'Ready to stand out?',
     cta_sub:   "Let's build something your customers won't forget.",
@@ -320,6 +326,11 @@ const TRANSLATIONS = {
     pricing_plus_desc:      'Het volledige pakket voor bedrijven die geen compromissen sluiten.',
     pricing_more:           'Meer info.',
 
+    work_preview_label: 'Live Werk.',
+    work_preview_title: 'Zie wat er gebouwd wordt.',
+    work_preview_desc:  'Een van Australiës grootste Japanse Pokémon TCG-winkels op eBay had een professionele website nodig die bij hun reputatie past. Een volledig op maat gemaakte digitale thuis, ontworpen en opgeleverd binnen een week.',
+    work_preview_case:  'Bekijk Case Study.',
+
     cta_title: 'Klaar om op te vallen?',
     cta_sub:   'Laten we iets bouwen dat uw klanten niet vergeten.',
     cta_btn:   'Neem Contact Op.',
@@ -578,6 +589,11 @@ const TRANSLATIONS = {
     pricing_plus_desc:      'Le forfait complet pour les entreprises qui ne font pas de compromis.',
     pricing_more:           'Plus d\'infos.',
 
+    work_preview_label: 'Travaux en Ligne.',
+    work_preview_title: 'Voyez ce qui se construit.',
+    work_preview_desc:  "L'une des plus grandes boutiques australiennes de Pokémon TCG japonais sur eBay avait besoin d'un site professionnel à la hauteur de sa réputation. Un site entièrement sur mesure, conçu et livré en une semaine.",
+    work_preview_case:  "Voir l'Étude de Cas.",
+
     cta_title: 'Prêt à vous démarquer ?',
     cta_sub:   'Créons quelque chose que vos clients n\'oublieront pas.',
     cta_btn:   'Prendre Contact.',
@@ -835,6 +851,11 @@ const TRANSLATIONS = {
     pricing_plus_name:      'Deep',
     pricing_plus_desc:      'Das Komplettpaket für Unternehmen, die keine Kompromisse eingehen.',
     pricing_more:           'Mehr Info.',
+
+    work_preview_label: 'Live-Projekte.',
+    work_preview_title: 'Sehen Sie, was entsteht.',
+    work_preview_desc:  'Einer der größten australischen Pokémon-TCG-Shops für japanische Karten auf eBay brauchte eine professionelle Website, die seinem Ruf gerecht wird. Ein vollständig maßgeschneidertes digitales Zuhause, entworfen und geliefert innerhalb einer Woche.',
+    work_preview_case:  'Fallstudie Ansehen.',
 
     cta_title: 'Bereit aufzufallen?',
     cta_sub:   'Lassen Sie uns etwas bauen, das Ihre Kunden nicht vergessen.',
