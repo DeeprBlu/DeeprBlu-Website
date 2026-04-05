@@ -1697,3 +1697,206 @@ button, a, input, select, textarea, label {
     width: 100%;
   }
 }
+
+/* =========================================
+   CASE STUDY
+   ========================================= */
+.case-study {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 48px;
+}
+.case-study-block {
+  background: var(--off-white);
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+}
+.case-study-block h3 {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--blue-700);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.case-study-block p {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--gray-600);
+}
+.case-study-result {
+  grid-column: 1 / -1;
+  background: var(--grad-hero);
+  border-radius: var(--radius-lg);
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.case-study-result-inner {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+.case-study-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.case-study-stat-num {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--white);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+.case-study-stat-label {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.75);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.case-study-quote {
+  border-left: 3px solid rgba(255,255,255,0.4);
+  padding-left: 24px;
+  margin: 0;
+}
+.case-study-quote p {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.92);
+  line-height: 1.7;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.case-study-quote cite {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.65);
+  font-style: normal;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .case-study {
+    grid-template-columns: 1fr;
+  }
+  .case-study-result {
+    padding: 32px 24px;
+  }
+  .case-study-result-inner {
+    gap: 28px;
+  }
+}
+
+/* =========================================
+   MOBILE — NEW ABOUT SECTION + CASE STUDY
+   ========================================= */
+@media (max-width: 768px) {
+  /* About — Why It Matters section */
+  .section [style*="max-width: 760px"] {
+    max-width: 100% !important;
+  }
+  .about-values[style*="margin-top: 40px"] {
+    margin-top: 28px;
+  }
+
+  /* Case study blocks */
+  .case-study {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .case-study-block {
+    padding: 28px 22px;
+  }
+  .case-study-result {
+    padding: 28px 22px;
+    gap: 24px;
+  }
+  .case-study-result-inner {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .case-study-stat-num {
+    font-size: 2.2rem;
+  }
+  .case-study-quote {
+    padding-left: 18px;
+  }
+  .case-study-quote p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .case-study-result-inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .case-study-block {
+    padding: 22px 18px;
+  }
+  .case-study-result {
+    padding: 24px 18px;
+  }
+  .case-study-stat-num {
+    font-size: 2rem;
+  }
+}
+
+/* =========================================
+   SERVICE CARD REFERENCE BLOCK
+   ========================================= */
+.service-card-reference {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+.service-card-ref-img {
+  width: 72px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+.service-card-ref-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.service-card-ref-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.65);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.service-card-ref-link {
+  font-size: 0.88rem;
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--font-display);
+}
+.service-card-ref-link:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .service-card-reference {
+    padding-top: 18px;
+    gap: 12px;
+  }
+  .service-card-ref-img {
+    width: 58px;
+    height: 38px;
+  }
+}
