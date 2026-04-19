@@ -35,9 +35,9 @@ const REGIONS = [
 
 // Fixed rounded prices per region
 const PRICES = {
-  au: { starter: 350,  business: 499,  plus: 750  },
-  us: { starter: 225,  business: 300,  plus: 475  },
-  eu: { starter: 200,  business: 300,  plus: 425  },
+  au: { starter: 350,  business: 499,  plus: 750,  abyss: 1950 },
+  us: { starter: 225,  business: 300,  plus: 475,  abyss: 1400 },
+  eu: { starter: 200,  business: 300,  plus: 425,  abyss: 1200 },
 };
 
 function getRegion() {
