@@ -207,6 +207,21 @@
   <script src="region.js"></script>
   <script src="lang.js"></script>
   <script>
+    // Pre-select package from URL param e.g. contact.html?service=reef
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const service = params.get('service');
+      if (service) {
+        const select = document.getElementById('service');
+        if (select) {
+          const option = select.querySelector(`option[value="${service}"]`);
+          if (option) {
+            select.value = service;
+          }
+        }
+      }
+    });
+
     async function handleFormSubmit(e) {
       const btn = e.currentTarget;
       const firstName = document.getElementById('firstName').value.trim();

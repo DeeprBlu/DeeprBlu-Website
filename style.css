@@ -2097,3 +2097,47 @@ button, a, input, select, textarea, label {
   font-size: 0.75rem;
   font-weight: 500;
 }
+
+/* =========================================
+   FLOATING CONTACT BUTTON (services page)
+   ========================================= */
+.float-contact {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--blue-600);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 14px 22px;
+  border-radius: 50px;
+  box-shadow: 0 6px 24px rgba(0, 91, 207, 0.35);
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+.float-contact:hover {
+  background: var(--blue-700, #0047b3);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 32px rgba(0, 91, 207, 0.45);
+}
+.float-contact:active {
+  transform: translateY(0);
+}
+.float-contact svg {
+  flex-shrink: 0;
+}
+@media (max-width: 600px) {
+  .float-contact {
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    font-size: 0.85rem;
+  }
+}
