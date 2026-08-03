@@ -11,6 +11,13 @@
 
 const REGIONS = [
   {
+    id:       'eu',
+    name:     'Europe',
+    flag:     '🇪🇺',
+    currency: 'EUR',
+    symbol:   '€',
+  },
+  {
     id:       'au',
     name:     'Australia',
     flag:     '🇦🇺',
@@ -24,13 +31,6 @@ const REGIONS = [
     currency: 'USD',
     symbol:   '$',
   },
-  {
-    id:       'eu',
-    name:     'Europe',
-    flag:     '🇪🇺',
-    currency: 'EUR',
-    symbol:   '€',
-  },
 ];
 
 // Fixed rounded prices per region
@@ -41,7 +41,7 @@ const PRICES = {
 };
 
 function getRegion() {
-  return sessionStorage.getItem('deeprblu-region') || 'au';
+  return sessionStorage.getItem('deeprblu-region') || 'eu';
 }
 
 function setRegion(id) {
@@ -53,7 +53,7 @@ function getCurrentRegion() {
 }
 
 function updatePrices(region) {
-  const prices = PRICES[region.id] || PRICES.au;
+  const prices = PRICES[region.id] || PRICES.eu;
 
   // Update all price elements on the page
   // Supports both .price-amount (homepage) and .service-card-price (services page)
