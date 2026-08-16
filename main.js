@@ -145,11 +145,34 @@ if (countEls.length) {
   }
 }
 
+// --- LOCAL FILE PREVIEW FIX ---
+// Clean URLs like /about only resolve on a real server (e.g. GitHub Pages).
+// When this site is opened directly from disk (file://), there's no server
+// to do that resolution, so clicking a nav link would fail. This detects
+// that case and quietly sends the click to the real .html file instead.
+// On the live site (https://) this block does nothing — window.location.protocol
+// is never 'file:' there, so every click behaves completely normally.
+if (window.location.protocol === 'file:') {
+  document.addEventListener('click', (e) => {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    const link = e.target.closest('a');
+    if (!link) return;
+    const href = link.getAttribute('href');
+    if (!href || !href.startsWith('/') || href.includes('.')) return;
+    e.preventDefault();
+    const match = href.match(/^\/([^?#]*)(.*)$/);
+    const pagePath = match[1];
+    const suffix = match[2] || '';
+    const filename = pagePath === '' ? 'index.html' : pagePath + '.html';
+    window.location.href = filename + suffix;
+  });
+}
+
 // --- ACTIVE NAV LINK ---
-const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+const currentPath = window.location.pathname.replace(/\/$/, '') || '/';
 document.querySelectorAll('.nav-links a').forEach(link => {
-  const href = link.getAttribute('href');
-  if (href === currentPath) link.classList.add('active');
+  const linkPath = link.pathname.replace(/\/$/, '') || '/';
+  if (linkPath === currentPath) link.classList.add('active');
 });
 
 // --- PREVENT 300ms TAP DELAY on older iOS ---

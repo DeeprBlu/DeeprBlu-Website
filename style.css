@@ -116,6 +116,17 @@ button, a, input, select, textarea, label {
   padding-left: 10px;
   border-left: 2px solid var(--blue-400);
 }
+.section-label--center {
+  display: inline-block;
+  padding-left: 10px;
+  border-left: 2px solid var(--blue-400);
+}
+.section-label--bar-right {
+  padding-left: 0;
+  border-left: none;
+  padding-right: 10px;
+  border-right: 2px solid var(--blue-400);
+}
 
 .section-title {
   margin-bottom: 52px;
@@ -192,6 +203,10 @@ button, a, input, select, textarea, label {
   justify-content: space-between;
   padding: 0 40px;
   transition: background 0.3s, box-shadow 0.3s, backdrop-filter 0.3s;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .nav.scrolled {
   background: rgba(255,255,255,0.85);
