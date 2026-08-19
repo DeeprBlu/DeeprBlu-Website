@@ -75,7 +75,7 @@ const TRANSLATIONS = {
     svc_page_title: 'Services.',
     svc_page_sub:   'Transparent packages for businesses that want to make a lasting digital impression.',
     svc_section_label: "What's Included.",
-    svc_section_title: 'Pick your package.\nI handle the rest.',
+    svc_section_title: 'Time to bring you more business.',
 
     svc_starter_tier:  'Tier 01',
     svc_starter_name:  'Shoreline',
@@ -126,7 +126,7 @@ const TRANSLATIONS = {
     svc_faq_a4:     "Not a problem. I'm based in the Netherlands and work with clients across Europe and Australia. Everything is handled online, so no matter where you are, we can build something great together.",
 
     svc_cta_title: 'Not sure which package fits?',
-    svc_cta_sub:   "Reach out, and I'll figure it out together with you.",
+    svc_cta_sub:   "Reach out, and start adding more digital value to your business today.",
     svc_cta_btn:   'Talk to Us.',
 
     /* ABOUT PAGE */
@@ -316,6 +316,17 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Tailored delivery timeline',
     svc_seo_basic: 'Basic SEO setup',
     svc_seo_deepr: 'Deepr SEO setup',
+
+    // Referral landing page
+    ref_hero_line1: 'Interested?',
+    ref_hero_line2: 'Work with me.',
+    ref_hero_sub_default: 'You just saw a site DeeprBlu designed, built, and shipped.',
+    ref_hero_sub_personalized: 'You just saw {name}, a site DeeprBlu designed, built, and shipped.',
+    ref_btn_start: 'Start a Project.',
+    ref_btn_work: 'See More Work.',
+    ref_pain_title: 'Growing a digital presence is hard. DeeprBlu can help with that.',
+    ref_pain_desc: "Every DeeprBlu client gets a site built from scratch, by hand, by the same person you'd be emailing. If you liked what you just saw, that's what working together with DeeprBlu looks like. Clear pricing, a working demo within days, and a live site within a week.",
+    ref_btn_cta: 'Get Started. ✦',
   },
 
   nl: {
@@ -379,7 +390,7 @@ const TRANSLATIONS = {
     svc_page_title: 'Services.',
     svc_page_sub:   'Transparante pakketten voor bedrijven die een permanente digitale indruk willen maken.',
     svc_section_label: 'Wat Is Inbegrepen.',
-    svc_section_title: 'Kies uw pakket.\nIk regel de rest.',
+    svc_section_title: 'Tijd om u meer klanten te bezorgen.',
 
     svc_starter_tier:  'Tier 01',
     svc_starter_name:  'Shoreline',
@@ -430,7 +441,7 @@ const TRANSLATIONS = {
     svc_faq_a4:     'Geen probleem. Ik ben gevestigd in Nederland en werk met klanten in Europa en Australië. Alles verloopt online, dus waar u ook bent, bouwen we samen iets moois.',
 
     svc_cta_title: 'Weet u niet welk pakket bij u past?',
-    svc_cta_sub:   'Neem contact op. Ik zoek het samen met u uit.',
+    svc_cta_sub:   'Neem contact op, en begin vandaag met meer digitale waarde voor uw bedrijf.',
     svc_cta_btn:   'Contact opnemen.',
 
     about_page_title: 'Over Ons.',
@@ -616,6 +627,17 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Maatwerk leveringstermijn',
     svc_seo_basic: 'Basis SEO-instelling',
     svc_seo_deepr: 'Deepr SEO-instelling',
+
+    // Referral landing page
+    ref_hero_line1: 'Interesse?',
+    ref_hero_line2: 'Werk met mij.',
+    ref_hero_sub_default: 'Je zag zojuist een site die DeeprBlu heeft ontworpen, gebouwd en opgeleverd.',
+    ref_hero_sub_personalized: 'Je zag zojuist {name}, een site die DeeprBlu heeft ontworpen, gebouwd en opgeleverd.',
+    ref_btn_start: 'Start een Project.',
+    ref_btn_work: 'Bekijk Meer Werk.',
+    ref_pain_title: 'Een digitale aanwezigheid opbouwen is lastig. DeeprBlu kan daarbij helpen.',
+    ref_pain_desc: 'Elke DeeprBlu-klant krijgt een site die volledig met de hand is gebouwd, door dezelfde persoon die je zou mailen. Als je waardeert wat je net zag, dan is dat hoe samenwerken met DeeprBlu eruitziet. Duidelijke prijzen, een werkende demo binnen enkele dagen, en een live site binnen een week.',
+    ref_btn_cta: 'Ga van Start. ✦',
   },
 
   fr: {
@@ -679,7 +701,7 @@ const TRANSLATIONS = {
     svc_page_title: 'Services.',
     svc_page_sub:   'Des forfaits transparents pour les entreprises qui veulent laisser une impression digitale durable.',
     svc_section_label: 'Ce Qui Est Inclus.',
-    svc_section_title: 'Choisissez votre forfait.\nJe gère le reste.',
+    svc_section_title: 'Il est temps de vous apporter plus de clients.',
 
     svc_starter_tier:  'Niveau 01',
     svc_starter_name:  'Shoreline',
@@ -730,7 +752,7 @@ const TRANSLATIONS = {
     svc_faq_a4:     'Aucun problème. Je suis basé aux Pays-Bas et je travaille avec des clients en Europe et en Australie. Tout se passe en ligne, donc où que vous soyez, nous pouvons créer quelque chose de remarquable ensemble.',
 
     svc_cta_title: 'Vous ne savez pas quel forfait choisir ?',
-    svc_cta_sub:   'Contactez-moi, nous trouverons cela ensemble.',
+    svc_cta_sub:   'Contactez-moi, et commencez d\u00e8s aujourd\'hui \u00e0 ajouter plus de valeur digitale \u00e0 votre entreprise.',
     svc_cta_btn:   'Contactez-nous.',
 
     about_page_title: 'À Propos.',
@@ -916,6 +938,17 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Calendrier de livraison sur mesure',
     svc_seo_basic: 'Configuration SEO de base',
     svc_seo_deepr: 'Configuration Deepr SEO',
+
+    // Referral landing page
+    ref_hero_line1: 'Intéressé ?',
+    ref_hero_line2: 'Travaillez avec moi.',
+    ref_hero_sub_default: 'Vous venez de voir un site conçu, construit et livré par DeeprBlu.',
+    ref_hero_sub_personalized: 'Vous venez de voir {name}, un site conçu, construit et livré par DeeprBlu.',
+    ref_btn_start: 'Démarrer un Projet.',
+    ref_btn_work: 'Voir Plus de Travaux.',
+    ref_pain_title: 'Développer une présence digitale est difficile. DeeprBlu peut vous aider.',
+    ref_pain_desc: 'Chaque client DeeprBlu obtient un site construit à la main, par la même personne à qui vous écririez. Si vous avez aimé ce que vous venez de voir, c\'est à cela que ressemble une collaboration avec DeeprBlu. Des prix clairs, une démo fonctionnelle en quelques jours, et un site en ligne en une semaine.',
+    ref_btn_cta: 'Commencer. ✦',
   },
 
   de: {
@@ -979,7 +1012,7 @@ const TRANSLATIONS = {
     svc_page_title: 'Services.',
     svc_page_sub:   'Transparente Pakete für Unternehmen, die einen bleibenden digitalen Eindruck hinterlassen wollen.',
     svc_section_label: 'Was Enthalten Ist.',
-    svc_section_title: 'Wählen Sie Ihr Paket.\nIch erledige den Rest.',
+    svc_section_title: 'Zeit, Ihnen mehr Kunden zu bringen.',
 
     svc_starter_tier:  'Stufe 01',
     svc_starter_name:  'Shoreline',
@@ -1030,7 +1063,7 @@ const TRANSLATIONS = {
     svc_faq_a4:     'Kein Problem. Ich bin in den Niederlanden ansässig und arbeite mit Kunden in Europa und Australien. Alles läuft online ab, egal wo Sie sich befinden. Gemeinsam bauen wir etwas Großartiges.',
 
     svc_cta_title: 'Nicht sicher, welches Paket passt?',
-    svc_cta_sub:   'Melden Sie sich. Ich finde es gemeinsam mit Ihnen heraus.',
+    svc_cta_sub:   'Melden Sie sich, und beginnen Sie noch heute damit, Ihrem Unternehmen mehr digitalen Mehrwert zu verleihen.',
     svc_cta_btn:   'Kontakt aufnehmen.',
 
     about_page_title: 'Über Uns.',
@@ -1216,6 +1249,17 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Maßgeschneiderter Lieferzeitplan',
     svc_seo_basic: 'Basis-SEO-Einrichtung',
     svc_seo_deepr: 'Deepr-SEO-Einrichtung',
+
+    // Referral landing page
+    ref_hero_line1: 'Interessiert?',
+    ref_hero_line2: 'Arbeiten Sie mit mir.',
+    ref_hero_sub_default: 'Sie haben gerade eine Website gesehen, die DeeprBlu entworfen, gebaut und geliefert hat.',
+    ref_hero_sub_personalized: 'Sie haben gerade {name} gesehen, eine Website, die DeeprBlu entworfen, gebaut und geliefert hat.',
+    ref_btn_start: 'Projekt Starten.',
+    ref_btn_work: 'Mehr Arbeiten Ansehen.',
+    ref_pain_title: 'Eine digitale Präsenz aufzubauen ist schwer. DeeprBlu kann dabei helfen.',
+    ref_pain_desc: 'Jeder DeeprBlu-Kunde erhält eine Website, die von Hand von derselben Person gebaut wird, die Sie kontaktieren würden. Wenn Ihnen gefallen hat, was Sie gerade gesehen haben, sieht so die Zusammenarbeit mit DeeprBlu aus. Klare Preise, eine funktionierende Demo innerhalb weniger Tage und eine Live-Website innerhalb einer Woche.',
+    ref_btn_cta: 'Loslegen. ✦',
   },
 };
 

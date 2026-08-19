@@ -61,32 +61,32 @@
     </div>
     <div class="hero-content">
       <h1 class="hero-title">
-        <span class="line-1">Interested?</span>
-        <span class="line-2">Work with me.</span>
+        <span class="line-1" data-i18n="ref_hero_line1">Interested?</span>
+        <span class="line-2" data-i18n="ref_hero_line2">Work with me.</span>
       </h1>
-      <p class="hero-sub" id="refContext">You just saw a site DeeprBlu designed, built, and shipped.</p>
+      <p class="hero-sub" id="refContext" data-i18n="ref_hero_sub_default">You just saw a site DeeprBlu designed, built, and shipped.</p>
       <div class="hero-actions">
-        <a href="/contact" class="btn btn-white">Start a Project.</a>
-        <a href="/portfolio" class="btn btn-outline">See More Work.</a>
+        <a href="/contact" class="btn btn-white" data-i18n="ref_btn_start">Start a Project.</a>
+        <a href="/portfolio" class="btn btn-outline" data-i18n="ref_btn_work">See More Work.</a>
       </div>
     </div>
   </section>
 
   <section class="intro-strip">
-    <div class="strip-item"><span class="strip-num">EU &amp; AU</span><span class="strip-label">Markets Served</span></div>
-    <div class="strip-item"><span class="strip-num">1 Week</span><span class="strip-label">Delivery Time</span></div>
-    <div class="strip-item"><span class="strip-num" data-count-to="100" data-count-suffix="%">0%</span><span class="strip-label">Custom Design</span></div>
+    <div class="strip-item"><span class="strip-num" data-i18n="strip_worldwide_num">Worldwide</span><span class="strip-label" data-i18n="strip_worldwide_label">Active</span></div>
+    <div class="strip-item"><span class="strip-num">1 Week</span><span class="strip-label" data-i18n="strip_focus_label">Delivery Time</span></div>
+    <div class="strip-item"><span class="strip-num" data-count-to="100" data-count-suffix="%">0%</span><span class="strip-label" data-i18n="strip_custom_label">Custom Design</span></div>
   </section>
 
   <section class="section">
     <div class="container">
       <div style="max-width: 640px; margin: 0 auto; text-align: center;">
-        <h2>Growing a digital presence is hard. DeeprBlu can help with that.</h2>
-        <p style="margin-top: 16px; color: var(--gray-600); font-size: 1.05rem; line-height: 1.75;">
+        <h2 data-i18n="ref_pain_title">Growing a digital presence is hard. DeeprBlu can help with that.</h2>
+        <p style="margin-top: 16px; color: var(--gray-600); font-size: 1.05rem; line-height: 1.75;" data-i18n="ref_pain_desc">
           Every DeeprBlu client gets a site built from scratch, by hand, by the same person you'd be emailing.
           If you liked what you just saw, that's what working together with DeeprBlu looks like. Clear pricing, a working demo within days, and a live site within a week.
         </p>
-        <a href="/contact" class="btn btn-blue" style="margin-top: 28px; display: inline-block;">Get Started. ✦</a>
+        <a href="/contact" class="btn btn-blue" style="margin-top: 28px; display: inline-block;" data-i18n="ref_btn_cta">Get Started. ✦</a>
       </div>
     </div>
   </section>
@@ -126,13 +126,16 @@
       danilos:    "Danilo's Detailing",
       jdpokemuse: "JD PokeMuse"
     };
-    const ref = new URLSearchParams(window.location.search).get('ref');
-    if (ref && REFERRAL_CLIENTS[ref]) {
-      const el = document.getElementById('refContext');
-      if (el) {
-        el.innerHTML = `You just saw <strong>${REFERRAL_CLIENTS[ref]}</strong>, a site DeeprBlu designed, built, and shipped.`;
+    document.addEventListener('DOMContentLoaded', () => {
+      const ref = new URLSearchParams(window.location.search).get('ref');
+      if (ref && REFERRAL_CLIENTS[ref]) {
+        const el = document.getElementById('refContext');
+        if (el) {
+          const template = t('ref_hero_sub_personalized');
+          el.innerHTML = template.replace('{name}', `<strong>${REFERRAL_CLIENTS[ref]}</strong>`);
+        }
       }
-    }
+    });
   </script>
 </body>
 </html>
