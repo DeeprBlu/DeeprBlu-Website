@@ -184,6 +184,14 @@ const TRANSLATIONS = {
     contact_service:    'What are you interested in?',
     contact_select:     'Select a package...',
     contact_other:      'Just a question / Other',
+    contact_referral: 'How did you hear about us?',
+    contact_referral_select: 'Select an option...',
+    contact_referral_google: 'Google Search',
+    contact_referral_client: "A Client's Website",
+    contact_referral_social: 'Instagram / LinkedIn',
+    contact_referral_event: 'Networking Event',
+    contact_referral_wom: 'Word of Mouth',
+    contact_referral_other: 'Other',
     contact_message:    'Your Message',
     contact_msg_ph:     'Tell me about your business and what you\'re looking for...',
     contact_send:       'Send Message. ✦',
@@ -497,6 +505,14 @@ const TRANSLATIONS = {
     contact_service:    'Waar bent u in geïnteresseerd?',
     contact_select:     'Selecteer een pakket...',
     contact_other:      'Gewoon een vraag / Anders',
+    contact_referral: 'Hoe heeft u ons gevonden?',
+    contact_referral_select: 'Selecteer een optie...',
+    contact_referral_google: 'Google Zoeken',
+    contact_referral_client: 'De Website van een Klant',
+    contact_referral_social: 'Instagram / LinkedIn',
+    contact_referral_event: 'Netwerkevenement',
+    contact_referral_wom: 'Mond-tot-mondreclame',
+    contact_referral_other: 'Anders',
     contact_message:    'Uw Bericht',
     contact_msg_ph:     'Vertel mij over uw bedrijf en wat u zoekt...',
     contact_send:       'Verstuur Bericht. ✦',
@@ -808,6 +824,14 @@ const TRANSLATIONS = {
     contact_service:    'Qu\'est-ce qui vous intéresse ?',
     contact_select:     'Choisissez un forfait...',
     contact_other:      'Juste une question / Autre',
+    contact_referral: 'Comment nous avez-vous connus ?',
+    contact_referral_select: 'Sélectionnez une option...',
+    contact_referral_google: 'Recherche Google',
+    contact_referral_client: "Le Site d'un Client",
+    contact_referral_social: 'Instagram / LinkedIn',
+    contact_referral_event: 'Événement de Réseautage',
+    contact_referral_wom: 'Bouche-à-Oreille',
+    contact_referral_other: 'Autre',
     contact_message:    'Votre Message',
     contact_msg_ph:     'Parlez-moi de votre entreprise et de ce que vous recherchez...',
     contact_send:       'Envoyer le Message. ✦',
@@ -1119,6 +1143,14 @@ const TRANSLATIONS = {
     contact_service:    'Wofür interessieren Sie sich?',
     contact_select:     'Paket auswählen...',
     contact_other:      'Nur eine Frage / Sonstiges',
+    contact_referral: 'Wie haben Sie von uns erfahren?',
+    contact_referral_select: 'Option auswählen...',
+    contact_referral_google: 'Google-Suche',
+    contact_referral_client: 'Die Website eines Kunden',
+    contact_referral_social: 'Instagram / LinkedIn',
+    contact_referral_event: 'Networking-Veranstaltung',
+    contact_referral_wom: 'Mundpropaganda',
+    contact_referral_other: 'Sonstiges',
     contact_message:    'Ihre Nachricht',
     contact_msg_ph:     'Erzählen Sie mir von Ihrem Unternehmen und was Sie suchen...',
     contact_send:       'Nachricht Senden. ✦',
@@ -1346,16 +1378,37 @@ function buildLangSelector() {
   wrapper.querySelectorAll('.lang-option').forEach(opt => {
     opt.addEventListener('click', () => {
       const id = opt.getAttribute('data-lang');
-      setLang(id);
-      const meta = LANG_META.find(l => l.id === id);
-      document.getElementById('langBtn').innerHTML = `<span class="lang-flag">${meta.flag}</span> ${meta.label} <span class="lang-arrow">▾</span>`;
-      wrapper.querySelectorAll('.lang-option').forEach(o => o.classList.toggle('active', o.getAttribute('data-lang') === id));
-      wrapper.classList.remove('open');
-      applyTranslations();
+      navigateToLanguage(id);
     });
   });
 
   document.addEventListener('click', () => wrapper.classList.remove('open'));
+}
+
+function navigateToLanguage(id) {
+  const hasUrlBasedPage = document.body.hasAttribute('data-page');
+
+  if (!hasUrlBasedPage) {
+    // This page doesn't have per-language URLs yet — safe fallback: toggle in place, same as before.
+    setLang(id);
+    applyTranslations();
+    const meta = LANG_META.find(l => l.id === id);
+    const btn = document.getElementById('langBtn');
+    if (btn && meta) btn.innerHTML = `<span class="lang-flag">${meta.flag}</span> ${meta.label} <span class="lang-arrow">▾</span>`;
+    document.querySelectorAll('.lang-option').forEach(o => o.classList.toggle('active', o.getAttribute('data-lang') === id));
+    document.getElementById('langSelector')?.classList.remove('open');
+    return;
+  }
+
+  const slug = document.body.dataset.page || '';
+  const isEnglish = id === 'en';
+  const cleanPath = (isEnglish ? '/' : `/${id}/`) + slug;
+
+  if (window.location.protocol === 'file:') {
+    window.location.href = window.resolveLocalPath(cleanPath);
+  } else {
+    window.location.href = cleanPath;
+  }
 }
 
 document.addEventListener('DOMContentLoaded', () => {

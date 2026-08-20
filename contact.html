@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>try{sessionStorage.setItem('deeprblu-lang','en');}catch(e){}</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -15,6 +16,11 @@
   <title>Contact — DeeprBlu Media</title>
   <meta name="description" content="Get in touch with DeeprBlu Media. Ready to build your website? Reach out via email, Instagram, or the contact form." />
   <link rel="canonical" href="https://deeprblu.org/contact" />
+  <link rel="alternate" hreflang="x-default" href="https://deeprblu.org/contact" />
+  <link rel="alternate" hreflang="en" href="https://deeprblu.org/contact" />
+  <link rel="alternate" hreflang="nl" href="https://deeprblu.org/nl/contact" />
+  <link rel="alternate" hreflang="fr" href="https://deeprblu.org/fr/contact" />
+  <link rel="alternate" hreflang="de" href="https://deeprblu.org/de/contact" />
 
   <!-- Open Graph (WhatsApp, LinkedIn, Facebook previews) -->
   <meta property="og:type"        content="website" />
@@ -47,7 +53,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body data-page="contact">
   
 
   <nav class="nav scrolled" id="nav">
@@ -144,6 +150,19 @@
           </div>
 
           <div class="form-group">
+            <label for="referralSource" data-i18n="contact_referral">How did you hear about us?</label>
+            <select id="referralSource" name="referralSource">
+              <option value="" disabled selected data-i18n="contact_referral_select">Select an option...</option>
+              <option value="google" data-i18n="contact_referral_google">Google Search</option>
+              <option value="client_site" data-i18n="contact_referral_client">A Client's Website</option>
+              <option value="social" data-i18n="contact_referral_social">Instagram / LinkedIn</option>
+              <option value="event" data-i18n="contact_referral_event">Networking Event</option>
+              <option value="word_of_mouth" data-i18n="contact_referral_wom">Word of Mouth</option>
+              <option value="other" data-i18n="contact_referral_other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
             <label for="message" data-i18n="contact_message">Your Message</label>
             <textarea id="message" name="message" data-i18n="contact_msg_ph" data-i18n-attr="placeholder" placeholder="Tell us about your business and what you're looking for..."></textarea>
           </div>
@@ -209,6 +228,7 @@
       const email     = document.getElementById('email').value.trim();
       const company   = document.getElementById('company').value.trim();
       const service   = document.getElementById('service').value;
+      const referralSource = document.getElementById('referralSource').value;
       const message   = document.getElementById('message').value.trim();
 
       if (!firstName || !email || !message) {
@@ -223,7 +243,7 @@
         const res = await fetch('https://formspree.io/f/xyknayzv', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-          body: JSON.stringify({ firstName, lastName, email, company, service, message })
+          body: JSON.stringify({ firstName, lastName, email, company, service, referralSource, message })
         });
         if (res.ok) {
           btn.textContent = 'Message sent. ✓';
@@ -232,6 +252,7 @@
           document.getElementById('lastName').value  = '';
           document.getElementById('email').value     = '';
           document.getElementById('company').value   = '';
+          document.getElementById('referralSource').value = '';
           document.getElementById('message').value   = '';
         } else {
           throw new Error('Failed');

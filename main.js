@@ -152,6 +152,36 @@ if (countEls.length) {
 // that case and quietly sends the click to the real .html file instead.
 // On the live site (https://) this block does nothing — window.location.protocol
 // is never 'file:' there, so every click behaves completely normally.
+//
+// Aware of the /nl/ /fr/ /de/ language subfolders: correctly computes the
+// relative path whether moving root->subfolder, subfolder->root, staying
+// within a subfolder, or moving subfolder->different subfolder.
+window.resolveLocalPath = function(absolutePath) {
+  const match = absolutePath.match(/^\/([^?#]*)(.*)$/);
+  const targetPath = match ? match[1] : absolutePath.replace(/^\//, '');
+  const suffix = (match && match[2]) || '';
+  const knownLangs = ['nl', 'fr', 'de'];
+  const segments = targetPath.split('/').filter(Boolean);
+  const targetPrefix = knownLangs.includes(segments[0]) ? segments[0] : null;
+  const targetRest = targetPrefix ? segments.slice(1).join('/') : segments.join('/');
+  const targetFilename = (targetRest === '' ? 'index' : targetRest) + '.html';
+
+  const currentLangMatch = window.location.pathname.match(/\/(nl|fr|de)\/[^/]*$/);
+  const currentPrefix = currentLangMatch ? currentLangMatch[1] : null;
+
+  let relative;
+  if (currentPrefix === targetPrefix) {
+    relative = targetFilename;
+  } else if (currentPrefix && !targetPrefix) {
+    relative = '../' + targetFilename;
+  } else if (!currentPrefix && targetPrefix) {
+    relative = targetPrefix + '/' + targetFilename;
+  } else {
+    relative = '../' + targetPrefix + '/' + targetFilename;
+  }
+  return relative + suffix;
+};
+
 if (window.location.protocol === 'file:') {
   document.addEventListener('click', (e) => {
     if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
@@ -160,11 +190,7 @@ if (window.location.protocol === 'file:') {
     const href = link.getAttribute('href');
     if (!href || !href.startsWith('/') || href.includes('.')) return;
     e.preventDefault();
-    const match = href.match(/^\/([^?#]*)(.*)$/);
-    const pagePath = match[1];
-    const suffix = match[2] || '';
-    const filename = pagePath === '' ? 'index.html' : pagePath + '.html';
-    window.location.href = filename + suffix;
+    window.location.href = window.resolveLocalPath(href);
   });
 }
 
