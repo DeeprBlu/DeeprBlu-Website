@@ -48,7 +48,8 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" /></noscript>
 
   <link rel="stylesheet" href="style.css" />
 
@@ -169,7 +170,7 @@
     </div>
   </section>
 
-  <section class="section" style="background: var(--off-white); padding-top: 24px;">
+  <section class="section" style="padding-top: 24px;">
     <div class="container">
       <div style="max-width:700px; margin-left:auto; margin-right:0; text-align:right;">
         <div class="section-label section-label--center section-label--bar-right" data-i18n="pain_label">Why This Matters.</div>
@@ -215,7 +216,7 @@
     </div>
   </section>
 
-  <section class="section work-preview-section" style="background: var(--off-white);">
+  <section class="section work-preview-section">
     <div class="container">
       <div class="section-label" data-i18n="work_preview_label">Work in the Wild.</div>
       <h2 class="section-title" data-i18n="work_preview_title">See what gets built.</h2>
