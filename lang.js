@@ -375,7 +375,7 @@ const TRANSLATIONS = {
     footer_location:  'Nederland',
 
     hero_line1:   'Een digitale aanwezigheid opbouwen is lastig.',
-    hero_line2:   'Daar help ik je graag mee.',
+    hero_line2:   'Daar help ik u graag mee.',
     hero_sub:     'Grote ideeën beginnen met de juiste aanpak.',
     hero_cta1:    'Bekijk Ons Werk.',
     hero_cta2:    'Neem Contact Op.',
