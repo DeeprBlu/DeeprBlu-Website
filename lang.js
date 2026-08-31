@@ -37,7 +37,7 @@ const TRANSLATIONS = {
 
     /* INDEX — WHAT WE DO */
     lh_label:          'Built For Speed.',
-    lh_title:          'This is the bar every site has to clear.',
+    lh_title:          'This is the bar you want your site to clear.',
     lh_sub:            'No exceptions, no cut corners. Every project gets built to this same standard, and you can verify it yourself.',
     lh_desktop:        'Performance',
     lh_accessibility:  'Accessibility',
