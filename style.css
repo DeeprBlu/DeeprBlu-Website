@@ -134,6 +134,9 @@ button, a, input, select, textarea, label {
   /* Slightly uneven line-height feels more editorial */
   line-height: 1.18;
 }
+.speed-teaser .section-title {
+  margin-bottom: 20px;
+}
 
 /* --- BUTTONS --- */
 .btn {
