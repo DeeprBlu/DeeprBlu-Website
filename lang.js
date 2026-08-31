@@ -432,7 +432,7 @@ const TRANSLATIONS = {
     speed_pt1_title:  'Geen 404-foutpagina\'s meer.',
     speed_pt1_desc:   'Razendsnel dankzij een online aanwezigheid die uw bedrijf helpt groeien.',
     speed_pt2_title:  'Elk bestand geoptimaliseerd.',
-    speed_pt2_desc:   'Te grote afbeeldingen, zinnen die wél te lezen zijn en potentiële klanten die gelijk kunnen zien wat u voor hen betekenen kunt.',
+    speed_pt2_desc:   'Afbeeldingen op maat, zinnen die wél te lezen zijn en potentiële klanten die gelijk kunnen zien wat u voor hen betekenen kunt.',
     speed_pt3_title:  'Geverifieerd, niet aangenomen.',
     speed_pt3_desc:   'Bevestigde resultaten, makkelijk te controleren om uw vertrouwen in DeeprBlu te garanderen.',
     svc_page_sub:   'Transparante pakketten voor bedrijven die een website willen laten maken die een blijvende indruk achterlaat.',
