@@ -124,12 +124,14 @@ if (countEls.length) {
         const el = entry.target;
         const target = parseFloat(el.getAttribute('data-count-to'));
         const suffix = el.getAttribute('data-count-suffix') || '';
+        const decimals = parseInt(el.getAttribute('data-count-decimals') || '0', 10);
         const duration = 1200;
         const start = performance.now();
         function tick(now) {
           const progress = Math.min((now - start) / duration, 1);
           const eased = 1 - Math.pow(1 - progress, 3);
-          el.textContent = Math.round(eased * target) + suffix;
+          const current = eased * target;
+          el.textContent = (decimals > 0 ? current.toFixed(decimals) : Math.round(current)) + suffix;
           if (progress < 1) requestAnimationFrame(tick);
         }
         requestAnimationFrame(tick);
