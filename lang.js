@@ -512,8 +512,8 @@ const TRANSLATIONS = {
 
     about_obs_label:       'Waarom Het Telt.',
     about_obs_title:       'De marktkloof is overal.',
-    about_obs_p1:          'Werken met lokale bedrijven maakte één ding duidelijk: talloze bedrijven draaien nog op verouderde websites, of hebben helemaal geen website. In een wereld waar jouw digitale aanwezigheid vaak de eerste indruk is die je maakt, kost die leemte hen elke dag nieuwe klanten.',
-    about_obs_p2:          'Een goed gebouwde website is jouw digitale visitekaartje. Het helpt je groeien, houdt je verbonden met klanten en vertelt jouw verhaal op jouw manier. Goed doordachte en zorgvuldig gebouwde webontwikkeling geeft je klanten alles wat ze willen weten, op één plek. Elk bedrijf verdient dat.',
+    about_obs_p1:          'Werken met lokale bedrijven maakte één ding duidelijk: talloze bedrijven draaien nog op verouderde websites, of hebben helemaal geen website. In een wereld waar uw digitale aanwezigheid vaak de eerste indruk is die u maakt, kost die leemte hen elke dag nieuwe klanten.',
+    about_obs_p2:          'Alles boven alles zorgt een goed gebouwde website ook voor meer klanten. Dit omdat jouw website fungeert als digitaal visitekaartje. Het helpt u groeien, houdt u verbonden met klanten en presenteert uw bedrijf op uw manier',
     about_process_label:   'Hoe het werkt.',
     about_process_1_title: 'Intake.',
     about_process_1_desc:  'We beginnen met een gesprek. Ik leer u persoonlijk kennen, uw bedrijf en uw wensen.',
