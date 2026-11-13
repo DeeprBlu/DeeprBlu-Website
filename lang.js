@@ -2,9 +2,9 @@
    DEEPRBLU MEDIA — lang.js
    Translation system: EN, NL, FR, DE
    ========================================= */
-
+ 
 const TRANSLATIONS = {
-
+ 
   en: {
     /* NAV */
     nav_home:       'Homepage.',
@@ -12,7 +12,7 @@ const TRANSLATIONS = {
     nav_about:      'About Us.',
     nav_portfolio:  'Portfolio.',
     nav_contact:    'Contact.',
-
+ 
     /* FOOTER */
     footer_contact:   'Contact.',
     footer_about:     'About Us.',
@@ -20,7 +20,7 @@ const TRANSLATIONS = {
     footer_policies:  'Cookie | Privacy Policies.',
     footer_copy:      '© Copyright 2026 | DeeprBluMedia',
     footer_location:  'Netherlands',
-
+ 
     /* INDEX — HERO */
     hero_line1:   'Growing a digital presence is hard.',
     hero_line2:   'We can help with that.',
@@ -28,13 +28,13 @@ const TRANSLATIONS = {
     hero_cta1:    'See Our Work.',
     hero_cta2:    'Contact Us.',
     hero_scroll:  'Scroll',
-
+ 
     /* INDEX — STRIP */
     strip_worldwide_num:   'Worldwide',
     strip_worldwide_label:  'Active',
     strip_focus_label:    'Delivery Time',
     strip_custom_label:   'Custom Design',
-
+ 
     /* INDEX — WHAT WE DO */
     lh_label:          'Built For Speed.',
     lh_title:          'This is the bar you want your site to clear.',
@@ -55,7 +55,7 @@ const TRANSLATIONS = {
     what_brand_desc:  'Logos and visual systems that make your brand unforgettable.',
     what_seo_title:   'Crystal Clear Process',
     what_seo_desc:    'A straightforward process with no surprises. We keep you informed every step of the way.',
-
+ 
     /* INDEX — PRICING */
     pricing_label:          'Our Packages.',
     pricing_title:          'No surprises.\nJust results.',
@@ -67,18 +67,18 @@ const TRANSLATIONS = {
     pricing_plus_name:      'Deep',
     pricing_plus_desc:      "The full package for businesses that don't play around.",
     pricing_more:           'More info.',
-
+ 
     /* INDEX — WORK PREVIEW */
     work_preview_label: 'Work in the Wild.',
     work_preview_title: 'See what gets built.',
     work_preview_desc:  "One of Australia's biggest Japanese Pok\u00e9mon TCG stores on eBay needed a professional website to match their reputation. A custom-built website, designed and delivered within a week.",
     work_preview_case:  'View Case Study.',
-
+ 
     /* INDEX. CTA BAND */
     cta_title: 'Ready to stand out?',
     cta_sub:   "Let's build something your customers won't forget.",
     cta_btn:   'Get in Touch.',
-
+ 
     /* SERVICES PAGE */
     svc_page_title: 'Services.',
     speed_label:      "How It's Built.",
@@ -92,7 +92,7 @@ const TRANSLATIONS = {
     svc_page_sub:   'Transparent packages for small businesses that want a website built right.',
     svc_section_label: "What's Included.",
     svc_section_title: 'Website design built to bring you more business.',
-
+ 
     svc_starter_tier:  'Tier 01',
     svc_starter_name:  'Shoreline',
     svc_starter_desc:  'A solid and clean website that tells your customers everything they need to know. Ideal for startups and small businesses building their first professional website.',
@@ -102,7 +102,7 @@ const TRANSLATIONS = {
     svc_starter_f4:    'Contact form integration',
     svc_starter_f5:    'Delivery within 7–10 business days',
     svc_starter_f6:    '1 round of revisions',
-
+ 
     svc_business_tier:  'Tier 02 · Most Popular',
     svc_business_name:  'Reef',
     svc_business_desc:  'Ideal for those who want to give their business a special digital touch. More pages, more personality, more power.',
@@ -113,7 +113,7 @@ const TRANSLATIONS = {
     svc_business_f5:    'Social media links & integration',
     svc_business_f6:    'Delivery within 10–14 business days',
     svc_business_f7:    '2 rounds of revisions',
-
+ 
     svc_plus_tier:  'Tier 03',
     svc_plus_name:  'Deep',
     svc_plus_desc:  "The full package for businesses that don't play around. Everything you need to dominate your local digital space.",
@@ -125,11 +125,11 @@ const TRANSLATIONS = {
     svc_plus_f6:    'Delivery within 14–21 business days',
     svc_plus_f7:    '3 rounds of revisions',
     svc_plus_f8:    '30-day post-launch support',
-
+ 
     svc_get_started: 'Get Started.',
     svc_ref_label:   'Built with this package.',
     svc_ref_link:    'View case study ↗',
-
+ 
     svc_faq_label:  'FAQ.',
     svc_faq_title:  'Good questions.',
     svc_faq_q1:     'What platform do you build on?',
@@ -140,13 +140,13 @@ const TRANSLATIONS = {
     svc_faq_a3:     'Yes. We deliver clean, well-structured code and provide a handover document so you or your team can make updates easily.',
     svc_faq_q4:     'Does it matter where my business is based?',
     svc_faq_a4:     "Not a problem. We're based in the Netherlands and work with clients across Europe and Australia, including Sydney, where some of our recent projects have been. Everything is handled online, so no matter where you are, we can build something great together.",
-
+ 
     svc_faq_q5:     'How much does a website cost?',
     svc_faq_a5:     'It depends on what you need. Our packages start from \u20ac200 for a simple site and scale up to fully custom builds for larger businesses. Check the packages above for a clear breakdown, or get in touch for a tailored quote.',
     svc_cta_title: 'Not sure which package fits?',
     svc_cta_sub:   "Reach out, and start adding more value to your business today.",
     svc_cta_btn:   'Talk to Us.',
-
+ 
     /* ABOUT PAGE */
     about_page_title: 'About Us.',
     about_page_sub:   'A young studio with a clear mission: make the digital world a more beautiful place, one website at a time.',
@@ -164,7 +164,7 @@ const TRANSLATIONS = {
     about_card_role:      'Founder · DeeprBlu Media',
     about_card_p1:        'Young studio from the Netherlands, based in Den Bosch. We are passionate about the intersection of clean design and business growth.',
     about_card_p2:        'We believe that every business deserves web development that looks as professional as the biggest brands, at a price that makes sense.',
-
+ 
     about_obs_label:       'Why It Matters.',
     about_obs_title:       'The market gap is everywhere.',
     about_obs_p1:          'Working with local businesses made one thing clear fast: countless companies are still running on outdated websites, or have no website at all. In a world where your digital presence is often the first impression you make, that gap is costing them customers every single day.',
@@ -176,17 +176,17 @@ const TRANSLATIONS = {
     about_process_2_desc:  "Within days, you get a working demo. A real, clickable version of your site. No mockups, no guesswork. You see exactly what's being developed for your company.",
     about_process_3_title: 'Delivery within a week.',
     about_process_3_desc:  'After your feedback and final revisions, the site goes live. Start to finish, the whole process takes about a week. Fast, focused, and built right.',
-
+ 
         about_cta_title: "Let's build something together.",
     about_cta_sub:   'Is your business not presented as professional online as it is in real life yet? Let\'s talk about it.',
     about_cta_btn:   'Contact Us.',
-
+ 
     /* CONTACT PAGE */
     contact_page_title: "Let's Talk.",
     contact_page_sub:   "Have a project in mind, a question, or just want to say hello? We'd love to hear from you.",
     contact_label:      'Get in Touch.',
     contact_title:      'More information?\nWant to make an inquiry?',
-    contact_intro:      "We work directly with every client, which means you'll always be talking to the person building your website. No account managers, no runaround.",
+    contact_intro:      "You’ll always be talking directly to the person building your website. No account managers, no runaround.",
     contact_ig_label:   'Instagram',
     contact_email_label:'E-mail',
     contact_li_label:   'LinkedIn',
@@ -216,7 +216,7 @@ const TRANSLATIONS = {
     contact_policy:     'By submitting, you agree to our',
     contact_abyss_opt: 'Abyss (on quote)',
     contact_policy_lnk: 'Privacy Policy',
-
+ 
     /* PORTFOLIO PAGE */
     cs_jd_label:            'Case Study.',
     cs_jd_title:            'JD PokeMuse — From eBay seller to a full digital presence.',
@@ -249,7 +249,7 @@ const TRANSLATIONS = {
     portfolio_dan_cite:     "Danilo, Founder of Danilo's Detailing",
     portfolio_dan_desc:     "Danilo's Detailing is a local Sydney car detailer who delivers premium detailing services for all types of vehicles.",
     cs_jd_stat3:            'Templates used',
-
+ 
         portfolio_page_title: 'Portfolio.',
     portfolio_page_sub:   "A growing collection of work we're proud of. Every project built from scratch, every client treated like a partner.",
     portfolio_label:      'Our Work.',
@@ -258,12 +258,12 @@ const TRANSLATIONS = {
     portfolio_poke_desc:  'Currently in development. Full case study to follow on launch.',
     portfolio_dan_desc:   "Danilo's Detailing is a local Sydney car detailer who delivers premium detailing services for all types of vehicles.",
     portfolio_more_title: 'More work on the way.',
-    portfolio_more_desc:  "We're a young studio building my first wave of projects. Interested in being part of our portfolio?",
+    portfolio_more_desc:  "We're a young studio building our first wave of projects. Interested in being part of our portfolio?",
     portfolio_more_btn:   'Work With Us.',
     portfolio_cta_title:  'Want your project here?',
     portfolio_cta_sub:    "Let's create something that'll benefit you more than DeeprBlu.",
     portfolio_cta_btn:    'Start a Project.',
-
+ 
     /* POLICIES PAGE */
     policies_page_title: 'Cookie & Privacy Policies.',
     policies_page_sub:   "We keep it simple and transparent. Here's exactly how we handle your data.",
@@ -317,7 +317,7 @@ const TRANSLATIONS = {
     policies_av_6_text: 'DeeprBlu Media is not liable for indirect or consequential damages. Liability is in all cases limited to the invoice amount of the relevant assignment.',
     policies_av_7_title: 'Article 7 — Applicable Law',
     policies_av_7_text: 'Dutch law applies to all agreements. Disputes will be submitted to the competent court in Den Bosch.',
-
+ 
     portfolio_jd_desc: 'JD PokeMuse is an online Australian Pokémon TCG store specialising in exclusive Japanese collections, with customers worldwide. As one of the biggest stores on eBay, they needed a professional site that matched their reputation.',
     portfolio_jd_quote: 'Very impressed with what was done in such time and mostly with own research. I like the design, pages, interactive elements.',
     portfolio_jd_cite: 'Gary, Founder of JD PokeMuse',
@@ -325,12 +325,12 @@ const TRANSLATIONS = {
     portfolio_jd_live: 'Live',
     portfolio_jd_loc: '🇦🇺 Sydney, Australia',
     portfolio_nyc_desc: 'A fictional Amsterdam coffee bar blending the raw energy of New York with Scandinavian design. Located in the Jordaan district, this coffee bar needed a site that felt as considered as the brand itself: warm, editorial, and distinctive.',
-    portfolio_nyc_quote: 'Our personal concept project demonstrating versatility between different industries.',
+    portfolio_nyc_quote: 'Our personal concept project demonstrating our versatility between different industries.',
     portfolio_nyc_cite: 'DeeprBlu Media, Concept Project',
     portfolio_nyc_case: 'Case Study',
     portfolio_nyc_loc: '🇳🇱 Amsterdam, Netherlands',
     portfolio_visit: 'Visit Site ↗',
-
+ 
     svc_pro_tier: 'Tier 04 · Abyss',
     svc_pro_name: 'Abyss',
     svc_pro_price: 'On quote',
@@ -347,7 +347,7 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Tailored delivery timeline',
     svc_seo_basic: 'Basic SEO setup',
     svc_seo_deepr: 'Deepr SEO setup',
-
+ 
     // Referral landing page
     ref_hero_line1: 'Interested?',
     ref_hero_line2: 'Work with Us.',
@@ -359,33 +359,33 @@ const TRANSLATIONS = {
     ref_pain_desc: "Every DeeprBlu client gets a site built from scratch, by hand, by the same person you'd be emailing. If you liked what you just saw, that's what working together with DeeprBlu looks like. Clear pricing, a working demo within days, and a live site within a week.",
     ref_btn_cta: 'Get Started. ✦',
   },
-
+ 
   nl: {
     nav_home:       'Homepage.',
     nav_services:   'Diensten.',
     nav_about:      'Over Ons.',
     nav_portfolio:  'Portfolio.',
     nav_contact:    'Contact.',
-
+ 
     footer_contact:   'Contact.',
     footer_about:     'Over Ons.',
     footer_services:  'Onze Diensten.',
     footer_policies:  'Cookie | Privacybeleid.',
     footer_copy:      '© Copyright 2026 | DeeprBluMedia',
     footer_location:  'Nederland',
-
+ 
     hero_line1:   'Een digitale aanwezigheid opbouwen is lastig.',
-    hero_line2:   'Daar help ik u graag mee.',
+    hero_line2:   'Daar helpen wij u graag mee.',
     hero_sub:     'De beste ideeën verdienen de juiste aanpak.',
     hero_cta1:    'Bekijk Ons Werk.',
     hero_cta2:    'Neem Contact Op.',
     hero_scroll:  'Scroll',
-
+ 
     strip_worldwide_num:   'Wereldwijd',
     strip_worldwide_label:  'Actief',
     strip_focus_label:    'Levertijd',
     strip_custom_label:   'Maatwerk Design',
-
+ 
     lh_label:          'Gebouwd Voor Snelheid.',
     lh_title:          'Dit is de lat waar elke website aan moet voldoen.',
     lh_sub:            'Geen uitzonderingen, geen bochten afsnijden.',
@@ -397,16 +397,16 @@ const TRANSLATIONS = {
     lh_score_label:     'Prestatiescore',
     lh_load_label:      'Laadtijd',
     lh_link:            'Bekijk hoe het gebouwd wordt. \u2192',
-    what_label:       'Wat Ik Doe.',
+    what_label:       'Wat Wij Doen.',
     what_title:       'Website design dat spreekt\nv\u00f3\u00f3r u dat doet.',
     what_web_title:   'Website Design',
     what_web_desc:    'Strakke, snelle websites die uw verhaal op de juiste manier vertellen.',
     what_brand_title: 'Merkidentiteit',
     what_brand_desc:  'Logo\'s en visuele systemen die uw merk onvergetelijk maken.',
     what_seo_title:   'Helder Proces',
-    what_seo_desc:    'Een transparant proces zonder verrassingen. Ik houd u elke stap op de hoogte.',
-
-    pricing_label:          'Mijn Pakketten.',
+    what_seo_desc:    'Een transparant proces zonder verrassingen. Wij houden u elke stap op de hoogte.',
+ 
+    pricing_label:          'Onze Pakketten.',
     pricing_title:          'Geen verrassingen.\nGewoon resultaat.',
     pricing_starter_name:   'Shoreline',
     pricing_starter_desc:   'Een solide en strakke website die uw klanten alles vertelt wat ze moeten weten.',
@@ -416,16 +416,16 @@ const TRANSLATIONS = {
     pricing_plus_name:      'Deep',
     pricing_plus_desc:      'Het volledige pakket voor bedrijven die geen compromissen sluiten.',
     pricing_more:           'Meer info.',
-
+ 
     work_preview_label: 'Live Werk.',
     work_preview_title: 'Zie wat er gebouwd wordt.',
     work_preview_desc:  'Een van Australi\u00ebs grootste Japanse Pok\u00e9mon TCG-winkels op eBay had een professionele website nodig die bij hun reputatie past. Deze volledig op maat gemaakte website werd ontworpen en opgeleverd binnen een week.',
     work_preview_case:  'Bekijk Case Study.',
-
+ 
     cta_title: 'Klaar om op te vallen?',
     cta_sub:   'Laten we iets bouwen dat uw klanten niet vergeten.',
     cta_btn:   'Neem Contact Op.',
-
+ 
     svc_page_title: 'Services.',
     speed_label:      'Zo Is Het Gebouwd.',
     speed_title:      'Snelheid is een must-have.',
@@ -438,7 +438,7 @@ const TRANSLATIONS = {
     svc_page_sub:   'Transparante pakketten voor bedrijven die een website willen laten maken die een blijvende indruk achterlaat.',
     svc_section_label: 'Inbegrepen.',
     svc_section_title: 'Een website laten maken die u meer klanten bezorgt.',
-
+ 
     svc_starter_tier:  'Tier 01',
     svc_starter_name:  'Shoreline',
     svc_starter_desc:  'Een solide en strakke website die uw klanten alles vertelt wat ze moeten weten. Ideaal voor zzp\'ers en kleine bedrijven die een professionele website willen laten maken.',
@@ -448,7 +448,7 @@ const TRANSLATIONS = {
     svc_starter_f4:    'Contactformulier-integratie',
     svc_starter_f5:    'Oplevering binnen 7–10 werkdagen',
     svc_starter_f6:    '1 revisieronde',
-
+ 
     svc_business_tier:  'Tier 02 · Meest Populair',
     svc_business_name:  'Reef',
     svc_business_desc:  'Ideaal voor wie zijn bedrijf een speciaal digitaal tintje wil geven. Meer pagina\'s, meer persoonlijkheid, meer kracht.',
@@ -459,7 +459,7 @@ const TRANSLATIONS = {
     svc_business_f5:    'Social media links & integratie',
     svc_business_f6:    'Oplevering binnen 10–14 werkdagen',
     svc_business_f7:    '2 revisierondes',
-
+ 
     svc_plus_tier:  'Tier 03',
     svc_plus_name:  'Deep',
     svc_plus_desc:  'Het volledige pakket voor bedrijven die geen compromissen sluiten. Alles wat u nodig heeft om digitaal te domineren.',
@@ -471,74 +471,74 @@ const TRANSLATIONS = {
     svc_plus_f6:    'Oplevering binnen 14–21 werkdagen',
     svc_plus_f7:    '3 revisierondes',
     svc_plus_f8:    '30 dagen support na lancering',
-
+ 
     svc_get_started: 'Aan de Slag.',
     svc_ref_label:   'Gebouwd met dit pakket.',
     svc_ref_link:    'Bekijk case study ↗',
-
+ 
     svc_faq_label:  'FAQ.',
     svc_faq_title:  'Goede vragen.',
     svc_faq_q1:     'Op welk platform bouwt u?',
-    svc_faq_a1:     'Ik bouw met sterke, erkende en vertrouwde coderingstalen. Geen omwegen, geen opgeblazen tools. Dit betekent snelle laadtijden, nette code en een solide SEO-basis.',
+    svc_faq_a1:     'Wij bouwen met sterke, erkende en vertrouwde coderingstalen. Geen omwegen, geen opgeblazen tools. Dit betekent snelle laadtijden, nette code en een solide SEO-basis.',
     svc_faq_q2:     'Regelt u ook hosting?',
-    svc_faq_a2:     'Jazeker. Ik begeleid u door het gehele proces, van begin tot eind.',
+    svc_faq_a2:     'Jazeker. Wij begeleiden u door het gehele proces, van begin tot eind.',
     svc_faq_q3:     'Kan ik de website zelf aanpassen?',
-    svc_faq_a3:     'Ja. Ik lever nette, goed gestructureerde code en een overdrachtshandleiding zodat u of uw team eenvoudig aanpassingen kunt maken.',
+    svc_faq_a3:     'Ja. Wij leveren nette, goed gestructureerde code en een overdrachtshandleiding zodat u of uw team eenvoudig aanpassingen kunt maken.',
     svc_faq_q4:     'Maakt het uit waar mijn bedrijf gevestigd is?',
-    svc_faq_a4:     'Geen probleem. Ik ben gevestigd in Den Bosch, Noord-Brabant, en werk met klanten door heel Nederland, waaronder Tilburg en Eindhoven, evenals in de rest van Europa en Australi\u00eb. Alles verloopt online, dus waar u ook bent, bouwen we samen iets moois.',
-
+    svc_faq_a4:     'Geen probleem. Wij zijn gevestigd in Den Bosch, Noord-Brabant, en werken met klanten door heel Nederland, waaronder Tilburg en Eindhoven, evenals in de rest van Europa en Australi\u00eb. Alles verloopt online, dus waar u ook bent, bouwen we samen iets moois.',
+ 
     svc_faq_q5:     'Wat kost het om een website te laten maken?',
-    svc_faq_a5:     'Dat hangt af van wat u nodig heeft. Mijn pakketten beginnen vanaf \u20ac200 voor een eenvoudige website en lopen op tot volledig maatwerk voor grotere bedrijven. Bekijk de pakketten hierboven voor een duidelijk overzicht, of neem gerust contact op voor persoonlijk advies.',
+    svc_faq_a5:     'Dat hangt af van wat u nodig heeft. Onze pakketten beginnen vanaf \u20ac200 voor een eenvoudige website en lopen op tot volledig maatwerk voor grotere bedrijven. Bekijk de pakketten hierboven voor een duidelijk overzicht, of neem gerust contact op voor persoonlijk advies.',
     svc_cta_title: 'Weet u niet welk pakket bij u past?',
-    svc_cta_sub:   'Neem contact op, en begin vandaag met meer digitale waarde voor uw bedrijf.',
+    svc_cta_sub:   'Neem contact op, en begin vandaag met meer waarde voor uw bedrijf.',
     svc_cta_btn:   'Contact opnemen.',
-
+ 
     about_page_title: 'Over Ons.',
     about_page_sub:   'Een jonge studio met een heldere missie: de digitale wereld mooier maken, één website tegelijk.',
-    about_story_label: 'Mijn Verhaal.',
+    about_story_label: 'Ons Verhaal.',
     about_story_title: 'DeeprBlu werd realiteit in 2025.',
-    about_p2: 'Vanuit Nederland bouw ik voor kleine en middelgrote bedrijven in Europa en Australi\u00eb, bedrijven die iets geweldigs te bieden hebben maar nog geen digitale aanwezigheid hebben die bij hun ambitie past.',
-    about_p3: 'Ik bereik dit door solide, zelfverzekerde gearticuleerde websites te maken die het design voor zichzelf laten spreken.',
+    about_p2: 'Vanuit Nederland bouwen wij voor kleine en middelgrote bedrijven in Europa en Australi\u00eb, bedrijven die iets geweldigs te bieden hebben maar nog geen digitale aanwezigheid hebben die bij hun ambitie past.',
+    about_p3: 'Wij bereiken dit door solide, zelfverzekerde gearticuleerde websites te maken die het design voor zichzelf laten spreken.',
     about_values_label:   'Waar DeeprBlu voor staat.',
     about_val1_title:     'Helderheid boven complexiteit.',
     about_val1_desc:      'Eenvoudig design verwijdert frictie. \u201cLess is more\u201d \u2014 Ludwig Mies van der Rohe (1886\u20131969).',
     about_val2_title:     'Vertrouwen in vakmanschap.',
-    about_val2_desc:      'Aandacht voor detail is een obsessie van mij.',
+    about_val2_desc:      'Aandacht voor detail is onze obsessie.',
     about_val3_title:     'Echte resultaten voor echte bedrijven.',
-    about_val3_desc:      'Mijn klanten zijn lokaal, mijn aanpak is persoonlijk en mijn doel is altijd hetzelfde: gevonden worden en gekozen worden.',
+    about_val3_desc:      'Onze klanten zijn lokaal, onze aanpak is persoonlijk en ons doel is altijd hetzelfde: gevonden worden en gekozen worden.',
     about_card_role:      'Oprichter · DeeprBlu Media',
-    about_card_p1:        'Jonge ondernemer uit Nederland, gevestigd in Den Bosch. Gepassioneerd door de combinatie van strak design en zakelijke groei.',
-    about_card_p2:        'Gelooft dat elk bedrijf webontwikkeling verdient die er zo professioneel uitziet als de grootste merken, voor een prijs die klopt.',
-
+    about_card_p1:        'Jonge studio uit Nederland, gevestigd in Den Bosch. Wij zijn gepassioneerd over de combinatie van strak design en zakelijke groei.',
+    about_card_p2:        'Wij geloven dat elk bedrijf webontwikkeling verdient die er zo professioneel uitziet als de grootste merken, voor een prijs die klopt.',
+ 
     about_obs_label:       'Waarom Het Telt.',
     about_obs_title:       'De marktkloof is overal.',
     about_obs_p1:          'Werken met lokale bedrijven maakte één ding duidelijk: talloze bedrijven draaien nog op verouderde websites, of hebben helemaal geen website. In een wereld waar uw digitale aanwezigheid vaak de eerste indruk is die u maakt, kost die leemte hen elke dag nieuwe klanten.',
     about_obs_p2:          'Alles boven alles zorgt een goed gebouwde website ook voor meer klanten. Dit omdat uw website fungeert als digitaal visitekaartje. Het helpt u groeien, houdt u verbonden met klanten en presenteert uw bedrijf op uw manier',
     about_process_label:   'Hoe het werkt.',
     about_process_1_title: 'Intake.',
-    about_process_1_desc:  'We beginnen met een gesprek. Ik leer u persoonlijk kennen, uw bedrijf en uw wensen.',
+    about_process_1_desc:  'We beginnen met een gesprek. We leren u persoonlijk kennen, uw bedrijf en uw wensen.',
     about_process_2_title: 'Eerste demo.',
     about_process_2_desc:  'Binnen enkele dagen ontvangt u een werkende demo. U ziet precies wat er mogelijk is.',
     about_process_3_title: 'Oplevering binnen een week.',
     about_process_3_desc:  'Na uw feedback en de laatste puntjes op de i gaat de site online.',
-
+ 
         about_cta_title: 'Laten we samen iets bouwen.',
     about_cta_sub:   'Is uw bedrijf online nog niet zo professioneel gepresenteerd als in het echte leven? Laten we erover praten.',
-    about_cta_btn:   'Neem Contact Met Mij Op.',
-
+    about_cta_btn:   'Neem Contact Met Ons Op.',
+ 
     contact_page_title: 'Laten We Praten.',
-    contact_page_sub:   'Heeft u een project in gedachten, een vraag, of wilt u gewoon hallo zeggen? Ik hoor graag van u.',
+    contact_page_sub:   'Heeft u een project in gedachten, een vraag, of wilt u gewoon hallo zeggen? Wij horen graag van u.',
     contact_label:      'Neem Contact Op.',
     contact_title:      'Meer informatie?\nEen aanvraag doen?',
-    contact_intro:      'Ik werk rechtstreeks met elke klant, wat betekent dat u altijd direct met mij spreekt. Geen accountmanagers, geen omwegen.',
+    contact_intro:      'U spreekt altijd rechtstreeks met de persoon die uw website bouwt. Geen accountmanagers, geen omwegen.',
     contact_ig_label:   'Instagram',
     contact_email_label:'E-mail',
     contact_li_label:   'LinkedIn',
     contact_li_val:     '@DeeprBlu',
     contact_loc_label:  'Locatie',
     contact_loc_val:    'Nederland',
-    contact_form_title: 'Stuur mij een bericht.',
-    contact_form_sub:   'U hoort binnen 24 uur van mij.',
+    contact_form_title: 'Stuur ons een bericht.',
+    contact_form_sub:   'U hoort binnen 24 uur van ons.',
     contact_fname:      'Voornaam',
     contact_lname:      'Achternaam',
     contact_email:      'E-mailadres',
@@ -555,18 +555,18 @@ const TRANSLATIONS = {
     contact_referral_wom: 'Mond-tot-mondreclame',
     contact_referral_other: 'Anders',
     contact_message:    'Uw Bericht',
-    contact_msg_ph:     'Vertel mij over uw bedrijf en wat u zoekt...',
+    contact_msg_ph:     'Vertel ons over uw bedrijf en wat u zoekt...',
     contact_send:       'Verstuur Bericht. ✦',
     contact_policy:     'Door te versturen gaat u akkoord met ons',
     contact_abyss_opt: 'Abyss (op offerte)',
     contact_policy_lnk: 'Privacybeleid',
-
+ 
     cs_jd_label:            'Case Study.',
     cs_jd_title:            'JD PokeMuse — Van eBay verkoper naar een volledig digitale aanwezigheid.',
     cs_jd_challenge_title:  'De uitdaging.',
     cs_jd_challenge_desc:   'Gary runt een van Australiës grootste Japanse Pokémon TCG-winkels op eBay, met klanten wereldwijd. Maar eBay alleen heeft beperkingen. Er was geen eigen website, geen plek om het merkverhaal te vertellen, geen digitaal thuis dat paste bij de schaal van wat hij had opgebouwd. Hij had iets professioneels nodig, snel en van de grond af opgebouwd.',
     cs_jd_approach_title:   'De aanpak.',
-    cs_jd_approach_desc:    'Vanaf nul heb ik een volledig op maat gemaakte website ontworpen en gebouwd die fungeert als zowel merkintroductie als funnel. Elke pagina is met intentie gebouwd: een homepage die direct vertrouwen uitstraalt, een productoverzicht dat alles dekt wat een klant wil weten, en een directe verbinding naar Gary\'s eBay-winkel. Geen templates, geen snelkoppelingen.',
+    cs_jd_approach_desc:    'Vanaf nul hebben wij een volledig op maat gemaakte website ontworpen en gebouwd die fungeert als zowel merkintroductie als funnel. Elke pagina is met intentie gebouwd: een homepage die direct vertrouwen uitstraalt, een productoverzicht dat alles dekt wat een klant wil weten, en een directe verbinding naar Gary\'s eBay-winkel. Geen templates, geen snelkoppelingen.',
     cs_jd_delivery_title:   'De oplevering.',
     cs_jd_delivery_desc:    'De volledige site werd ontworpen, gebouwd en opgeleverd binnen een week. Gary had vanaf dag één een live, professionele website die paste bij de reputatie van zijn bedrijf.',
     cs_jd_stat1:            'Week levertijd',
@@ -578,7 +578,7 @@ const TRANSLATIONS = {
     cs_dan_challenge_title: 'De uitdaging.',
     cs_dan_challenge_desc:  "De kwaliteit was er al, maar zonder website moesten potentiële klanten aankloppen via mond-tot-mondreclame of zijn Instagram.",
     cs_dan_approach_title:  'De aanpak.',
-    cs_dan_approach_desc:   "Ik bouwde een volledig op maat gemaakte single-page site die het bedrijf direct als professioneel positioneert. Strak ontwerp, duidelijke hiërarchie en een heldere route naar een boeking. Diensten, team en contact, alles op één plek, van de grond af opgebouwd.",
+    cs_dan_approach_desc:   "Wij bouwden een volledig op maat gemaakte single-page site die het bedrijf direct als professioneel positioneert. Strak ontwerp, duidelijke hiërarchie en een heldere route naar een boeking. Diensten, team en contact, alles op één plek, van de grond af opgebouwd.",
     cs_dan_delivery_title:  'De oplevering.',
     cs_dan_delivery_desc:   "Van concept tot live site in minder dan een week. Danilo heeft nu een professionele online aanwezigheid die past bij de kwaliteit van zijn werk, klaar om vanaf dag één nieuwe klanten aan te trekken.",
     cs_dan_stat1:           'Week levertijd',
@@ -590,23 +590,23 @@ const TRANSLATIONS = {
     tag_local_business:      'Lokaal Bedrijf',
     cs_dan_stat3:           'Templates gebruikt',
     portfolio_dan_desc:     "Danilo's Detailing is een lokale autodetailer in Sydney die premium detailing levert voor alle soorten voertuigen.",
-
+ 
         portfolio_page_title: 'Portfolio.',
-    portfolio_page_sub:   'Een groeiende collectie werk waar ik trots op ben. Elk project gebouwd vanaf nul, elke klant behandeld als een partner.',
-    portfolio_label:      'Mijn Werk.',
-    portfolio_title:      'Mijn Projecten.',
+    portfolio_page_sub:   'Een groeiende collectie werk waar wij trots op zijn. Elk project gebouwd vanaf nul, elke klant behandeld als een partner.',
+    portfolio_label:      'Ons Werk.',
+    portfolio_title:      'Onze Projecten.',
     portfolio_soon:       'Binnenkort',
     portfolio_poke_desc:  'Momenteel in ontwikkeling. Volledige case study volgt na lancering.',
     portfolio_dan_desc:   "Danilo's Detailing is een lokale autodetailer in Sydney die premium detailing levert voor alle soorten voertuigen.",
     portfolio_dan_quote:    '"Precies wat we zochten. Professioneel, strak en klaar om live te gaan."',
     portfolio_dan_cite:     "Danilo, Oprichter van Danilo's Detailing",
     portfolio_more_title: 'Meer werk is onderweg.',
-    portfolio_more_desc:  'Ik bouw mijn eerste golf aan projecten. Wilt u deel uitmaken van mijn portfolio?',
-    portfolio_more_btn:   'Werk Met Mij.',
+    portfolio_more_desc:  'Wij zijn een jonge studio die onze eerste golf aan projecten opbouwt. Wilt u deel uitmaken van ons portfolio?',
+    portfolio_more_btn:   'Werk Met Ons.',
     portfolio_cta_title:  'Wilt u hier ook komen te staan?',
     portfolio_cta_sub:    'Laten we iets maken dat jou meer oplevert dan DeeprBlu.',
     portfolio_cta_btn:    'Start een Project.',
-
+ 
     policies_page_title: 'Cookie & Privacybeleid.',
     policies_page_sub:   'Wij houden het eenvoudig en transparant. Zo gaan wij precies om met uw gegevens.',
     policies_updated:    'Laatst bijgewerkt: maart 2026',
@@ -659,7 +659,7 @@ const TRANSLATIONS = {
     policies_av_6_text: 'DeeprBlu Media is niet aansprakelijk voor indirecte schade of gevolgschade. De aansprakelijkheid is in alle gevallen beperkt tot het factuurbedrag van de betreffende opdracht.',
     policies_av_7_title: 'Artikel 7 — Toepasselijk Recht',
     policies_av_7_text: 'Op alle overeenkomsten is Nederlands recht van toepassing. Geschillen worden voorgelegd aan de bevoegde rechter in Den Bosch.',
-
+ 
     portfolio_jd_desc: 'JD PokeMuse is een online Australische Pokémon TCG-winkel gespecialiseerd in exclusieve Japanse collecties, met klanten wereldwijd. Als een van de grootste winkels op eBay hadden zij een professionele website nodig die hun reputatie weerspiegelt.',
     portfolio_jd_quote: 'Zeer onder de indruk van wat er in zo\'n korte tijd is gedaan, grotendeels op basis van eigen onderzoek. Ik ben fan van het design, de pagina\'s en de interactieve elementen.',
     portfolio_jd_cite: 'Gary, Oprichter van JD PokeMuse',
@@ -667,12 +667,12 @@ const TRANSLATIONS = {
     portfolio_jd_live: 'Live',
     portfolio_jd_loc: '🇦🇺 Sydney, Australië',
     portfolio_nyc_desc: 'Een fictief Amsterdams koffietentje dat de rauwe energie van New York mengt met Scandinavisch design. Gevestigd in de Jordaan, had dit koffietentje een website nodig die net zo doordacht aanvoelt als het merk zelf: warm, redactioneel en onderscheidend.',
-    portfolio_nyc_quote: 'Mijn persoonlijke conceptproject dat mijn veelzijdigheid tussen verschillende sectoren aantoont.',
+    portfolio_nyc_quote: 'Ons persoonlijke conceptproject dat onze veelzijdigheid tussen verschillende sectoren aantoont.',
     portfolio_nyc_cite: 'DeeprBlu Media, Conceptproject',
     portfolio_nyc_case: 'Casestudy',
     portfolio_nyc_loc: '🇳🇱 Amsterdam, Nederland',
     portfolio_visit: 'Bezoek Site ↗',
-
+ 
     svc_pro_tier: 'Tier 04 · Abyss',
     svc_pro_name: 'Abyss',
     svc_pro_price: 'Op offerte',
@@ -689,7 +689,7 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Maatwerk leveringstermijn',
     svc_seo_basic: 'Basis SEO-instelling',
     svc_seo_deepr: 'Deepr SEO-instelling',
-
+ 
     // Referral landing page
     ref_hero_line1: 'Interesse?',
     ref_hero_line2: 'Werk met mij.',
@@ -701,33 +701,33 @@ const TRANSLATIONS = {
     ref_pain_desc: 'Elke DeeprBlu-klant krijgt een site die volledig met de hand is gebouwd, door dezelfde persoon die je zou mailen. Als je waardeert wat je net zag, dan is dat hoe samenwerken met DeeprBlu eruitziet. Dat betekent duidelijke prijzen, een werkende demo binnen enkele dagen, en een live site binnen een week.',
     ref_btn_cta: 'Ga van Start. ✦',
   },
-
+ 
   fr: {
     nav_home:       'Accueil.',
     nav_services:   'Services.',
     nav_about:      'À Propos.',
     nav_portfolio:  'Portfolio.',
     nav_contact:    'Contact.',
-
+ 
     footer_contact:   'Contact.',
     footer_about:     'À Propos.',
     footer_services:  'Nos Services.',
     footer_policies:  'Cookies | Politique de confidentialité.',
     footer_copy:      '© Copyright 2026 | DeeprBluMedia',
     footer_location:  'Pays-Bas',
-
+ 
     hero_line1:   'D\u00e9velopper une pr\u00e9sence digitale, c\'est difficile.',
-    hero_line2:   'Je peux vous aider.',
+    hero_line2:   'Nous pouvons vous aider.',
     hero_sub:     'Les grandes idées commencent par la bonne approche.',
     hero_cta1:    'Voir Nos Réalisations.',
     hero_cta2:    'Nous Contacter.',
     hero_scroll:  'Défiler',
-
+ 
     strip_worldwide_num:   'International',
     strip_worldwide_label:  'Actif',
     strip_focus_label:    'Délai de Livraison',
     strip_custom_label:   'Design Sur Mesure',
-
+ 
     lh_label:          'Con\u00e7u Pour La Vitesse.',
     lh_title:          'C\u2019est la norme que chaque site doit atteindre.',
     lh_sub:            'Aucune exception, aucun raccourci. Chaque projet est construit selon cette m\u00eame norme, et vous pouvez le v\u00e9rifier vous-m\u00eame.',
@@ -739,16 +739,16 @@ const TRANSLATIONS = {
     lh_score_label:     'Score de Performance',
     lh_load_label:      'Temps de Chargement',
     lh_link:            'D\u00e9couvrez comment c\u2019est construit \u2192',
-    what_label:       'Ce Que Je Fais.',
+    what_label:       'Ce Que Nous Faisons.',
     what_title:       'Un site web qui parle\navant vous.',
     what_web_title:   'Création de Sites Web',
     what_web_desc:    'Des sites web épurés, rapides et axés sur la conversion qui racontent votre histoire.',
     what_brand_title: 'Identité de Marque',
     what_brand_desc:  'Des logos et systèmes visuels qui rendent votre marque inoubliable.',
     what_seo_title:   'Processus Clair',
-    what_seo_desc:    'Un processus transparent sans surprises. Je vous tiens informé à chaque étape.',
-
-    pricing_label:          'Mes Forfaits.',
+    what_seo_desc:    'Un processus transparent sans surprises. Nous vous tenons informés à chaque étape.',
+ 
+    pricing_label:          'Nos Forfaits.',
     pricing_title:          'Sans surprises.\nJuste des résultats.',
     pricing_starter_name:   'Shoreline',
     pricing_starter_desc:   'Un site web solide et épuré qui dit à vos clients tout ce qu\'ils ont besoin de savoir.',
@@ -758,16 +758,16 @@ const TRANSLATIONS = {
     pricing_plus_name:      'Deep',
     pricing_plus_desc:      'Le forfait complet pour les entreprises qui ne font pas de compromis.',
     pricing_more:           'Plus d\'infos.',
-
+ 
     work_preview_label: 'Travaux en Ligne.',
     work_preview_title: 'Voyez ce qui se construit.',
     work_preview_desc:  "L'une des plus grandes boutiques australiennes de Pok\u00e9mon TCG japonais sur eBay avait besoin d'un site professionnel \u00e0 la hauteur de sa r\u00e9putation. Ce site enti\u00e8rement sur mesure a \u00e9t\u00e9 con\u00e7u et livr\u00e9 en une semaine.",
     work_preview_case:  "Voir l'Étude de Cas.",
-
-    cta_title: 'Prêt à vous démarquer ?',
+ 
+    cta_title: 'Prêt à vous démarquer ?',
     cta_sub:   'Créons quelque chose que vos clients n\'oublieront pas.',
     cta_btn:   'Prendre Contact.',
-
+ 
     svc_page_title: 'Services.',
     speed_label:      "Comment C'est Construit.",
     speed_title:      'La vitesse est indispensable.',
@@ -780,7 +780,7 @@ const TRANSLATIONS = {
     svc_page_sub:   'Des forfaits transparents pour les petites entreprises qui veulent un site internet bien con\u00e7u.',
     svc_section_label: 'Ce Qui Est Inclus.',
     svc_section_title: 'Un site internet pens\u00e9 pour vous apporter plus de clients.',
-
+ 
     svc_starter_tier:  'Niveau 01',
     svc_starter_name:  'Shoreline',
     svc_starter_desc:  'Un site web solide et \u00e9pur\u00e9 qui dit \u00e0 vos clients tout ce qu\'ils ont besoin de savoir. Id\u00e9al pour les ind\u00e9pendants et petites entreprises qui cr\u00e9ent leur premier site professionnel.',
@@ -790,7 +790,7 @@ const TRANSLATIONS = {
     svc_starter_f4:    'Intégration formulaire de contact',
     svc_starter_f5:    'Livraison en 7–10 jours ouvrables',
     svc_starter_f6:    '1 cycle de révisions',
-
+ 
     svc_business_tier:  'Niveau 02 · Le Plus Populaire',
     svc_business_name:  'Reef',
     svc_business_desc:  'Idéal pour ceux qui veulent donner à leur entreprise une touche digitale particulière. Plus de pages, plus de personnalité, plus de puissance.',
@@ -801,7 +801,7 @@ const TRANSLATIONS = {
     svc_business_f5:    'Liens & intégration réseaux sociaux',
     svc_business_f6:    'Livraison en 10–14 jours ouvrables',
     svc_business_f7:    '2 cycles de révisions',
-
+ 
     svc_plus_tier:  'Niveau 03',
     svc_plus_name:  'Deep',
     svc_plus_desc:  'Le forfait complet pour les entreprises qui ne font pas de compromis. Tout ce dont vous avez besoin pour dominer votre espace digital.',
@@ -813,79 +813,79 @@ const TRANSLATIONS = {
     svc_plus_f6:    'Livraison en 14–21 jours ouvrables',
     svc_plus_f7:    '3 cycles de révisions',
     svc_plus_f8:    'Support 30 jours après lancement',
-
+ 
     svc_get_started: 'Commencer.',
     svc_ref_label:   'Construit avec ce forfait.',
     svc_ref_link:    'Voir l\'étude de cas ↗',
-
+ 
     svc_faq_label:  'FAQ.',
     svc_faq_title:  'Bonnes questions.',
-    svc_faq_q1:     'Sur quelle plateforme construisez-vous ?',
-    svc_faq_a1:     'Je développe avec des langages de programmation solides, reconnus et fiables. Sans raccourcis ni outils lourds. Cela garantit des temps de chargement rapides, un code propre et de bonnes bases SEO.',
-    svc_faq_q2:     'Proposez-vous aussi l\'hébergement ?',
-    svc_faq_a2:     'Absolument. Je vous accompagne tout au long du processus, du début à la fin.',
-    svc_faq_q3:     'Puis-je mettre à jour le site moi-même ?',
-    svc_faq_a3:     'Oui. Je livre un code propre et bien structuré avec un document de passation pour que vous puissiez faire des mises à jour facilement.',
-    svc_faq_q4:     'La localisation de mon entreprise a-t-elle une importance ?',
-    svc_faq_a4:     'Aucun probl\u00e8me. Je suis bas\u00e9 \u00e0 Den Bosch, aux Pays-Bas, et je travaille avec des clients dans toute l\'Europe et en Australie. Tout se passe en ligne, donc o\u00f9 que vous soyez, nous pouvons cr\u00e9er quelque chose de remarquable ensemble.',
-
+    svc_faq_q1:     'Sur quelle plateforme construisez-vous ?',
+    svc_faq_a1:     'Nous développons avec des langages de programmation solides, reconnus et fiables. Sans raccourcis ni outils lourds. Cela garantit des temps de chargement rapides, un code propre et de bonnes bases SEO.',
+    svc_faq_q2:     'Proposez-vous aussi l\'hébergement ?',
+    svc_faq_a2:     'Absolument. Nous vous accompagnons tout au long du processus, du début à la fin.',
+    svc_faq_q3:     'Puis-je mettre à jour le site moi-même ?',
+    svc_faq_a3:     'Oui. Nous livrons un code propre et bien structuré avec un document de passation pour que vous puissiez faire des mises à jour facilement.',
+    svc_faq_q4:     'La localisation de mon entreprise a-t-elle une importance ?',
+    svc_faq_a4:     'Aucun probl\u00e8me. Nous sommes bas\u00e9s \u00e0 Den Bosch, aux Pays-Bas, et nous travaillons avec des clients dans toute l\'Europe et en Australie. Tout se passe en ligne, donc o\u00f9 que vous soyez, nous pouvons cr\u00e9er quelque chose de remarquable ensemble.',
+ 
     svc_faq_q5:     'Combien co\u00fbte un site internet ?',
-    svc_faq_a5:     'Cela d\u00e9pend de vos besoins. Mes forfaits commencent \u00e0 200\u20ac pour un site simple et \u00e9voluent vers des solutions enti\u00e8rement sur mesure pour les entreprises plus importantes. Consultez les forfaits ci-dessus pour un aper\u00e7u clair, ou contactez-moi pour un devis personnalis\u00e9.',
-    svc_cta_title: 'Vous ne savez pas quel forfait choisir ?',
-    svc_cta_sub:   'Contactez-moi, et commencez d\u00e8s aujourd\'hui \u00e0 ajouter plus de valeur digitale \u00e0 votre entreprise.',
+    svc_faq_a5:     'Cela d\u00e9pend de vos besoins. Nos forfaits commencent \u00e0 200\u20ac pour un site simple et \u00e9voluent vers des solutions enti\u00e8rement sur mesure pour les entreprises plus importantes. Consultez les forfaits ci-dessus pour un aper\u00e7u clair, ou contactez-nous pour un devis personnalis\u00e9.',
+    svc_cta_title: 'Vous ne savez pas quel forfait choisir ?',
+    svc_cta_sub:   'Contactez-nous, et commencez d\u00e8s aujourd\'hui \u00e0 ajouter plus de valeur \u00e0 votre entreprise.',
     svc_cta_btn:   'Contactez-nous.',
-
+ 
     about_page_title: 'À Propos.',
     about_page_sub:   'Un jeune studio avec une mission claire : rendre le monde digital plus beau, un site à la fois.',
-    about_story_label: 'Mon Histoire.',
+    about_story_label: 'Notre Histoire.',
     about_story_title: 'DeeprBlu est devenu réalité en 2025.',
-    about_p2: 'Bas\u00e9 aux Pays-Bas, je con\u00e7ois des sites pour les petites et moyennes entreprises en Europe et en Australie, des entreprises qui ont quelque chose de formidable \u00e0 offrir mais qui n\'ont pas encore une pr\u00e9sence digitale \u00e0 la hauteur de leurs ambitions.',
-    about_p3: 'J\'y parviens en créant des sites web solides et affirmés qui laissent le design parler de lui-même. Pas de templates, pas de raccourcis.',
+    about_p2: 'Bas\u00e9s aux Pays-Bas, nous concevons des sites pour les petites et moyennes entreprises en Europe et en Australie, des entreprises qui ont quelque chose de formidable \u00e0 offrir mais qui n\'ont pas encore une pr\u00e9sence digitale \u00e0 la hauteur de leurs ambitions.',
+    about_p3: 'Nous y parvenons en créant des sites web solides et affirmés qui laissent le design parler de lui-même. Pas de templates, pas de raccourcis.',
     about_values_label:   'Ce en quoi DeeprBlu croit.',
     about_val1_title:     'Clarté avant complexité.',
     about_val1_desc:      'Un design simple réduit les frictions. \u201cLess is more\u201d \u2014 Ludwig Mies van der Rohe (1886\u20131969).',
     about_val2_title:     'Confiance dans le savoir-faire.',
-    about_val2_desc:      'Je ne fais pas dans la médiocrité, l\'attention aux détails est une obsession chez moi.',
+    about_val2_desc:      'Nous ne faisons pas dans la médiocrité, l’attention aux détails est une obsession chez nous.',
     about_val3_title:     'De vrais résultats pour de vraies entreprises.',
-    about_val3_desc:      'Mes clients sont locaux, mon approche est personnelle et mon objectif est toujours le même : être trouvé et être choisi.',
+    about_val3_desc:      'Nos clients sont locaux, notre approche est personnelle et notre objectif est toujours le même : être trouvé et être choisi.',
     about_card_role:      'Fondateur · DeeprBlu Media',
-    about_card_p1:        'Jeune entrepreneur des Pays-Bas, basé à Den Bosch. Passionné par l\'intersection entre le design épuré et la croissance des entreprises.',
-    about_card_p2:        'Convaincu que chaque entreprise mérite un développement web aussi professionnel que les plus grandes marques, à un prix raisonnable.',
-
+    about_card_p1:        'Jeune studio des Pays-Bas, basé à Den Bosch. Nous sommes passionnés par l’intersection entre le design épuré et la croissance des entreprises.',
+    about_card_p2:        'Nous sommes convaincus que chaque entreprise mérite un développement web aussi professionnel que les plus grandes marques, à un prix raisonnable.',
+ 
     about_obs_label:       'Pourquoi C\'est Important.',
     about_obs_title:       'L\'écart de marché est partout.',
     about_obs_p1:          'Travailler avec des entreprises locales a vite rendu une chose évidente : d\'innombrables entreprises fonctionnent encore avec des sites web dépassés, ou n\'en ont pas du tout. Dans un monde où votre présence digitale est souvent la première impression que vous donnez, ce manque leur coûte des clients chaque jour.',
     about_obs_p2:          'Un site web bien conçu est votre carte de visite digitale. Il vous aide à grandir, vous maintient en contact avec vos clients et raconte votre histoire selon vos termes. Un développement web bien pensé et méticuleusement construit donne à vos clients tout ce qu\'ils veulent savoir, au même endroit. Chaque entreprise mérite cela.',
     about_process_label:   'Comment ça marche.',
     about_process_1_title: 'Consultation.',
-    about_process_1_desc:  'Nous commençons par une conversation. J\'apprends à vous connaître personnellement, votre entreprise, vos objectifs et ce que vous attendez de votre site web.',
+    about_process_1_desc:  'Nous commençons par une conversation. Nous apprenons à vous connaître personnellement, votre entreprise, vos objectifs et ce que vous attendez de votre site web.',
     about_process_2_title: 'Première démo.',
     about_process_2_desc:  'En quelques jours, vous recevez une démo fonctionnelle. Une vraie version cliquable de votre site. Pas de maquettes, pas de suppositions. Vous voyez exactement ce qui est développé pour votre entreprise.',
     about_process_3_title: 'Livraison en une semaine.',
     about_process_3_desc:  'Après vos retours et les dernières révisions, le site est mis en ligne. Du début à la fin, tout le processus prend environ une semaine. Rapide, concentré et bien construit.',
-
+ 
         about_cta_title: 'Construisons quelque chose ensemble.',
     about_cta_sub:   'Votre entreprise n\'est-elle pas encore présentée en ligne aussi professionnellement que dans la vraie vie ? Parlons-en.',
-    about_cta_btn:   'Me Contacter.',
-
+    about_cta_btn:   'Nous Contacter.',
+ 
     contact_page_title: 'Contactez-nous.',
-    contact_page_sub:   'Vous avez un projet, une question, ou vous voulez simplement dire bonjour ? Je serais ravi de vous entendre.',
+    contact_page_sub:   'Vous avez un projet, une question, ou vous voulez simplement dire bonjour ? Nous serions ravis de vous entendre.',
     contact_label:      'Prendre Contact.',
-    contact_title:      'Plus d\'informations ?\nUne demande à faire ?',
-    contact_intro:      'Je travaille directement avec chaque client, ce qui signifie que vous parlez toujours avec la personne qui construit votre site. Pas d\'intermédiaires.',
+    contact_title:      'Plus d\'informations ?\nUne demande à faire ?',
+    contact_intro:      'Vous parlez toujours directement avec la personne qui construit votre site. Pas d’intermédiaires, pas de détours.',
     contact_ig_label:   'Instagram',
     contact_email_label:'E-mail',
     contact_li_label:   'LinkedIn',
     contact_li_val:     '@DeeprBlu',
     contact_loc_label:  'Localisation',
     contact_loc_val:    'Pays-Bas',
-    contact_form_title: 'Envoyez-moi un message.',
-    contact_form_sub:   'Je vous répondrai dans les 24 heures.',
+    contact_form_title: 'Envoyez-nous un message.',
+    contact_form_sub:   'Nous vous répondrons dans les 24 heures.',
     contact_fname:      'Prénom',
     contact_lname:      'Nom',
     contact_email:      'Adresse e-mail',
     contact_company:    'Nom de l\'entreprise',
-    contact_service:    'Qu\'est-ce qui vous intéresse ?',
+    contact_service:    'Qu\'est-ce qui vous intéresse ?',
     contact_select:     'Choisissez un forfait...',
     contact_other:      'Juste une question / Autre',
     contact_referral: 'Comment nous avez-vous connus ?',
@@ -897,18 +897,18 @@ const TRANSLATIONS = {
     contact_referral_wom: 'Bouche-à-Oreille',
     contact_referral_other: 'Autre',
     contact_message:    'Votre Message',
-    contact_msg_ph:     'Parlez-moi de votre entreprise et de ce que vous recherchez...',
+    contact_msg_ph:     'Parlez-nous de votre entreprise et de ce que vous recherchez...',
     contact_send:       'Envoyer le Message. ✦',
     contact_policy:     'En soumettant, vous acceptez notre',
     contact_abyss_opt: 'Abyss (sur devis)',
     contact_policy_lnk: 'Politique de confidentialité',
-
+ 
     cs_jd_label:            'Étude de Cas.',
     cs_jd_title:            'JD PokeMuse — Du vendeur eBay à une présence digitale complète.',
     cs_jd_challenge_title:  'Le défi.',
     cs_jd_challenge_desc:   'Gary gère l\'une des plus grandes boutiques australiennes de Pokémon TCG japonais sur eBay, avec des clients dans le monde entier. Mais eBay seul a ses limites. Il n\'y avait pas de site dédié, pas d\'endroit pour raconter l\'histoire de la marque, pas de maison digitale à la hauteur de ce qu\'il avait construit. Il avait besoin de quelque chose de professionnel, rapide et construit de zéro.',
     cs_jd_approach_title:   'L\'approche.',
-    cs_jd_approach_desc:    'En partant de zéro, j\'ai conçu et construit un site entièrement sur mesure qui fonctionne à la fois comme introduction de marque et comme funnel. Chaque page a été construite avec intention: une page d\'accueil qui inspire confiance instantanément, un aperçu des produits couvrant tout ce qu\'un client veut savoir, et une connexion directe à la boutique eBay de Gary. Pas de templates, pas de raccourcis.',
+    cs_jd_approach_desc:    'En partant de zéro, nous avons conçu et construit un site entièrement sur mesure qui fonctionne à la fois comme introduction de marque et comme funnel. Chaque page a été construite avec intention: une page d\'accueil qui inspire confiance instantanément, un aperçu des produits couvrant tout ce qu\'un client veut savoir, et une connexion directe à la boutique eBay de Gary. Pas de templates, pas de raccourcis.',
     cs_jd_delivery_title:   'La livraison.',
     cs_jd_delivery_desc:    'Le site complet a été conçu, construit et livré en une semaine. Gary avait dès le premier jour un site web professionnel en ligne qui correspondait à la réputation de son entreprise.',
     cs_jd_stat1:            'Semaine de livraison',
@@ -920,7 +920,7 @@ const TRANSLATIONS = {
     cs_dan_challenge_title: 'Le défi.',
     cs_dan_challenge_desc:  "La qualité du travail était là, mais sans site web, les clients potentiels devaient passer par le bouche-à-oreille ou son Instagram pour le trouver.",
     cs_dan_approach_title:  "L'approche.",
-    cs_dan_approach_desc:   "J'ai construit un site single-page entièrement sur mesure qui positionne l'entreprise comme professionnelle dès le premier défilement. Mise en page épurée, hiérarchie claire et chemin direct vers la réservation. Services, équipe et contact, tout en un seul endroit, construit de zéro.",
+    cs_dan_approach_desc:   "Nous avons construit un site single-page entièrement sur mesure qui positionne l'entreprise comme professionnelle dès le premier défilement. Mise en page épurée, hiérarchie claire et chemin direct vers la réservation. Services, équipe et contact, tout en un seul endroit, construit de zéro.",
     cs_dan_delivery_title:  'La livraison.',
     cs_dan_delivery_desc:   "Du concept au site en ligne en moins d'une semaine. Danilo dispose désormais d'une présence en ligne professionnelle à la hauteur de son travail, prête à attirer de nouveaux clients dès le premier jour.",
     cs_dan_stat1:           'Semaine de livraison',
@@ -932,23 +932,23 @@ const TRANSLATIONS = {
     tag_local_business:      'Entreprise Locale',
     cs_dan_stat3:           'Templates utilisés',
     portfolio_dan_desc:     "Danilo's Detailing est un detailer automobile local à Sydney qui propose des services de detailing premium pour tous types de véhicules.",
-
+ 
         portfolio_page_title: 'Portfolio.',
-    portfolio_page_sub:   'Une collection croissante de travaux dont je suis fier. Chaque projet construit de zéro, chaque client traité comme un partenaire.',
-    portfolio_label:      'Mes Réalisations.',
-    portfolio_title:      'Mes Projets.',
+    portfolio_page_sub:   'Une collection croissante de travaux dont nous sommes fiers. Chaque projet construit de zéro, chaque client traité comme un partenaire.',
+    portfolio_label:      'Nos Réalisations.',
+    portfolio_title:      'Nos Projets.',
     portfolio_soon:       'Bientôt',
     portfolio_poke_desc:  'En cours de développement. Étude de cas à suivre après le lancement.',
     portfolio_dan_desc:   "Danilo's Detailing est un detailer automobile local à Sydney qui propose des services de detailing premium pour tous types de véhicules.",
     portfolio_dan_quote:    '"Exactement ce que nous recherchions. Professionnel, soigné et prêt à être mis en ligne."',
     portfolio_dan_cite:     "Danilo, Fondateur de Danilo's Detailing",
     portfolio_more_title: 'D\'autres projets arrivent.',
-    portfolio_more_desc:  'Je construis ma première vague de projets. Vous souhaitez faire partie de mon portfolio ?',
-    portfolio_more_btn:   'Travaillez Avec Moi.',
-    portfolio_cta_title:  'Votre projet mérite d\'être ici ?',
+    portfolio_more_desc:  'Nous construisons notre première vague de projets. Vous souhaitez faire partie de notre portfolio ?',
+    portfolio_more_btn:   'Travaillez Avec Nous.',
+    portfolio_cta_title:  'Votre projet mérite d\'être ici ?',
     portfolio_cta_sub:    'Créons quelque chose qui vous profite plus qu\'à DeeprBlu.',
     portfolio_cta_btn:    'Démarrer un Projet.',
-
+ 
     policies_page_title: 'Cookies & Politique de Confidentialité.',
     policies_page_sub:   'Nous restons simples et transparents. Voici exactement comment nous gérons vos données.',
     policies_updated:    'Dernière mise à jour : mars 2026',
@@ -985,7 +985,7 @@ const TRANSLATIONS = {
     policies_cookie_third_text: 'Les services tiers int\u00e9gr\u00e9s \u00e0 notre site peuvent placer leurs propres cookies. Nous ne contr\u00f4lons pas ces cookies, veuillez donc consulter les politiques de confidentialit\u00e9 de ces services.',
     policies_contact_title: 'Contact',
     policies_contact_text: 'Si vous avez des questions sur cette politique ou souhaitez exercer vos droits, veuillez nous contacter :',
-
+ 
     portfolio_jd_desc: 'JD PokeMuse est une boutique australienne en ligne spécialisée dans les collections exclusives de Pokémon TCG japonais, avec des clients dans le monde entier. En tant qu\'une des plus grandes boutiques sur eBay, ils avaient besoin d\'un site professionnel à la hauteur de leur réputation.',
     policies_av_title: 'Conditions Générales',
     policies_av_intro: 'Ces conditions générales s\'appliquent à toutes les offres, devis et accords entre DeeprBlu Media et le client.',
@@ -1009,12 +1009,12 @@ const TRANSLATIONS = {
     portfolio_jd_live: 'En ligne',
     portfolio_jd_loc: '🇦🇺 Sydney, Australie',
     portfolio_nyc_desc: 'Un caf\u00e9 fictif \u00e0 Amsterdam m\u00ealant l\'\u00e9nergie brute de New York au design scandinave. Situ\u00e9 dans le Jordaan, ce caf\u00e9 avait besoin d\'un site aussi r\u00e9fl\u00e9chi que la marque elle-m\u00eame\u00a0: chaleureux, \u00e9ditorial et distinctif.',
-    portfolio_nyc_quote: 'Mon projet concept personnel démontrant ma polyvalence entre différents secteurs.',
+    portfolio_nyc_quote: 'Notre projet concept personnel démontrant notre polyvalence entre différents secteurs.',
     portfolio_nyc_cite: 'DeeprBlu Media, Projet Concept',
     portfolio_nyc_case: 'Étude de cas',
     portfolio_nyc_loc: '🇳🇱 Amsterdam, Pays-Bas',
     portfolio_visit: 'Visiter le Site ↗',
-
+ 
     svc_pro_tier: 'Tier 04 · Abyss',
     svc_pro_name: 'Abyss',
     svc_pro_price: 'Sur devis',
@@ -1031,7 +1031,7 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Calendrier de livraison sur mesure',
     svc_seo_basic: 'Configuration SEO de base',
     svc_seo_deepr: 'Configuration Deepr SEO',
-
+ 
     // Referral landing page
     ref_hero_line1: 'Intéressé ?',
     ref_hero_line2: 'Travaillez avec moi.',
@@ -1043,33 +1043,33 @@ const TRANSLATIONS = {
     ref_pain_desc: 'Chaque client DeeprBlu obtient un site construit \u00e0 la main, par la m\u00eame personne \u00e0 qui vous \u00e9cririez. Si vous avez aim\u00e9 ce que vous venez de voir, c\'est \u00e0 cela que ressemble une collaboration avec DeeprBlu. Cela signifie des prix clairs, une d\u00e9mo fonctionnelle en quelques jours, et un site en ligne en une semaine.',
     ref_btn_cta: 'Commencer. ✦',
   },
-
+ 
   de: {
     nav_home:       'Startseite.',
     nav_services:   'Leistungen.',
     nav_about:      'Über Uns.',
     nav_portfolio:  'Portfolio.',
     nav_contact:    'Kontakt.',
-
+ 
     footer_contact:   'Kontakt.',
     footer_about:     'Über Uns.',
     footer_services:  'Unsere Leistungen.',
     footer_policies:  'Cookie | Datenschutz.',
     footer_copy:      '© Copyright 2026 | DeeprBluMedia',
     footer_location:  'Niederlande',
-
+ 
     hero_line1:   'Eine digitale Pr\u00e4senz aufzubauen ist schwer.',
-    hero_line2:   'Dabei helfe ich Ihnen.',
+    hero_line2:   'Dabei helfen wir Ihnen.',
     hero_sub:     'Große Ideen beginnen mit dem richtigen Ansatz.',
     hero_cta1:    'Unsere Arbeiten.',
     hero_cta2:    'Kontakt Aufnehmen.',
     hero_scroll:  'Scrollen',
-
+ 
     strip_worldwide_num:   'Weltweit',
     strip_worldwide_label:  'Aktiv',
     strip_focus_label:    'Lieferzeit',
     strip_custom_label:   'Individuelles Design',
-
+ 
     lh_label:          'Gebaut F\u00fcr Geschwindigkeit.',
     lh_title:          'Das ist der Ma\u00dfstab, den jede Website erf\u00fcllen muss.',
     lh_sub:            'Keine Ausnahmen, keine Abstriche. Jedes Projekt wird nach diesem Standard gebaut, und Sie k\u00f6nnen es selbst \u00fcberpr\u00fcfen.',
@@ -1081,16 +1081,16 @@ const TRANSLATIONS = {
     lh_score_label:     'Leistungswert',
     lh_load_label:      'Ladezeit',
     lh_link:            'So wird es gebaut \u2192',
-    what_label:       'Was Ich Tue.',
+    what_label:       'Was Wir Tun.',
     what_title:       'Website-Design, das spricht,\nbevor Sie es tun.',
     what_web_title:   'Website-Design',
     what_web_desc:    'Klare, schnelle und konversionsorientierte Websites, die Ihre Geschichte richtig erzählen.',
     what_brand_title: 'Markenidentität',
     what_brand_desc:  'Logos und visuelle Systeme, die Ihre Marke unvergesslich machen.',
     what_seo_title:   'Klarer Prozess',
-    what_seo_desc:    'Ein transparenter Prozess ohne Überraschungen. Ich halte Sie über jeden Schritt informiert.',
-
-    pricing_label:          'Meine Pakete.',
+    what_seo_desc:    'Ein transparenter Prozess ohne Überraschungen. Wir halten Sie über jeden Schritt informiert.',
+ 
+    pricing_label:          'Unsere Pakete.',
     pricing_title:          'Keine Überraschungen.\nNur Ergebnisse.',
     pricing_starter_name:   'Shoreline',
     pricing_starter_desc:   'Eine solide und klare Website, die Ihren Kunden alles Wichtige mitteilt.',
@@ -1100,16 +1100,16 @@ const TRANSLATIONS = {
     pricing_plus_name:      'Deep',
     pricing_plus_desc:      'Das Komplettpaket für Unternehmen, die keine Kompromisse eingehen.',
     pricing_more:           'Mehr Info.',
-
+ 
     work_preview_label: 'Live-Projekte.',
     work_preview_title: 'Sehen Sie, was entsteht.',
     work_preview_desc:  'Einer der gr\u00f6\u00dften australischen Pok\u00e9mon-TCG-Shops f\u00fcr japanische Karten auf eBay brauchte eine professionelle Website, die seinem Ruf gerecht wird. Diese vollst\u00e4ndig ma\u00dfgeschneiderte Website wurde innerhalb einer Woche entworfen und geliefert.',
     work_preview_case:  'Fallstudie Ansehen.',
-
+ 
     cta_title: 'Bereit aufzufallen?',
     cta_sub:   'Lassen Sie uns etwas bauen, das Ihre Kunden nicht vergessen.',
     cta_btn:   'Jetzt Kontakt Aufnehmen.',
-
+ 
     svc_page_title: 'Services.',
     speed_label:      'So Wird Es Gebaut.',
     speed_title:      'Geschwindigkeit ist ein Muss.',
@@ -1122,7 +1122,7 @@ const TRANSLATIONS = {
     svc_page_sub:   'Transparente Pakete f\u00fcr kleine Unternehmen, die eine professionelle Website erstellen lassen m\u00f6chten.',
     svc_section_label: 'Was Enthalten Ist.',
     svc_section_title: 'Lassen Sie eine Website erstellen, die Ihnen mehr Kunden bringt.',
-
+ 
     svc_starter_tier:  'Stufe 01',
     svc_starter_name:  'Shoreline',
     svc_starter_desc:  'Eine solide und klare Website, die Ihren Kunden alles Wichtige mitteilt. Ideal f\u00fcr Kleinunternehmen und Selbstst\u00e4ndige, die eine professionelle Website erstellen lassen m\u00f6chten.',
@@ -1132,7 +1132,7 @@ const TRANSLATIONS = {
     svc_starter_f4:    'Kontaktformular-Integration',
     svc_starter_f5:    'Lieferung innerhalb von 7–10 Werktagen',
     svc_starter_f6:    '1 Überarbeitungsrunde',
-
+ 
     svc_business_tier:  'Stufe 02 · Am beliebtesten',
     svc_business_name:  'Reef',
     svc_business_desc:  'Ideal für alle, die ihrem Unternehmen eine besondere digitale Note geben möchten. Mehr Seiten, mehr Persönlichkeit, mehr Wirkung.',
@@ -1143,7 +1143,7 @@ const TRANSLATIONS = {
     svc_business_f5:    'Social-Media-Links & Integration',
     svc_business_f6:    'Lieferung innerhalb von 10–14 Werktagen',
     svc_business_f7:    '2 Überarbeitungsrunden',
-
+ 
     svc_plus_tier:  'Stufe 03',
     svc_plus_name:  'Deep',
     svc_plus_desc:  'Das Komplettpaket für Unternehmen, die keine Kompromisse eingehen. Alles, was Sie brauchen, um Ihren lokalen digitalen Raum zu dominieren.',
@@ -1155,74 +1155,74 @@ const TRANSLATIONS = {
     svc_plus_f6:    'Lieferung innerhalb von 14–21 Werktagen',
     svc_plus_f7:    '3 Überarbeitungsrunden',
     svc_plus_f8:    '30 Tage Support nach dem Launch',
-
+ 
     svc_get_started: 'Jetzt Starten.',
     svc_ref_label:   'Mit diesem Paket gebaut.',
     svc_ref_link:    'Fallstudie ansehen ↗',
-
+ 
     svc_faq_label:  'FAQ.',
     svc_faq_title:  'Gute Fragen.',
     svc_faq_q1:     'Auf welcher Plattform bauen Sie?',
-    svc_faq_a1:     'Ich entwickle mit starken, anerkannten und bewährten Programmiersprachen. Keine Umwege, keine aufgeblähten Tools. Das bedeutet schnelle Ladezeiten, sauberen Code und eine solide SEO-Grundlage.',
+    svc_faq_a1:     'Wir entwickeln mit starken, anerkannten und bewährten Programmiersprachen. Keine Umwege, keine aufgeblähten Tools. Das bedeutet schnelle Ladezeiten, sauberen Code und eine solide SEO-Grundlage.',
     svc_faq_q2:     'Bieten Sie auch Hosting an?',
-    svc_faq_a2:     'Selbstverständlich. Ich begleite Sie durch den gesamten Prozess, von Anfang bis Ende.',
+    svc_faq_a2:     'Selbstverständlich. Wir begleiten Sie durch den gesamten Prozess, von Anfang bis Ende.',
     svc_faq_q3:     'Kann ich die Website selbst aktualisieren?',
-    svc_faq_a3:     'Ja. Ich liefere sauberen, gut strukturierten Code und ein Übergabedokument, damit Sie oder Ihr Team problemlos Änderungen vornehmen können.',
+    svc_faq_a3:     'Ja. Wir liefern sauberen, gut strukturierten Code und ein Übergabedokument, damit Sie oder Ihr Team problemlos Änderungen vornehmen können.',
     svc_faq_q4:     'Spielt es eine Rolle, wo mein Unternehmen ansässig ist?',
-    svc_faq_a4:     'Kein Problem. Ich bin in Den Bosch in den Niederlanden ans\u00e4ssig und arbeite mit Kunden in ganz Europa und Australien. Alles l\u00e4uft online ab, egal wo Sie sich befinden. Gemeinsam bauen wir etwas Gro\u00dfartiges.',
-
+    svc_faq_a4:     'Kein Problem. Wir sind in Den Bosch in den Niederlanden ans\u00e4ssig und arbeiten mit Kunden in ganz Europa und Australien. Alles l\u00e4uft online ab, egal wo Sie sich befinden. Gemeinsam bauen wir etwas Gro\u00dfartiges.',
+ 
     svc_faq_q5:     'Was kostet eine Website?',
-    svc_faq_a5:     'Das h\u00e4ngt von Ihren Anforderungen ab. Meine Pakete beginnen bei 200\u20ac f\u00fcr eine einfache Website und reichen bis zu vollst\u00e4ndigen Ma\u00dfanfertigungen f\u00fcr gr\u00f6\u00dfere Unternehmen. Sehen Sie sich die Pakete oben f\u00fcr eine klare \u00dcbersicht an, oder kontaktieren Sie mich f\u00fcr ein individuelles Angebot.',
+    svc_faq_a5:     'Das h\u00e4ngt von Ihren Anforderungen ab. Unsere Pakete beginnen bei 200\u20ac f\u00fcr eine einfache Website und reichen bis zu vollst\u00e4ndigen Ma\u00dfanfertigungen f\u00fcr gr\u00f6\u00dfere Unternehmen. Sehen Sie sich die Pakete oben f\u00fcr eine klare \u00dcbersicht an, oder kontaktieren Sie uns f\u00fcr ein individuelles Angebot.',
     svc_cta_title: 'Nicht sicher, welches Paket passt?',
-    svc_cta_sub:   'Melden Sie sich, und beginnen Sie noch heute damit, Ihrem Unternehmen mehr digitalen Mehrwert zu verleihen.',
+    svc_cta_sub:   'Melden Sie sich, und beginnen Sie noch heute damit, Ihrem Unternehmen mehr Wert zu verleihen.',
     svc_cta_btn:   'Kontakt aufnehmen.',
-
+ 
     about_page_title: 'Über Uns.',
     about_page_sub:   'Ein junges Studio mit einer klaren Mission: die digitale Welt schöner machen, eine Website nach der anderen.',
-    about_story_label: 'Meine Geschichte.',
+    about_story_label: 'Unsere Geschichte.',
     about_story_title: 'DeeprBlu wurde 2025 Realität.',
-    about_p2: 'Von den Niederlanden aus arbeite ich mit kleinen und mittleren Unternehmen in Europa und Australien, Unternehmen mit viel Potenzial, aber noch ohne eine digitale Pr\u00e4senz, die zu ihren Ambitionen passt.',
-    about_p3: 'Ich erreiche dies durch die Erstellung solider, selbstbewusst formulierter Websites, die das Design für sich sprechen lassen. Keine Templates, keine Abkürzungen.',
+    about_p2: 'Von den Niederlanden aus arbeiten wir mit kleinen und mittleren Unternehmen in Europa und Australien, Unternehmen mit viel Potenzial, aber noch ohne eine digitale Pr\u00e4senz, die zu ihren Ambitionen passt.',
+    about_p3: 'Wir erreichen dies durch die Erstellung solider, selbstbewusst formulierter Websites, die das Design für sich sprechen lassen. Keine Templates, keine Abkürzungen.',
     about_values_label:   'Wofür DeeprBlu steht.',
     about_val1_title:     'Klarheit statt Komplexität.',
     about_val1_desc:      'Einfaches Design beseitigt Reibung. \u201cLess is more\u201d \u2014 Ludwig Mies van der Rohe (1886\u20131969).',
     about_val2_title:     'Vertrauen ins Handwerk.',
-    about_val2_desc:      'Ich mache kein Mittelmaß, Liebe zum Detail ist für mich eine Obsession.',
+    about_val2_desc:      'Wir machen kein Mittelmaß, Liebe zum Detail ist für uns eine Obsession.',
     about_val3_title:     'Echte Ergebnisse für echte Unternehmen.',
-    about_val3_desc:      'Meine Kunden sind lokal, mein Ansatz ist persönlich und mein Ziel ist immer dasselbe: gefunden und gewählt werden.',
+    about_val3_desc:      'Unsere Kunden sind lokal, unser Ansatz ist persönlich und unser Ziel ist immer dasselbe: gefunden und gewählt werden.',
     about_card_role:      'Gründer · DeeprBlu Media',
-    about_card_p1:        'Junger Unternehmer aus den Niederlanden, ansässig in Den Bosch. Leidenschaftlich an der Schnittstelle von klarem Design und Unternehmenswachstum.',
-    about_card_p2:        'Überzeugt davon, dass jedes Unternehmen eine Webentwicklung verdient, die genauso professionell aussieht wie die größten Marken, zu einem fairen Preis.',
-
+    about_card_p1:        'Junges Studio aus den Niederlanden, ansässig in Den Bosch. Wir begeistern uns für die Schnittstelle von klarem Design und Unternehmenswachstum.',
+    about_card_p2:        'Wir sind überzeugt, dass jedes Unternehmen eine Webentwicklung verdient, die genauso professionell aussieht wie die größten Marken, zu einem fairen Preis.',
+ 
     about_obs_label:       'Warum Es Wichtig Ist.',
     about_obs_title:       'Die Marktlücke ist überall.',
     about_obs_p1:          'Die Arbeit mit lokalen Unternehmen hat schnell eines klar gemacht: Unzählige Unternehmen laufen noch auf veralteten Websites oder haben gar keine. In einer Welt, in der Ihre digitale Präsenz oft der erste Eindruck ist, den Sie hinterlassen, kostet diese Lücke sie täglich Kunden.',
     about_obs_p2:          'Eine gut gebaute Website ist Ihre digitale Visitenkarte. Sie hilft Ihnen zu wachsen, hält Sie mit Ihren Kunden verbunden und erzählt Ihre Geschichte zu Ihren Bedingungen. Durchdachte und akribisch umgesetzte Webentwicklung gibt Ihren Kunden alles, was sie wissen möchten, an einem Ort. Jedes Unternehmen verdient das.',
     about_process_label:   'So funktioniert es.',
     about_process_1_title: 'Erstgespräch.',
-    about_process_1_desc:  'Wir beginnen mit einem Gespräch. Ich lerne Sie persönlich, Ihr Unternehmen, Ihre Ziele und was Ihre Website für Sie leisten soll kennen.',
+    about_process_1_desc:  'Wir beginnen mit einem Gespräch. Wir lernen Sie persönlich, Ihr Unternehmen, Ihre Ziele und was Ihre Website für Sie leisten soll kennen.',
     about_process_2_title: 'Erste Demo.',
     about_process_2_desc:  'Innerhalb weniger Tage erhalten Sie eine funktionierende Demo. Eine echte, klickbare Version Ihrer Website. Keine Mockups, kein Rätselraten. Sie sehen genau, was für Ihr Unternehmen entwickelt wird.',
     about_process_3_title: 'Lieferung innerhalb einer Woche.',
     about_process_3_desc:  'Nach Ihrem Feedback und den finalen Überarbeitungen geht die Website live. Von Anfang bis Ende dauert der gesamte Prozess etwa eine Woche. Schnell, fokussiert und sauber gebaut.',
-
+ 
         about_cta_title: 'Lassen Sie uns gemeinsam etwas bauen.',
     about_cta_sub:   'Wird Ihr Unternehmen online noch nicht so professionell präsentiert wie im echten Leben? Lassen Sie uns darüber sprechen.',
-    about_cta_btn:   'Kontakt Mit Mir Aufnehmen.',
-
+    about_cta_btn:   'Kontakt Mit Uns Aufnehmen.',
+ 
     contact_page_title: 'Lassen Sie Uns Reden.',
-    contact_page_sub:   'Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Ich freue mich, von Ihnen zu hören.',
+    contact_page_sub:   'Haben Sie ein Projekt, eine Frage oder möchten Sie einfach Hallo sagen? Wir freuen uns, von Ihnen zu hören.',
     contact_label:      'Kontakt Aufnehmen.',
     contact_title:      'Mehr Informationen?\nEine Anfrage stellen?',
-    contact_intro:      'Ich arbeite direkt mit jedem Kunden, das bedeutet: Sie sprechen immer direkt mit mir. Keine Umwege.',
+    contact_intro:      'Sie sprechen immer direkt mit der Person, die Ihre Website baut. Keine Account-Manager, keine Umwege.',
     contact_ig_label:   'Instagram',
     contact_email_label:'E-Mail',
     contact_li_label:   'LinkedIn',
     contact_li_val:     '@DeeprBlu',
     contact_loc_label:  'Standort',
     contact_loc_val:    'Niederlande',
-    contact_form_title: 'Senden Sie mir eine Nachricht.',
-    contact_form_sub:   'Ich melde mich innerhalb von 24 Stunden bei Ihnen.',
+    contact_form_title: 'Senden Sie uns eine Nachricht.',
+    contact_form_sub:   'Wir melden uns innerhalb von 24 Stunden bei Ihnen.',
     contact_fname:      'Vorname',
     contact_lname:      'Nachname',
     contact_email:      'E-Mail-Adresse',
@@ -1239,18 +1239,18 @@ const TRANSLATIONS = {
     contact_referral_wom: 'Mundpropaganda',
     contact_referral_other: 'Sonstiges',
     contact_message:    'Ihre Nachricht',
-    contact_msg_ph:     'Erzählen Sie mir von Ihrem Unternehmen und was Sie suchen...',
+    contact_msg_ph:     'Erzählen Sie uns von Ihrem Unternehmen und was Sie suchen...',
     contact_send:       'Nachricht Senden. ✦',
     contact_policy:     'Mit dem Absenden stimmen Sie unserer',
     contact_abyss_opt: 'Abyss (auf Anfrage)',
     contact_policy_lnk: 'Datenschutzrichtlinie',
-
+ 
     cs_jd_label:            'Fallstudie.',
     cs_jd_title:            'JD PokeMuse — Vom eBay-Verkäufer zur vollständigen digitalen Präsenz.',
     cs_jd_challenge_title:  'Die Herausforderung.',
     cs_jd_challenge_desc:   'Gary betreibt einen der größten australischen Pokémon-TCG-Shops für japanische Karten auf eBay, mit Kunden weltweit. Aber eBay allein hat Grenzen. Es gab keine eigene Website, keinen Ort, um die Markengeschichte zu erzählen, kein digitales Zuhause, das dem Ausmaß dessen entsprach, was er aufgebaut hatte. Er brauchte etwas Professionelles, Schnelles und von Grund auf Gebautes.',
     cs_jd_approach_title:   'Der Ansatz.',
-    cs_jd_approach_desc:    'Von Grund auf habe ich eine vollständig maßgeschneiderte Website entworfen und gebaut, die sowohl als Markeneinführung als auch als Funnel funktioniert. Jede Seite wurde mit Absicht gebaut: eine Homepage, die sofort Vertrauen ausstrahlt, eine Produktübersicht, die alles abdeckt, was ein Kunde wissen möchte, und eine direkte Verbindung zu Garys eBay-Shop. Keine Templates, keine Abkürzungen.',
+    cs_jd_approach_desc:    'Von Grund auf haben wir eine vollständig maßgeschneiderte Website entworfen und gebaut, die sowohl als Markeneinführung als auch als Funnel funktioniert. Jede Seite wurde mit Absicht gebaut: eine Homepage, die sofort Vertrauen ausstrahlt, eine Produktübersicht, die alles abdeckt, was ein Kunde wissen möchte, und eine direkte Verbindung zu Garys eBay-Shop. Keine Templates, keine Abkürzungen.',
     cs_jd_delivery_title:   'Die Lieferung.',
     cs_jd_delivery_desc:    'Die komplette Website wurde innerhalb einer Woche entworfen, gebaut und geliefert. Gary hatte ab dem ersten Tag eine live, professionelle Website, die dem Ruf seines Unternehmens entsprach.',
     cs_jd_stat1:            'Woche Lieferzeit',
@@ -1262,7 +1262,7 @@ const TRANSLATIONS = {
     cs_dan_challenge_title: 'Die Herausforderung.',
     cs_dan_challenge_desc:  "Die Qualität war vorhanden, aber ohne Website mussten potenzielle Kunden über Mundpropaganda oder seinen Instagram auf ihn aufmerksam werden.",
     cs_dan_approach_title:  'Der Ansatz.',
-    cs_dan_approach_desc:   "Ich baute eine vollständig maßgeschneiderte Single-Page-Website, die das Unternehmen vom ersten Scrollen an professionell positioniert. Klares Layout, starke Hierarchie und ein deutlicher Weg zur Buchung. Leistungen, Team und Kontakt, alles an einem Ort, von Grund auf gebaut.",
+    cs_dan_approach_desc:   "Wir bauten eine vollständig maßgeschneiderte Single-Page-Website, die das Unternehmen vom ersten Scrollen an professionell positioniert. Klares Layout, starke Hierarchie und ein deutlicher Weg zur Buchung. Leistungen, Team und Kontakt, alles an einem Ort, von Grund auf gebaut.",
     cs_dan_delivery_title:  'Die Lieferung.',
     cs_dan_delivery_desc:   "Vom Konzept zur fertigen Website in unter einer Woche. Danilo hat nun eine professionelle Online-Präsenz, die dem Standard seiner Arbeit entspricht, bereit vom ersten Tag an neue Kunden zu gewinnen.",
     cs_dan_stat1:           'Woche Lieferzeit',
@@ -1274,23 +1274,23 @@ const TRANSLATIONS = {
     tag_local_business:      'Lokales Unternehmen',
     cs_dan_stat3:           'Templates verwendet',
     portfolio_dan_desc:     "Danilo's Detailing ist ein lokaler Fahrzeugpfleger in Sydney, der erstklassige Detailing-Dienstleistungen für alle Fahrzeugtypen anbietet.",
-
+ 
         portfolio_page_title: 'Portfolio.',
-    portfolio_page_sub:   'Eine wachsende Sammlung von Arbeiten, auf die ich stolz bin. Jedes Projekt von Grund auf neu gebaut.',
-    portfolio_label:      'Meine Arbeiten.',
-    portfolio_title:      'Meine Projekte.',
+    portfolio_page_sub:   'Eine wachsende Sammlung von Arbeiten, auf die wir stolz sind. Jedes Projekt von Grund auf neu gebaut.',
+    portfolio_label:      'Unsere Arbeiten.',
+    portfolio_title:      'Unsere Projekte.',
     portfolio_soon:       'Demnächst',
     portfolio_poke_desc:  'Derzeit in Entwicklung. Vollständige Fallstudie folgt nach dem Launch.',
     portfolio_dan_desc:   "Danilo's Detailing ist ein lokaler Fahrzeugpfleger in Sydney, der erstklassige Detailing-Dienstleistungen für alle Fahrzeugtypen anbietet.",
     portfolio_dan_quote:    '"Genau das, was wir gesucht haben. Professionell, übersichtlich und startklar."',
     portfolio_dan_cite:     "Danilo, Gründer von Danilo's Detailing",
     portfolio_more_title: 'Weitere Projekte kommen.',
-    portfolio_more_desc:  'Ich baue meine erste Projektwelle auf. Interesse, Teil meines Portfolios zu werden?',
-    portfolio_more_btn:   'Mit Mir Arbeiten.',
+    portfolio_more_desc:  'Wir bauen unsere erste Projektwelle auf. Interesse, Teil unseres Portfolios zu werden?',
+    portfolio_more_btn:   'Mit Uns Arbeiten.',
     portfolio_cta_title:  'Soll Ihr Projekt hier zu sehen sein?',
     portfolio_cta_sub:    'Lassen Sie uns etwas schaffen, das Ihnen mehr nützt als DeeprBlu.',
     portfolio_cta_btn:    'Projekt Starten.',
-
+ 
     policies_page_title: 'Cookie & Datenschutzrichtlinie.',
     policies_page_sub:   'Wir halten es einfach und transparent. Genau so gehen wir mit Ihren Daten um.',
     policies_updated:    'Zuletzt aktualisiert: März 2026',
@@ -1343,7 +1343,7 @@ const TRANSLATIONS = {
     policies_av_6_text: 'DeeprBlu Media haftet nicht für indirekte oder Folgeschäden. Die Haftung ist in jedem Fall auf den Rechnungsbetrag des betreffenden Auftrags beschränkt.',
     policies_av_7_title: 'Artikel 7 — Anwendbares Recht',
     policies_av_7_text: 'Auf alle Vereinbarungen ist niederländisches Recht anwendbar. Streitigkeiten werden dem zuständigen Gericht in Den Bosch vorgelegt.',
-
+ 
     portfolio_jd_desc: 'JD PokeMuse ist ein australischer Online-Shop für Pokémon TCG, spezialisiert auf exklusive japanische Sammlungen, mit Kunden weltweit. Als einer der größten Shops auf eBay benötigten sie eine professionelle Website, die ihrem Ruf gerecht wird.',
     portfolio_jd_quote: 'Sehr beeindruckt von dem, was in so kurzer Zeit und größtenteils durch eigene Recherche geleistet wurde. Mir gefällt das Design, die Seiten und die interaktiven Elemente.',
     portfolio_jd_cite: 'Gary, Gründer von JD PokeMuse',
@@ -1351,12 +1351,12 @@ const TRANSLATIONS = {
     portfolio_jd_live: 'Live',
     portfolio_jd_loc: '🇦🇺 Sydney, Australien',
     portfolio_nyc_desc: 'Eine fiktive Amsterdamer Kaffeebar, die die rohe Energie New Yorks mit skandinavischem Design verbindet. Im Jordaan-Viertel gelegen, brauchte diese Kaffeebar eine Website, die sich genauso durchdacht anf\u00fchlt wie die Marke selbst: warm, redaktionell und unverwechselbar.',
-    portfolio_nyc_quote: 'Mein persönliches Konzeptprojekt, das meine Vielseitigkeit zwischen verschiedenen Branchen demonstriert.',
+    portfolio_nyc_quote: 'Unser persönliches Konzeptprojekt, das unsere Vielseitigkeit zwischen verschiedenen Branchen demonstriert.',
     portfolio_nyc_cite: 'DeeprBlu Media, Konzeptprojekt',
     portfolio_nyc_case: 'Fallstudie',
     portfolio_nyc_loc: '🇳🇱 Amsterdam, Niederlande',
     portfolio_visit: 'Website besuchen ↗',
-
+ 
     svc_pro_tier: 'Tier 04 · Abyss',
     svc_pro_name: 'Abyss',
     svc_pro_price: 'Auf Anfrage',
@@ -1373,7 +1373,7 @@ const TRANSLATIONS = {
     svc_pro_f7: 'Maßgeschneiderter Lieferzeitplan',
     svc_seo_basic: 'Basis-SEO-Einrichtung',
     svc_seo_deepr: 'Deepr-SEO-Einrichtung',
-
+ 
     // Referral landing page
     ref_hero_line1: 'Interessiert?',
     ref_hero_line2: 'Arbeiten Sie mit mir.',
@@ -1386,29 +1386,29 @@ const TRANSLATIONS = {
     ref_btn_cta: 'Loslegen. ✦',
   },
 };
-
+ 
 /* ─── LANGUAGE SYSTEM ─────────────────────────────────────────────── */
-
+ 
 const LANG_META = [
   { id: 'en', label: 'EN', flag: '🇬🇧', name: 'English'    },
   { id: 'nl', label: 'NL', flag: '🇳🇱', name: 'Nederlands'  },
   { id: 'fr', label: 'FR', flag: '🇫🇷', name: 'Français'    },
   { id: 'de', label: 'DE', flag: '🇩🇪', name: 'Deutsch'     },
 ];
-
+ 
 function getLang() {
   return sessionStorage.getItem('deeprblu-lang') || 'en';
 }
-
+ 
 function setLang(id) {
   sessionStorage.setItem('deeprblu-lang', id);
 }
-
+ 
 function t(key) {
   const lang = getLang();
   return (TRANSLATIONS[lang] && TRANSLATIONS[lang][key]) || TRANSLATIONS.en[key] || key;
 }
-
+ 
 function applyTranslations() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
@@ -1425,17 +1425,17 @@ function applyTranslations() {
   // Update html lang attribute
   document.documentElement.lang = getLang();
 }
-
+ 
 function buildLangSelector() {
   const nav = document.querySelector('.nav');
   if (!nav) return;
-
+ 
   const currentLang = LANG_META.find(l => l.id === getLang()) || LANG_META[0];
-
+ 
   const wrapper = document.createElement('div');
   wrapper.className = 'lang-selector';
   wrapper.id = 'langSelector';
-
+ 
   wrapper.innerHTML = `
     <button class="lang-btn" id="langBtn" aria-label="Select language">
       <span class="lang-flag">${currentLang.flag}</span> ${currentLang.label} <span class="lang-arrow">▾</span>
@@ -1452,7 +1452,7 @@ function buildLangSelector() {
       `).join('')}
     </div>
   `;
-
+ 
   // Insert into nav-links right after Contact (region selector is already there)
   const navLinks = nav.querySelector('.nav-links');
   if (navLinks) {
@@ -1460,26 +1460,26 @@ function buildLangSelector() {
     li.appendChild(wrapper);
     navLinks.appendChild(li);
   }
-
+ 
   document.getElementById('langBtn').addEventListener('click', (e) => {
     e.stopPropagation();
     wrapper.classList.toggle('open');
     document.getElementById('regionSelector')?.classList.remove('open');
   });
-
+ 
   wrapper.querySelectorAll('.lang-option').forEach(opt => {
     opt.addEventListener('click', () => {
       const id = opt.getAttribute('data-lang');
       navigateToLanguage(id);
     });
   });
-
+ 
   document.addEventListener('click', () => wrapper.classList.remove('open'));
 }
-
+ 
 function navigateToLanguage(id) {
   const hasUrlBasedPage = document.body.hasAttribute('data-page');
-
+ 
   if (!hasUrlBasedPage) {
     // This page doesn't have per-language URLs yet — safe fallback: toggle in place, same as before.
     setLang(id);
@@ -1491,18 +1491,18 @@ function navigateToLanguage(id) {
     document.getElementById('langSelector')?.classList.remove('open');
     return;
   }
-
+ 
   const slug = document.body.dataset.page || '';
   const isEnglish = id === 'en';
   const cleanPath = (isEnglish ? '/' : `/${id}/`) + slug;
-
+ 
   if (window.location.protocol === 'file:') {
     window.location.href = window.resolveLocalPath(cleanPath);
   } else {
     window.location.href = cleanPath;
   }
 }
-
+ 
 document.addEventListener('DOMContentLoaded', () => {
   buildLangSelector();
   applyTranslations();
